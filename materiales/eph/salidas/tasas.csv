@@ -1,0 +1,5 @@
+tasa,numerador,denominador,poblacion_numerador,poblacion_denominador,n_denominador,valor,error_estandar,inferior,superior,gl,deff,n_efectivo,sin_ponderar,diferencia_con_la_ponderada
+actividad,Población económicamente activa,Población total,1826400.000000,3754094.000000,5507,0.486509,0.011727,0.463509,0.509509,1839,3.031727,1816.456597,0.477211,-0.009298
+empleo,Ocupados,Población total,1690233.000000,3754094.000000,5507,0.450237,0.011591,0.427505,0.472969,1839,2.988892,1842.488543,0.440349,-0.009889
+desocupación,Desocupados,Población económicamente activa,136167.000000,1826400.000000,2628,0.074555,0.009006,0.056891,0.092219,1839,3.089594,850.597210,0.077245,0.002690
+subocupación,Subocupados,Población económicamente activa,190395.000000,1826400.000000,2628,0.104246,0.009456,0.085701,0.122791,1839,2.516364,1044.364063,0.107306,0.003060

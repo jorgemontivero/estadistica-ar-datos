@@ -1,0 +1,2529 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, INDEC",
+  "advertencia": "Sin ponderar entre aglomerados; cada indicador sí usa ponderadores.",
+  "semilla": 2026,
+  "n_aglomerados": 32,
+  "variables": [
+    "desocupacion",
+    "empleo",
+    "actividad",
+    "ingreso_medio",
+    "ingreso_mediano",
+    "gini",
+    "secundario_mas",
+    "no_registrado",
+    "edad_media",
+    "prop_65_mas"
+  ],
+  "datos": [
+    {
+      "nombre": "Bahia Blanca - Cerri",
+      "aglomerado": 3,
+      "n": 838,
+      "desocupacion": 10.12380633377783,
+      "empleo": 43.90899070331821,
+      "actividad": 48.85497361669018,
+      "ingreso_medio": 1219525.3888086074,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.3922850861253505,
+      "secundario_mas": 64.54843895220125,
+      "no_registrado": 26.64453773308601,
+      "edad_media": 38.49788346882632,
+      "prop_65_mas": 16.028516822640555
+    },
+    {
+      "nombre": "CABA",
+      "aglomerado": 32,
+      "n": 1376,
+      "desocupacion": 4.779838082058114,
+      "empleo": 50.84122895180986,
+      "actividad": 53.393344358754014,
+      "ingreso_medio": 1685943.5449957573,
+      "ingreso_mediano": 1300000.0,
+      "gini": 0.3803967578754257,
+      "secundario_mas": 86.77560881686115,
+      "no_registrado": 25.621929896893334,
+      "edad_media": 39.34770131290337,
+      "prop_65_mas": 17.26805778597975
+    },
+    {
+      "nombre": "Comodoro Rivadavia - Rada Tilly",
+      "aglomerado": 9,
+      "n": 736,
+      "desocupacion": 2.7013035037441067,
+      "empleo": 40.350776572070934,
+      "actividad": 41.359823196983946,
+      "ingreso_medio": 1345933.300769091,
+      "ingreso_mediano": 1163151.2605042018,
+      "gini": 0.35647593780604303,
+      "secundario_mas": 67.00829646320187,
+      "no_registrado": 19.309697741438242,
+      "edad_media": 33.17344207636483,
+      "prop_65_mas": 8.86768068396461
+    },
+    {
+      "nombre": "Concordia",
+      "aglomerado": 14,
+      "n": 1458,
+      "desocupacion": 6.055505261966731,
+      "empleo": 39.773033506003536,
+      "actividad": 42.33673683264964,
+      "ingreso_medio": 731575.757117128,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.31836324895644763,
+      "secundario_mas": 59.17160265440165,
+      "no_registrado": 48.81370625541817,
+      "edad_media": 33.181800760547354,
+      "prop_65_mas": 10.53867113812618
+    },
+    {
+      "nombre": "Corrientes",
+      "aglomerado": 12,
+      "n": 990,
+      "desocupacion": 5.994756478773823,
+      "empleo": 42.356816518161395,
+      "actividad": 45.05792967665396,
+      "ingreso_medio": 767437.9607871623,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.39502625361571775,
+      "secundario_mas": 70.22113766408616,
+      "no_registrado": 42.3356551829241,
+      "edad_media": 34.920905166973775,
+      "prop_65_mas": 11.380215564025544
+    },
+    {
+      "nombre": "Formosa",
+      "aglomerado": 15,
+      "n": 1118,
+      "desocupacion": 8.727889713679746,
+      "empleo": 40.409038676762876,
+      "actividad": 44.12100477985349,
+      "ingreso_medio": 835240.0093153237,
+      "ingreso_mediano": 650000.0,
+      "gini": 0.4095796900073192,
+      "secundario_mas": 66.50123941600573,
+      "no_registrado": 37.586649934265566,
+      "edad_media": 33.70326729374951,
+      "prop_65_mas": 10.736142355041679
+    },
+    {
+      "nombre": "Gran Catamarca",
+      "aglomerado": 22,
+      "n": 1339,
+      "desocupacion": 4.8848780846063455,
+      "empleo": 43.969527034176274,
+      "actividad": 46.1022114062004,
+      "ingreso_medio": 887611.8325838004,
+      "ingreso_mediano": 730000.0,
+      "gini": 0.4139580159490873,
+      "secundario_mas": 70.91502302186338,
+      "no_registrado": 39.67241040424556,
+      "edad_media": 33.72460057136811,
+      "prop_65_mas": 10.232144746587663
+    },
+    {
+      "nombre": "Gran Córdoba",
+      "aglomerado": 13,
+      "n": 1914,
+      "desocupacion": 8.806216935142135,
+      "empleo": 47.553329239971674,
+      "actividad": 52.145363030011936,
+      "ingreso_medio": 1012152.8001315616,
+      "ingreso_mediano": 862035.7706470279,
+      "gini": 0.38863648564406805,
+      "secundario_mas": 62.152127612746376,
+      "no_registrado": 45.48777079595755,
+      "edad_media": 35.0518214634098,
+      "prop_65_mas": 12.221160368996747
+    },
+    {
+      "nombre": "Gran La Plata",
+      "aglomerado": 2,
+      "n": 725,
+      "desocupacion": 7.847909579258403,
+      "empleo": 46.030853057651164,
+      "actividad": 49.95095916705383,
+      "ingreso_medio": 973358.8858421262,
+      "ingreso_mediano": 800000.0,
+      "gini": 0.43355499104776274,
+      "secundario_mas": 67.34576994640308,
+      "no_registrado": 35.25082694388976,
+      "edad_media": 35.83317478026441,
+      "prop_65_mas": 12.543286041324937
+    },
+    {
+      "nombre": "Gran Mendoza",
+      "aglomerado": 10,
+      "n": 1816,
+      "desocupacion": 7.3246904937789346,
+      "empleo": 44.83254112216766,
+      "actividad": 48.37592813127661,
+      "ingreso_medio": 933774.1512441888,
+      "ingreso_mediano": 800000.0,
+      "gini": 0.40033505792461355,
+      "secundario_mas": 62.15004613093529,
+      "no_registrado": 48.866871413022714,
+      "edad_media": 35.8485746279757,
+      "prop_65_mas": 13.300353899016699
+    },
+    {
+      "nombre": "Gran Paraná",
+      "aglomerado": 6,
+      "n": 1277,
+      "desocupacion": 6.52182272639877,
+      "empleo": 42.06728273284187,
+      "actividad": 45.00224967985325,
+      "ingreso_medio": 931982.2580778756,
+      "ingreso_mediano": 900000.0,
+      "gini": 0.35066277002644775,
+      "secundario_mas": 70.52020746205964,
+      "no_registrado": 30.452380393721114,
+      "edad_media": 36.52456304295158,
+      "prop_65_mas": 12.57882532101201
+    },
+    {
+      "nombre": "Gran Resistencia",
+      "aglomerado": 8,
+      "n": 1334,
+      "desocupacion": 9.68537812707208,
+      "empleo": 40.967793832028036,
+      "actividad": 45.361197314948015,
+      "ingreso_medio": 692110.8150236679,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.4058100426351152,
+      "secundario_mas": 66.64326712639881,
+      "no_registrado": 41.35543729100928,
+      "edad_media": 34.68551829943599,
+      "prop_65_mas": 10.98129370262513
+    },
+    {
+      "nombre": "Gran Rosario",
+      "aglomerado": 4,
+      "n": 1634,
+      "desocupacion": 8.22734644947465,
+      "empleo": 47.63963045854446,
+      "actividad": 51.910485984058965,
+      "ingreso_medio": 1166496.3444580007,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.37329216581007185,
+      "secundario_mas": 64.56205016631128,
+      "no_registrado": 36.1115486213926,
+      "edad_media": 37.015969585089486,
+      "prop_65_mas": 13.779980950414705
+    },
+    {
+      "nombre": "Gran San Juan",
+      "aglomerado": 27,
+      "n": 1184,
+      "desocupacion": 3.0809862392914025,
+      "empleo": 46.889626036168465,
+      "actividad": 48.38021376480177,
+      "ingreso_medio": 786528.0510552942,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.4073597432755389,
+      "secundario_mas": 61.3422971575539,
+      "no_registrado": 52.04724891364221,
+      "edad_media": 34.99844641465246,
+      "prop_65_mas": 12.317636130024239
+    },
+    {
+      "nombre": "Gran Santa Fe",
+      "aglomerado": 5,
+      "n": 1380,
+      "desocupacion": 6.488498492038042,
+      "empleo": 41.34367759777609,
+      "actividad": 44.212398401340955,
+      "ingreso_medio": 1010445.211129754,
+      "ingreso_mediano": 900000.0,
+      "gini": 0.3906794840461283,
+      "secundario_mas": 66.4056514406425,
+      "no_registrado": 33.3466936417656,
+      "edad_media": 35.302643314902454,
+      "prop_65_mas": 12.498900787305484
+    },
+    {
+      "nombre": "Gran Tucumán - Tafi Viejo",
+      "aglomerado": 29,
+      "n": 2097,
+      "desocupacion": 7.0662492013937666,
+      "empleo": 43.982818775827056,
+      "actividad": 47.32706729026876,
+      "ingreso_medio": 879339.1321359896,
+      "ingreso_mediano": 750000.0,
+      "gini": 0.41700590936741055,
+      "secundario_mas": 63.61063750736105,
+      "no_registrado": 44.77890194599803,
+      "edad_media": 34.68875007237473,
+      "prop_65_mas": 12.02642803378774
+    },
+    {
+      "nombre": "Jujuy - Palpalá",
+      "aglomerado": 19,
+      "n": 1409,
+      "desocupacion": 2.0099618459102553,
+      "empleo": 48.85802942917918,
+      "actividad": 49.860200434201005,
+      "ingreso_medio": 735564.3544332401,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.3897750769139532,
+      "secundario_mas": 70.43939218101296,
+      "no_registrado": 44.427093499902405,
+      "edad_media": 34.86052389201991,
+      "prop_65_mas": 11.518661871450188
+    },
+    {
+      "nombre": "La Rioja",
+      "aglomerado": 25,
+      "n": 1258,
+      "desocupacion": 6.055156897168863,
+      "empleo": 45.532011565468814,
+      "actividad": 48.4667492771582,
+      "ingreso_medio": 612489.660380105,
+      "ingreso_mediano": 515198.32985386206,
+      "gini": 0.29396667950506106,
+      "secundario_mas": 71.02679295740765,
+      "no_registrado": 37.63840592972181,
+      "edad_media": 34.01196612969847,
+      "prop_65_mas": 9.969847170590665
+    },
+    {
+      "nombre": "Mar del Plata - Batán",
+      "aglomerado": 34,
+      "n": 871,
+      "desocupacion": 9.31129682781413,
+      "empleo": 46.9405782898171,
+      "actividad": 51.657790910889,
+      "ingreso_medio": 1136418.2384635834,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.3523587013146564,
+      "secundario_mas": 67.774688770041,
+      "no_registrado": 34.54825112194932,
+      "edad_media": 39.111642681553946,
+      "prop_65_mas": 17.54945860616182
+    },
+    {
+      "nombre": "Neuquén - Plottier",
+      "aglomerado": 17,
+      "n": 1068,
+      "desocupacion": 3.6636253429464687,
+      "empleo": 45.920924574209245,
+      "actividad": 47.66727493917275,
+      "ingreso_medio": 1745487.7271926377,
+      "ingreso_mediano": 1400000.0,
+      "gini": 0.3997844638222796,
+      "secundario_mas": 67.22917619661496,
+      "no_registrado": 19.40060248719071,
+      "edad_media": 35.071557177615574,
+      "prop_65_mas": 11.569647201946472
+    },
+    {
+      "nombre": "Partidos del GBA",
+      "aglomerado": 33,
+      "n": 5537,
+      "desocupacion": 9.681501227964345,
+      "empleo": 43.39839030022658,
+      "actividad": 47.981049460756246,
+      "ingreso_medio": 1067090.502553335,
+      "ingreso_mediano": 800000.0,
+      "gini": 0.4220767572376586,
+      "secundario_mas": 61.10842683635271,
+      "no_registrado": 40.47457969551874,
+      "edad_media": 34.503126687794214,
+      "prop_65_mas": 11.804560753032597
+    },
+    {
+      "nombre": "Posadas",
+      "aglomerado": 7,
+      "n": 1147,
+      "desocupacion": 4.731078939943133,
+      "empleo": 44.30249429101323,
+      "actividad": 46.50256746697619,
+      "ingreso_medio": 711690.8976933704,
+      "ingreso_mediano": 600000.0,
+      "gini": 0.3991495720511593,
+      "secundario_mas": 66.20701943165382,
+      "no_registrado": 42.59582705958271,
+      "edad_media": 34.431455570835595,
+      "prop_65_mas": 11.171446234592045
+    },
+    {
+      "nombre": "Rawson - Trelew",
+      "aglomerado": 91,
+      "n": 770,
+      "desocupacion": 7.05327505669956,
+      "empleo": 40.16290238836967,
+      "actividad": 43.210669781931465,
+      "ingreso_medio": 1297037.6098759049,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.42611015901082105,
+      "secundario_mas": 56.42679070095228,
+      "no_registrado": 26.389346286843406,
+      "edad_media": 36.2606308411215,
+      "prop_65_mas": 13.267133956386292
+    },
+    {
+      "nombre": "Rio Cuarto",
+      "aglomerado": 36,
+      "n": 1075,
+      "desocupacion": 5.636686537787179,
+      "empleo": 45.10554546241025,
+      "actividad": 47.79987455662255,
+      "ingreso_medio": 1209353.4069662336,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.33132646952015277,
+      "secundario_mas": 67.54476169638625,
+      "no_registrado": 37.71787398032043,
+      "edad_media": 36.53324249502552,
+      "prop_65_mas": 13.770114196729821
+    },
+    {
+      "nombre": "Rio Gallegos",
+      "aglomerado": 20,
+      "n": 723,
+      "desocupacion": 8.500545005143007,
+      "empleo": 44.20840256349395,
+      "actividad": 48.31548184191787,
+      "ingreso_medio": 1318558.6261283935,
+      "ingreso_mediano": 1100000.0,
+      "gini": 0.3378979437835866,
+      "secundario_mas": 59.38115924540445,
+      "no_registrado": 17.023208083359645,
+      "edad_media": 34.129027711844294,
+      "prop_65_mas": 10.549934725848564
+    },
+    {
+      "nombre": "Salta",
+      "aglomerado": 23,
+      "n": 2062,
+      "desocupacion": 5.367908861217553,
+      "empleo": 43.23499281119269,
+      "actividad": 45.68745368607202,
+      "ingreso_medio": 939310.5090605002,
+      "ingreso_mediano": 732308.8923556944,
+      "gini": 0.41700613474165205,
+      "secundario_mas": 70.17014084507042,
+      "no_registrado": 39.27798445264088,
+      "edad_media": 34.092366578983885,
+      "prop_65_mas": 11.088181718877777
+    },
+    {
+      "nombre": "San Luis - El Chorrillo",
+      "aglomerado": 26,
+      "n": 1186,
+      "desocupacion": 2.659741471334894,
+      "empleo": 42.530375480128555,
+      "actividad": 43.69248255859528,
+      "ingreso_medio": 893587.8541164742,
+      "ingreso_mediano": 850000.0,
+      "gini": 0.3429231917249592,
+      "secundario_mas": 69.05108939433869,
+      "no_registrado": 38.67309982742276,
+      "edad_media": 34.717069060123855,
+      "prop_65_mas": 11.5321000235165
+    },
+    {
+      "nombre": "San Nicolas - Villa Constitución",
+      "aglomerado": 38,
+      "n": 1321,
+      "desocupacion": 10.37879649641679,
+      "empleo": 39.205987439911624,
+      "actividad": 43.74633000587199,
+      "ingreso_medio": 1091595.7416292897,
+      "ingreso_mediano": 900000.0,
+      "gini": 0.3968945441092725,
+      "secundario_mas": 61.080217064259614,
+      "no_registrado": 33.83255142547817,
+      "edad_media": 38.07707236481981,
+      "prop_65_mas": 16.33209590254486
+    },
+    {
+      "nombre": "Santa Rosa - Toay",
+      "aglomerado": 30,
+      "n": 933,
+      "desocupacion": 5.006092149400562,
+      "empleo": 47.0107866272621,
+      "actividad": 49.48821212955863,
+      "ingreso_medio": 1382783.851294362,
+      "ingreso_mediano": 900000.0,
+      "gini": 0.5390152547685216,
+      "secundario_mas": 60.89973165182079,
+      "no_registrado": 29.97592571363063,
+      "edad_media": 36.28774016808975,
+      "prop_65_mas": 12.549410792582613
+    },
+    {
+      "nombre": "Santiago del Estero - La Banda",
+      "aglomerado": 18,
+      "n": 1354,
+      "desocupacion": 0.6988108540836239,
+      "empleo": 42.34397187499259,
+      "actividad": 42.64195850945047,
+      "ingreso_medio": 733395.1229406594,
+      "ingreso_mediano": 650000.0,
+      "gini": 0.3172703374521234,
+      "secundario_mas": 58.765172922513685,
+      "no_registrado": 44.60298516481856,
+      "edad_media": 35.376598685255466,
+      "prop_65_mas": 11.364029670650094
+    },
+    {
+      "nombre": "Ushuaia - Rio Grande",
+      "aglomerado": 31,
+      "n": 980,
+      "desocupacion": 7.507688039029804,
+      "empleo": 43.56187655181426,
+      "actividad": 47.09783508298123,
+      "ingreso_medio": 1741289.3771648088,
+      "ingreso_mediano": 1500000.0,
+      "gini": 0.3527736460041224,
+      "secundario_mas": 75.65408292594604,
+      "no_registrado": 13.784155090825829,
+      "edad_media": 33.47171886570545,
+      "prop_65_mas": 8.02587446094873
+    },
+    {
+      "nombre": "Viedma - Carmen de Patagones",
+      "aglomerado": 93,
+      "n": 829,
+      "desocupacion": 2.148915580349519,
+      "empleo": 39.42636298997683,
+      "actividad": 40.29220853689305,
+      "ingreso_medio": 1067224.0968060968,
+      "ingreso_mediano": 1000000.0,
+      "gini": 0.26598617022037363,
+      "secundario_mas": 70.33007961017397,
+      "no_registrado": 29.833618064324448,
+      "edad_media": 37.08158444001009,
+      "prop_65_mas": 14.481983531732379
+    }
+  ],
+  "medias": {
+    "desocupacion": 6.210254901114518,
+    "empleo": 43.89564367046082,
+    "actividad": 46.812500806576494,
+    "ingreso_medio": 1048197.9068804476,
+    "ingreso_mediano": 868834.1954175245,
+    "gini": 0.38180427319665317,
+    "secundario_mas": 66.3425663740307,
+    "no_registrado": 35.55868046850626,
+    "edad_media": 35.45363705007147,
+    "prop_65_mas": 12.307617973389535
+  },
+  "desvios": {
+    "desocupacion": 2.604803029916926,
+    "empleo": 2.927294303972824,
+    "actividad": 3.268180834668233,
+    "ingreso_medio": 302314.9254663377,
+    "ingreso_mediano": 243277.39812130362,
+    "gini": 0.049793766488652975,
+    "secundario_mas": 5.832135990376146,
+    "no_registrado": 9.638452613398432,
+    "edad_media": 1.6521534007840775,
+    "prop_65_mas": 2.2019962345804274
+  },
+  "correlaciones_extremas": [
+    {
+      "a": "edad_media",
+      "b": "prop_65_mas",
+      "r": 0.9607459187721066
+    },
+    {
+      "a": "ingreso_medio",
+      "b": "ingreso_mediano",
+      "r": 0.9599451890159083
+    },
+    {
+      "a": "empleo",
+      "b": "actividad",
+      "r": 0.9211560853668502
+    },
+    {
+      "a": "ingreso_mediano",
+      "b": "no_registrado",
+      "r": -0.8443844125070495
+    },
+    {
+      "a": "ingreso_medio",
+      "b": "no_registrado",
+      "r": -0.8200798970029481
+    },
+    {
+      "a": "actividad",
+      "b": "edad_media",
+      "r": 0.37726990933296006
+    },
+    {
+      "a": "actividad",
+      "b": "prop_65_mas",
+      "r": 0.3524747464679088
+    },
+    {
+      "a": "empleo",
+      "b": "secundario_mas",
+      "r": 0.3411688965632537
+    }
+  ],
+  "pca": {
+    "valores_propios": [
+      3.4612379675040503,
+      2.264804070908201,
+      1.491247064321631,
+      1.3431233535732843,
+      0.7119251423786668,
+      0.540753768238207,
+      0.14847380907220273,
+      0.02430164235916345,
+      0.013914305357967744,
+      0.00021887628662645327
+    ],
+    "prop_varianza": [
+      0.34612379675040506,
+      0.2264804070908201,
+      0.14912470643216308,
+      0.13431233535732842,
+      0.07119251423786668,
+      0.0540753768238207,
+      0.014847380907220273,
+      0.002430164235916345,
+      0.0013914305357967745,
+      2.1887628662645327e-05
+    ],
+    "prop_acumulada": [
+      0.34612379675040506,
+      0.5726042038412251,
+      0.7217289102733881,
+      0.8560412456307166,
+      0.9272337598685833,
+      0.9813091366924039,
+      0.9961565175996242,
+      0.9985866818355406,
+      0.9999781123713374,
+      1.0
+    ],
+    "n_componentes_kaiser": 4,
+    "cargas_cp1": {
+      "desocupacion": 0.12466137081466175,
+      "empleo": 0.2933446428080579,
+      "actividad": 0.3292752308405206,
+      "ingreso_medio": 0.44628836644134695,
+      "ingreso_mediano": 0.4290517767125239,
+      "gini": 0.06963109923113209,
+      "secundario_mas": 0.23105557327974408,
+      "no_registrado": -0.3344895381071387,
+      "edad_media": 0.3704565897343625,
+      "prop_65_mas": 0.31523173776093066
+    },
+    "cargas_cp2": {
+      "desocupacion": 0.18291315505249003,
+      "empleo": 0.3599742108075442,
+      "actividad": 0.41265798949519145,
+      "ingreso_medio": -0.3022454370231415,
+      "ingreso_mediano": -0.3670856594750189,
+      "gini": 0.251070792045721,
+      "secundario_mas": -0.09016691591368278,
+      "no_registrado": 0.46453648634706013,
+      "edad_media": 0.2420779936766044,
+      "prop_65_mas": 0.30823371953840895
+    },
+    "puntajes": {
+      "Bahia Blanca - Cerri": [
+        2.3468691959478756,
+        0.783000297830898
+      ],
+      "CABA": [
+        5.728132291418501,
+        0.7594185462082023
+      ],
+      "Comodoro Rivadavia - Rada Tilly": [
+        -0.5628137713354433,
+        -3.8493355835924445
+      ],
+      "Concordia": [
+        -3.4084621413950824,
+        -0.5114341328765142
+      ],
+      "Corrientes": [
+        -1.5451418402179444,
+        0.3858916856551974
+      ],
+      "Formosa": [
+        -1.843094271989635,
+        -0.2897984227704689
+      ],
+      "Gran Catamarca": [
+        -1.2109676379904752,
+        -0.05779673711885912
+      ],
+      "Gran Córdoba": [
+        0.3593584357161502,
+        1.858536641247653
+      ],
+      "Gran La Plata": [
+        0.6183080862469152,
+        1.2717247322606937
+      ],
+      "Gran Mendoza": [
+        -0.3569295554682781,
+        1.605626043030945
+      ],
+      "Gran Paraná": [
+        0.11083079676082991,
+        -0.6352031603169006
+      ],
+      "Gran Resistencia": [
+        -1.7908934808356118,
+        0.5599605448172854
+      ],
+      "Gran Rosario": [
+        1.8507822516576562,
+        1.3758276908866327
+      ],
+      "Gran San Juan": [
+        -1.3874028272686476,
+        1.9491938215604836
+      ],
+      "Gran Santa Fe": [
+        -0.4199476466990209,
+        -0.6900485535340869
+      ],
+      "Gran Tucumán - Tafi Viejo": [
+        -0.9480542451520699,
+        0.996608250310032
+      ],
+      "Jujuy - Palpalá": [
+        -0.7125714865875049,
+        1.6252448532558337
+      ],
+      "La Rioja": [
+        -1.6110222905766038,
+        0.41486776861783276
+      ],
+      "Mar del Plata - Batán": [
+        2.924533967028447,
+        1.9682930277811441
+      ],
+      "Neuquén - Plottier": [
+        2.563037018884879,
+        -2.1815516112101716
+      ],
+      "Partidos del GBA": [
+        -0.46627011026480614,
+        0.7263548643575636
+      ],
+      "Posadas": [
+        -1.6493158089358266,
+        0.7690103099840386
+      ],
+      "Rawson - Trelew": [
+        0.2077078244459023,
+        -1.1139810048679695
+      ],
+      "Rio Cuarto": [
+        1.0160577482964979,
+        0.06800540295354776
+      ],
+      "Rio Gallegos": [
+        0.8566050205943738,
+        -1.6772688037591152
+      ],
+      "Salta": [
+        -1.0294037175157138,
+        -0.04015567844053964
+      ],
+      "San Luis - El Chorrillo": [
+        -1.2138667708736597,
+        -0.9324667504162584
+      ],
+      "San Nicolas - Villa Constitución": [
+        0.5765561755298024,
+        0.26045032685091674
+      ],
+      "Santa Rosa - Toay": [
+        1.4926100117942944,
+        1.0186632145747314
+      ],
+      "Santiago del Estero - La Banda": [
+        -2.5467858244780803,
+        -0.3752095837624354
+      ],
+      "Ushuaia - Rio Grande": [
+        2.220303885953143,
+        -3.788755858305426
+      ],
+      "Viedma - Carmen de Patagones": [
+        -0.16874928269085254,
+        -2.253672141212453
+      ]
+    }
+  },
+  "clusters": {
+    "metodo": "Ward sobre distancia euclídea de variables estandarizadas",
+    "grupos_3": {
+      "Bahia Blanca - Cerri": 3,
+      "CABA": 3,
+      "Comodoro Rivadavia - Rada Tilly": 2,
+      "Concordia": 1,
+      "Corrientes": 1,
+      "Formosa": 1,
+      "Gran Catamarca": 1,
+      "Gran Córdoba": 3,
+      "Gran La Plata": 3,
+      "Gran Mendoza": 3,
+      "Gran Paraná": 1,
+      "Gran Resistencia": 1,
+      "Gran Rosario": 3,
+      "Gran San Juan": 1,
+      "Gran Santa Fe": 1,
+      "Gran Tucumán - Tafi Viejo": 3,
+      "Jujuy - Palpalá": 1,
+      "La Rioja": 1,
+      "Mar del Plata - Batán": 3,
+      "Neuquén - Plottier": 2,
+      "Partidos del GBA": 3,
+      "Posadas": 1,
+      "Rawson - Trelew": 3,
+      "Rio Cuarto": 1,
+      "Rio Gallegos": 2,
+      "Salta": 1,
+      "San Luis - El Chorrillo": 1,
+      "San Nicolas - Villa Constitución": 3,
+      "Santa Rosa - Toay": 3,
+      "Santiago del Estero - La Banda": 1,
+      "Ushuaia - Rio Grande": 2,
+      "Viedma - Carmen de Patagones": 1
+    },
+    "kmedias_3": {
+      "Bahia Blanca - Cerri": 1,
+      "CABA": 1,
+      "Comodoro Rivadavia - Rada Tilly": 2,
+      "Concordia": 0,
+      "Corrientes": 0,
+      "Formosa": 0,
+      "Gran Catamarca": 0,
+      "Gran Córdoba": 1,
+      "Gran La Plata": 1,
+      "Gran Mendoza": 0,
+      "Gran Paraná": 2,
+      "Gran Resistencia": 0,
+      "Gran Rosario": 1,
+      "Gran San Juan": 0,
+      "Gran Santa Fe": 0,
+      "Gran Tucumán - Tafi Viejo": 0,
+      "Jujuy - Palpalá": 0,
+      "La Rioja": 0,
+      "Mar del Plata - Batán": 1,
+      "Neuquén - Plottier": 2,
+      "Partidos del GBA": 0,
+      "Posadas": 0,
+      "Rawson - Trelew": 2,
+      "Rio Cuarto": 1,
+      "Rio Gallegos": 2,
+      "Salta": 0,
+      "San Luis - El Chorrillo": 0,
+      "San Nicolas - Villa Constitución": 1,
+      "Santa Rosa - Toay": 1,
+      "Santiago del Estero - La Banda": 0,
+      "Ushuaia - Rio Grande": 2,
+      "Viedma - Carmen de Patagones": 2
+    },
+    "codo": {
+      "1": 310.0,
+      "2": 236.93730114704312,
+      "3": 191.61285717455993,
+      "4": 161.85859467884387,
+      "5": 138.40202234160205,
+      "6": 123.71488384806011
+    },
+    "perfil_3": {
+      "1": {
+        "n": 16,
+        "aglomerados": [
+          "Concordia",
+          "Corrientes",
+          "Formosa",
+          "Gran Catamarca",
+          "Gran Paraná",
+          "Gran Resistencia",
+          "Gran San Juan",
+          "Gran Santa Fe",
+          "Jujuy - Palpalá",
+          "La Rioja",
+          "Posadas",
+          "Rio Cuarto",
+          "Salta",
+          "San Luis - El Chorrillo",
+          "Santiago del Estero - La Banda",
+          "Viedma - Carmen de Patagones"
+        ],
+        "desocupacion": 5.046748506976373,
+        "empleo": 43.069411239892545,
+        "actividad": 45.34483980514189,
+        "ingreso_medio": 846596.7373429178,
+        "ingreso_mediano": 720469.2013880974,
+        "gini": 0.3655526800400773,
+        "secundario_mas": 67.20342968634807,
+        "no_registrado": 40.02356687473285,
+        "edad_media": 34.88415948228338,
+        "prop_65_mas": 11.635012135180464
+      },
+      "2": {
+        "n": 4,
+        "aglomerados": [
+          "Comodoro Rivadavia - Rada Tilly",
+          "Neuquén - Plottier",
+          "Rio Gallegos",
+          "Ushuaia - Rio Grande"
+        ],
+        "desocupacion": 5.593290472715847,
+        "empleo": 43.5104950653971,
+        "actividad": 46.11010376526395,
+        "ingreso_medio": 1537817.2578137328,
+        "ingreso_mediano": 1290787.8151260505,
+        "gini": 0.3617329978540079,
+        "secundario_mas": 67.31817870779183,
+        "no_registrado": 17.37941585070361,
+        "edad_media": 33.961436457882535,
+        "prop_65_mas": 9.753284268177094
+      },
+      "3": {
+        "n": 12,
+        "aglomerados": [
+          "Bahia Blanca - Cerri",
+          "CABA",
+          "Gran Córdoba",
+          "Gran La Plata",
+          "Gran Mendoza",
+          "Gran Rosario",
+          "Gran Tucumán - Tafi Viejo",
+          "Mar del Plata - Batán",
+          "Partidos del GBA",
+          "Rawson - Trelew",
+          "San Nicolas - Villa Constitución",
+          "Santa Rosa - Toay"
+        ],
+        "desocupacion": 7.967251569431601,
+        "empleo": 45.125669779573094,
+        "actividad": 49.003514488926804,
+        "ingreso_medio": 1153793.0159527257,
+        "ingreso_mediano": 926002.9808872524,
+        "gini": 0.4101634891863028,
+        "secundario_mas": 64.8695445130205,
+        "no_registrado": 35.66525346613835,
+        "edad_media": 36.71034067118526,
+        "prop_65_mas": 14.055870326072444
+      }
+    }
+  },
+  "linea_de_base": {
+    "descripcion": "20000 matrices de 32x10 de ruido normal independiente: la misma forma que la matriz del caso.",
+    "repeticiones": 20000,
+    "cp1_prop_ruido": 0.20011570433957332,
+    "cp1_prop_real": 0.34612379675040506,
+    "acum2_ruido": 0.36520105882807263,
+    "acum4_ruido": 0.6233249070105144,
+    "kaiser_ruido_medio": 4.52055,
+    "kaiser_ruido_p_mayor_igual_4": 0.9889,
+    "max_r_ruido_medio": 0.4303590471565294,
+    "max_r_ruido_supera_050": 0.14865,
+    "max_r_ruido_supera_060": 0.0118,
+    "max_r_real": 0.9607459187721066,
+    "paralelo": [
+      {
+        "cp": 1,
+        "real": 3.4612379675040503,
+        "ruido_medio": 2.0011570433957333,
+        "ruido_p95": 2.3093603036846515,
+        "supera": true
+      },
+      {
+        "cp": 2,
+        "real": 2.264804070908201,
+        "ruido_medio": 1.6508535448849937,
+        "ruido_p95": 1.8549649758631774,
+        "supera": true
+      },
+      {
+        "cp": 3,
+        "real": 1.491247064321631,
+        "ruido_medio": 1.3957646899189928,
+        "ruido_p95": 1.5577024773536876,
+        "supera": false
+      },
+      {
+        "cp": 4,
+        "real": 1.3431233535732843,
+        "ruido_medio": 1.185473791905424,
+        "ruido_p95": 1.3240051826292347,
+        "supera": true
+      },
+      {
+        "cp": 5,
+        "real": 0.7119251423786668,
+        "ruido_medio": 1.0031870752404164,
+        "ruido_p95": 1.1286635784265584,
+        "supera": false
+      },
+      {
+        "cp": 6,
+        "real": 0.540753768238207,
+        "ruido_medio": 0.8390395224647935,
+        "ruido_p95": 0.9600467777022924,
+        "supera": false
+      },
+      {
+        "cp": 7,
+        "real": 0.14847380907220273,
+        "ruido_medio": 0.6871766953118553,
+        "ruido_p95": 0.8057375512690275,
+        "supera": false
+      },
+      {
+        "cp": 8,
+        "real": 0.02430164235916345,
+        "ruido_medio": 0.5456043333990422,
+        "ruido_p95": 0.6599937920287899,
+        "supera": false
+      },
+      {
+        "cp": 9,
+        "real": 0.013914305357967744,
+        "ruido_medio": 0.4121701756465476,
+        "ruido_p95": 0.5218751441800571,
+        "supera": false
+      },
+      {
+        "cp": 10,
+        "real": 0.00021887628662645327,
+        "ruido_medio": 0.2795731278322013,
+        "ruido_p95": 0.38803451634895175,
+        "supera": false
+      }
+    ],
+    "n_componentes_paralelo": 3,
+    "silueta": {
+      "2": {
+        "real": 0.22261224362217785,
+        "ruido_medio": 0.12482565745418962,
+        "ruido_p95": 0.1557446660598558
+      },
+      "3": {
+        "real": 0.23939501771859256,
+        "ruido_medio": 0.11802207005719606,
+        "ruido_p95": 0.1463794795913154
+      },
+      "4": {
+        "real": 0.21486921636137543,
+        "ruido_medio": 0.11567640921068308,
+        "ruido_p95": 0.14523338929078985
+      },
+      "5": {
+        "real": 0.13779896511304607,
+        "ruido_medio": 0.11278117409972273,
+        "ruido_p95": 0.1426312312392044
+      }
+    },
+    "repeticiones_silueta": 2000
+  },
+  "sin_estandarizar": {
+    "cp1_prop": 0.9809072205111844,
+    "cargas_cp1": {
+      "desocupacion": 4.952499895136877e-07,
+      "empleo": 1.515100046204922e-06,
+      "actividad": 1.8769217017332097e-06,
+      "ingreso_medio": 0.7817941563065635,
+      "ingreso_mediano": 0.6235366041351696,
+      "gini": 5.94552526822765e-09,
+      "secundario_mas": 4.2344616240006475e-06,
+      "no_registrado": 2.1006466557145824e-05,
+      "edad_media": 1.3719263140353908e-06,
+      "prop_65_mas": 1.1581699694511852e-06
+    },
+    "cp1_prop_estandarizado": 0.34612379675040506
+  },
+  "matriz": {
+    "n_correlaciones": 45,
+    "abs_r_medio": 0.27061145539308945,
+    "abs_parcial_medio": 0.35565443400345,
+    "abs_r_maximo": 0.9607459187721067,
+    "abs_parcial_maximo": 0.9995187292445139,
+    "cambian_de_signo": 15,
+    "pares": [
+      {
+        "a": "edad_media",
+        "b": "prop_65_mas",
+        "r": 0.9607459187721067,
+        "parcial": 0.9734953452823658
+      },
+      {
+        "a": "ingreso_medio",
+        "b": "ingreso_mediano",
+        "r": 0.9599451890159079,
+        "parcial": 0.9243157434391153
+      },
+      {
+        "a": "empleo",
+        "b": "actividad",
+        "r": 0.9211560853668505,
+        "parcial": 0.9995187292445139
+      },
+      {
+        "a": "ingreso_mediano",
+        "b": "no_registrado",
+        "r": -0.8443844125070494,
+        "parcial": -0.014062230134725332
+      },
+      {
+        "a": "ingreso_medio",
+        "b": "no_registrado",
+        "r": -0.8200798970029478,
+        "parcial": -0.31563227642324976
+      },
+      {
+        "a": "actividad",
+        "b": "edad_media",
+        "r": 0.37726990933295995,
+        "parcial": 0.31786072396450954
+      },
+      {
+        "a": "actividad",
+        "b": "prop_65_mas",
+        "r": 0.3524747464679088,
+        "parcial": -0.27318225071756946
+      },
+      {
+        "a": "empleo",
+        "b": "secundario_mas",
+        "r": 0.3411688965632538,
+        "parcial": 0.5135907342596919
+      }
+    ],
+    "determinante": 6.642127395268304e-08,
+    "valor_propio_minimo": 0.00021887628662588807,
+    "numero_condicion": 15813.672741168779,
+    "vif": {
+      "desocupacion": 336.09615925993467,
+      "empleo": 2020.8103304578108,
+      "actividad": 2202.386716827116,
+      "ingreso_medio": 36.689915211280955,
+      "ingreso_mediano": 34.01488076655725,
+      "gini": 2.6363441916103953,
+      "secundario_mas": 1.9689993027100416,
+      "no_registrado": 6.5752512615956045,
+      "edad_media": 26.720043138109705,
+      "prop_65_mas": 26.04495830122127
+    },
+    "kmo": 0.4090751480230236,
+    "bartlett": {
+      "chi2": 443.4811664981421,
+      "gl": 45.0,
+      "p": 6.337743978266112e-67
+    },
+    "identidad_empleo": {
+      "formula": "empleo = actividad x (1 - desocupacion/100)",
+      "error_maximo_pp": 0.13886653466236254,
+      "error_medio_pp": 0.01630784593513601,
+      "correlacion": 0.9999103166630965
+    },
+    "sensibilidad_top3": [
+      {
+        "aglomerado": "CABA",
+        "par": [
+          "secundario_mas",
+          "prop_65_mas"
+        ],
+        "r_con": 0.08450961648756514,
+        "r_sin": -0.2543574699203544,
+        "cambio": 0.3388670864079195
+      },
+      {
+        "aglomerado": "Ushuaia - Rio Grande",
+        "par": [
+          "ingreso_mediano",
+          "prop_65_mas"
+        ],
+        "r_con": 0.1909624595727504,
+        "r_sin": 0.4358718370909224,
+        "cambio": 0.24490937751817202
+      },
+      {
+        "aglomerado": "San Nicolas - Villa Constitución",
+        "par": [
+          "empleo",
+          "prop_65_mas"
+        ],
+        "r_con": 0.25696962974661075,
+        "r_sin": 0.39316978492031396,
+        "cambio": 0.1362001551737032
+      }
+    ],
+    "sensibilidad_cambio_medio": 0.07668879620385996,
+    "sin_empleo": {
+      "determinante": 0.00013422479656575027,
+      "vif_maximo": 33.966596659438764,
+      "kmo": 0.4561342426124901
+    }
+  },
+  "escaladores": {
+    "nota": "Mismos datos, mismo método: lo único que cambia es el escalador. El CP1 casi no se mueve entre z, min-max y robusta; los conglomerados sí.",
+    "k_grupos": 3,
+    "comparacion": {
+      "sin escalar": {
+        "cp1_prop": 0.980907220511184,
+        "congruencia_cp1_con_z": 0.6164451275541102,
+        "ari_grupos_con_z": 0.24910655195234946,
+        "tamanios_grupos": [
+          20,
+          9,
+          3
+        ]
+      },
+      "z": {
+        "cp1_prop": 0.3461237967504052,
+        "congruencia_cp1_con_z": 1.0,
+        "ari_grupos_con_z": 1.0,
+        "tamanios_grupos": [
+          16,
+          12,
+          4
+        ]
+      },
+      "min-max": {
+        "cp1_prop": 0.3723043172732067,
+        "congruencia_cp1_con_z": 0.9946245344580655,
+        "ari_grupos_con_z": 0.5137089073796207,
+        "tamanios_grupos": [
+          17,
+          11,
+          4
+        ]
+      },
+      "robusta": {
+        "cp1_prop": 0.35132432297864646,
+        "congruencia_cp1_con_z": 0.9478244594448683,
+        "ari_grupos_con_z": 0.4012613322822231,
+        "tamanios_grupos": [
+          21,
+          7,
+          4
+        ]
+      }
+    }
+  },
+  "distancias": {
+    "nota": "Mismos datos estandarizados; sólo cambia la distancia. Con enlace promedio los grupos coinciden y con enlace completo no: el efecto de la distancia depende del enlace.",
+    "comparacion": {
+      "euclidea": {
+        "correlacion_con_euclidea": 1.0,
+        "ari_complete": {
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0
+        },
+        "ari_average": {
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0
+        }
+      },
+      "manhattan": {
+        "correlacion_con_euclidea": 0.978612518102129,
+        "ari_complete": {
+          "2": 0.43990665110851807,
+          "3": 0.7649074833652356,
+          "4": 0.38273965190729553,
+          "5": 0.4505812678218908
+        },
+        "ari_average": {
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 0.5379168995714552
+        }
+      },
+      "minkowski_3": {
+        "correlacion_con_euclidea": 0.9914303427321157,
+        "ari_complete": {
+          "2": 0.43990665110851807,
+          "3": 0.6136879608915403,
+          "4": 0.3620422982367594,
+          "5": 0.23312467003544762
+        },
+        "ari_average": {
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0
+        }
+      },
+      "chebyshev": {
+        "correlacion_con_euclidea": 0.9071895705176533,
+        "ari_complete": {
+          "2": 0.10673962734640154,
+          "3": 0.5207729468599034,
+          "4": 0.2415578504167733,
+          "5": 0.20332919617434475
+        },
+        "ari_average": {
+          "2": 1.0,
+          "3": 0.2159723742126891,
+          "4": 0.7729561475785041,
+          "5": 0.8957527659145172
+        }
+      },
+      "coseno": {
+        "correlacion_con_euclidea": 0.6350862212814178,
+        "ari_complete": {
+          "2": 0.3621399176954732,
+          "3": 0.2147520468012605,
+          "4": 0.13097230151386893,
+          "5": 0.38233962264150945
+        },
+        "ari_average": {
+          "2": -0.024896265560165973,
+          "3": 0.0972095823474231,
+          "4": 0.0987742323228088,
+          "5": 0.19921931058235984
+        }
+      },
+      "mahalanobis": {
+        "correlacion_con_euclidea": 0.746070512435811,
+        "ari_complete": {
+          "2": 0.3092585478294278,
+          "3": 0.25319949811794223,
+          "4": 0.155916326561347,
+          "5": 0.028868690333276156
+        },
+        "ari_average": {
+          "2": 1.0,
+          "3": 0.49339753410666065,
+          "4": 0.3286216160363712,
+          "5": 0.5350447072396886
+        }
+      }
+    },
+    "mahalanobis": {
+      "techo_algebraico": 30.03125,
+      "umbral_chi2_975": 20.483177350807388,
+      "suma_d2": 309.99999999999307,
+      "suma_d2_teorica": 310.0,
+      "marcados": 1,
+      "top3": [
+        {
+          "aglomerado": "CABA",
+          "d2": 20.776304354017157,
+          "z_mas_extremo": "secundario_mas",
+          "valor_z": 3.5035264055138433
+        },
+        {
+          "aglomerado": "Ushuaia - Rio Grande",
+          "d2": 19.843292966147686,
+          "z_mas_extremo": "ingreso_mediano",
+          "valor_z": 2.5944284568012432
+        },
+        {
+          "aglomerado": "Santa Rosa - Toay",
+          "d2": 18.767671096867076,
+          "z_mas_extremo": "gini",
+          "valor_z": 3.157242214398338
+        }
+      ]
+    }
+  },
+  "pca_detalle": {
+    "quitando_un_aglomerado": {
+      "congruencia_mediana": 0.9993693846305056,
+      "congruencia_minima": 0.9365316988886702,
+      "prop_cp1_minima": 0.29203747492844573,
+      "prop_cp1_maxima": 0.3778470181204111,
+      "peores": [
+        {
+          "aglomerado": "CABA",
+          "congruencia": 0.9365316988886702,
+          "prop_cp1": 0.29203747492844573
+        },
+        {
+          "aglomerado": "Ushuaia - Rio Grande",
+          "congruencia": 0.9945345217736881,
+          "prop_cp1": 0.3778470181204111
+        },
+        {
+          "aglomerado": "Concordia",
+          "congruencia": 0.9961306023003659,
+          "prop_cp1": 0.3240565713606182
+        }
+      ]
+    },
+    "atipicos": {
+      "nota": "El plano de los dos primeros componentes sólo ve a los atípicos de esas dos direcciones.",
+      "correlacion_rangos": 0.5,
+      "top5_plano": [
+        {
+          "aglomerado": "CABA",
+          "d2": 9.734343585369599
+        },
+        {
+          "aglomerado": "Ushuaia - Rio Grande",
+          "d2": 7.7624247900330525
+        },
+        {
+          "aglomerado": "Comodoro Rivadavia - Rada Tilly",
+          "d2": 6.6339737230377605
+        },
+        {
+          "aglomerado": "Mar del Plata - Batán",
+          "d2": 4.181653566858003
+        },
+        {
+          "aglomerado": "Neuquén - Plottier",
+          "d2": 3.9992811806299944
+        }
+      ],
+      "top5_completa": [
+        {
+          "aglomerado": "CABA",
+          "d2": 20.776304354017157
+        },
+        {
+          "aglomerado": "Ushuaia - Rio Grande",
+          "d2": 19.843292966147686
+        },
+        {
+          "aglomerado": "Santa Rosa - Toay",
+          "d2": 18.767671096867076
+        },
+        {
+          "aglomerado": "Rio Gallegos",
+          "d2": 16.78358226315375
+        },
+        {
+          "aglomerado": "La Rioja",
+          "d2": 16.133563877271378
+        }
+      ]
+    },
+    "contra_factorial": {
+      "metodo": "ejes principales iterados, 2 factores",
+      "congruencia_f1": 0.9896314130274846,
+      "congruencia_f2": 0.9806235508327859,
+      "comunalidad_media_pca": 0.5726042038412248,
+      "comunalidad_media_factorial": 0.5142577340299003,
+      "cargas": [
+        {
+          "variable": "ingreso_medio",
+          "pca_f1": -0.8302928452737591,
+          "fa_f1": -0.8843914540294819,
+          "pca_f2": -0.4548571978566135,
+          "fa_f2": -0.3416572592416555
+        },
+        {
+          "variable": "ingreso_mediano",
+          "pca_f1": -0.7982251997671587,
+          "fa_f1": -0.8818844338313557,
+          "pca_f2": -0.552436973364034,
+          "fa_f2": -0.45713134173781883
+        },
+        {
+          "variable": "edad_media",
+          "pca_f1": -0.6892123547687904,
+          "fa_f1": -0.5598598138675352,
+          "pca_f2": 0.36430961192000033,
+          "fa_f2": 0.36604615140081037
+        },
+        {
+          "variable": "no_registrado",
+          "pca_f1": 0.6222978038254141,
+          "fa_f1": 0.6756532503830652,
+          "pca_f2": 0.6990933149002436,
+          "fa_f2": 0.5946137542007846
+        },
+        {
+          "variable": "actividad",
+          "pca_f1": -0.6125968966495121,
+          "fa_f1": -0.5473966236663279,
+          "pca_f2": 0.6210199850281124,
+          "fa_f2": 0.7233850268788915
+        },
+        {
+          "variable": "prop_65_mas",
+          "pca_f1": -0.5864698167087734,
+          "fa_f1": -0.4525524376386108,
+          "pca_f2": 0.46386912350120185,
+          "fa_f2": 0.4185059220848347
+        }
+      ]
+    }
+  },
+  "enlaces": {
+    "nota": "Misma distancia euclídea sobre variables estandarizadas; sólo cambia el enlace.",
+    "patagonia": [
+      "Comodoro Rivadavia - Rada Tilly",
+      "Neuquén - Plottier",
+      "Rio Gallegos",
+      "Ushuaia - Rio Grande"
+    ],
+    "comparacion": {
+      "single": {
+        "inversiones": 0,
+        "3": {
+          "tamanios": [
+            28,
+            3,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "4": {
+          "tamanios": [
+            27,
+            3,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "5": {
+          "tamanios": [
+            27,
+            2,
+            1,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Neuquén - Plottier",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        }
+      },
+      "complete": {
+        "inversiones": 0,
+        "3": {
+          "tamanios": [
+            25,
+            4,
+            3
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "4": {
+          "tamanios": [
+            16,
+            9,
+            4,
+            3
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "5": {
+          "tamanios": [
+            9,
+            9,
+            7,
+            4,
+            3
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        }
+      },
+      "average": {
+        "inversiones": 0,
+        "3": {
+          "tamanios": [
+            27,
+            4,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "4": {
+          "tamanios": [
+            26,
+            4,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "5": {
+          "tamanios": [
+            25,
+            4,
+            1,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        }
+      },
+      "centroid": {
+        "inversiones": 5,
+        "3": {
+          "tamanios": [
+            30,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Bahia Blanca - Cerri",
+            "Comodoro Rivadavia - Rada Tilly",
+            "Concordia",
+            "Corrientes",
+            "Formosa",
+            "Gran Catamarca",
+            "Gran Córdoba",
+            "Gran La Plata",
+            "Gran Mendoza",
+            "Gran Paraná",
+            "Gran Resistencia",
+            "Gran Rosario",
+            "Gran San Juan",
+            "Gran Santa Fe",
+            "Gran Tucumán - Tafi Viejo",
+            "Jujuy - Palpalá",
+            "La Rioja",
+            "Mar del Plata - Batán",
+            "Neuquén - Plottier",
+            "Partidos del GBA",
+            "Posadas",
+            "Rawson - Trelew",
+            "Rio Cuarto",
+            "Rio Gallegos",
+            "Salta",
+            "San Luis - El Chorrillo",
+            "San Nicolas - Villa Constitución",
+            "Santa Rosa - Toay",
+            "Santiago del Estero - La Banda",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "4": {
+          "tamanios": [
+            30,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Bahia Blanca - Cerri",
+            "Comodoro Rivadavia - Rada Tilly",
+            "Concordia",
+            "Corrientes",
+            "Formosa",
+            "Gran Catamarca",
+            "Gran Córdoba",
+            "Gran La Plata",
+            "Gran Mendoza",
+            "Gran Paraná",
+            "Gran Resistencia",
+            "Gran Rosario",
+            "Gran San Juan",
+            "Gran Santa Fe",
+            "Gran Tucumán - Tafi Viejo",
+            "Jujuy - Palpalá",
+            "La Rioja",
+            "Mar del Plata - Batán",
+            "Neuquén - Plottier",
+            "Partidos del GBA",
+            "Posadas",
+            "Rawson - Trelew",
+            "Rio Cuarto",
+            "Rio Gallegos",
+            "Salta",
+            "San Luis - El Chorrillo",
+            "San Nicolas - Villa Constitución",
+            "Santa Rosa - Toay",
+            "Santiago del Estero - La Banda",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "5": {
+          "tamanios": [
+            25,
+            4,
+            1,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        }
+      },
+      "median": {
+        "inversiones": 5,
+        "3": {
+          "tamanios": [
+            30,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Bahia Blanca - Cerri",
+            "Comodoro Rivadavia - Rada Tilly",
+            "Concordia",
+            "Corrientes",
+            "Formosa",
+            "Gran Catamarca",
+            "Gran Córdoba",
+            "Gran La Plata",
+            "Gran Mendoza",
+            "Gran Paraná",
+            "Gran Resistencia",
+            "Gran Rosario",
+            "Gran San Juan",
+            "Gran Santa Fe",
+            "Gran Tucumán - Tafi Viejo",
+            "Jujuy - Palpalá",
+            "La Rioja",
+            "Mar del Plata - Batán",
+            "Neuquén - Plottier",
+            "Partidos del GBA",
+            "Posadas",
+            "Rawson - Trelew",
+            "Rio Cuarto",
+            "Rio Gallegos",
+            "Salta",
+            "San Luis - El Chorrillo",
+            "San Nicolas - Villa Constitución",
+            "Santa Rosa - Toay",
+            "Santiago del Estero - La Banda",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "4": {
+          "tamanios": [
+            30,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Bahia Blanca - Cerri",
+            "Comodoro Rivadavia - Rada Tilly",
+            "Concordia",
+            "Corrientes",
+            "Formosa",
+            "Gran Catamarca",
+            "Gran Córdoba",
+            "Gran La Plata",
+            "Gran Mendoza",
+            "Gran Paraná",
+            "Gran Resistencia",
+            "Gran Rosario",
+            "Gran San Juan",
+            "Gran Santa Fe",
+            "Gran Tucumán - Tafi Viejo",
+            "Jujuy - Palpalá",
+            "La Rioja",
+            "Mar del Plata - Batán",
+            "Neuquén - Plottier",
+            "Partidos del GBA",
+            "Posadas",
+            "Rawson - Trelew",
+            "Rio Cuarto",
+            "Rio Gallegos",
+            "Salta",
+            "San Luis - El Chorrillo",
+            "San Nicolas - Villa Constitución",
+            "Santa Rosa - Toay",
+            "Santiago del Estero - La Banda",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": false
+        },
+        "5": {
+          "tamanios": [
+            14,
+            12,
+            4,
+            1,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        }
+      },
+      "ward": {
+        "inversiones": 0,
+        "3": {
+          "tamanios": [
+            16,
+            12,
+            4
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "4": {
+          "tamanios": [
+            16,
+            11,
+            4,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        },
+        "5": {
+          "tamanios": [
+            11,
+            11,
+            5,
+            4,
+            1
+          ],
+          "grupo_de_ushuaia": [
+            "Comodoro Rivadavia - Rada Tilly",
+            "Neuquén - Plottier",
+            "Rio Gallegos",
+            "Ushuaia - Rio Grande"
+          ],
+          "es_patagonia_exacta": true
+        }
+      }
+    },
+    "alturas_ward": [
+      {
+        "k": 2,
+        "altura": 10.125800408044265,
+        "cociente": 1.196909262181776
+      },
+      {
+        "k": 3,
+        "altura": 8.459956596531415,
+        "cociente": 1.2826156405377238
+      },
+      {
+        "k": 4,
+        "altura": 6.595862649066607,
+        "cociente": 1.010521856792218
+      },
+      {
+        "k": 5,
+        "altura": 6.527184547996212,
+        "cociente": 1.2458815209414171
+      },
+      {
+        "k": 6,
+        "altura": 5.239009037604249,
+        "cociente": 1.0532409990229685
+      }
+    ]
+  },
+  "indice": {
+    "indicadores": [
+      "desocupacion",
+      "empleo",
+      "actividad",
+      "ingreso_medio",
+      "ingreso_mediano",
+      "gini",
+      "secundario_mas",
+      "no_registrado"
+    ],
+    "peso_nominal": 0.125,
+    "pesos": [
+      {
+        "indicador": "ingreso_mediano",
+        "correlacion_con_el_indice": 0.7953913503489813,
+        "peso_efectivo": 0.2354809456731226
+      },
+      {
+        "indicador": "ingreso_medio",
+        "correlacion_con_el_indice": 0.7680622226333031,
+        "peso_efectivo": 0.21957700294650878
+      },
+      {
+        "indicador": "no_registrado",
+        "correlacion_con_el_indice": 0.655477973893986,
+        "peso_efectivo": 0.15992274983973764
+      },
+      {
+        "indicador": "secundario_mas",
+        "correlacion_con_el_indice": 0.6519825419868837,
+        "peso_efectivo": 0.15822167479956029
+      },
+      {
+        "indicador": "empleo",
+        "correlacion_con_el_indice": 0.5582485403086587,
+        "peso_efectivo": 0.11599766200276673
+      },
+      {
+        "indicador": "actividad",
+        "correlacion_con_el_indice": 0.4460660353077564,
+        "peso_efectivo": 0.07406147476684362
+      },
+      {
+        "indicador": "desocupacion",
+        "correlacion_con_el_indice": 0.22823210859114768,
+        "peso_efectivo": 0.01938864812033047
+      },
+      {
+        "indicador": "gini",
+        "correlacion_con_el_indice": 0.21589905352395172,
+        "peso_efectivo": 0.017349841851129935
+      }
+    ],
+    "por_dimension": [
+      {
+        "dimension": "mercado de trabajo",
+        "indicadores": 4,
+        "nominal": 0.5,
+        "efectivo": 0.36937053472967846
+      },
+      {
+        "dimension": "ingresos",
+        "indicadores": 3,
+        "nominal": 0.375,
+        "efectivo": 0.4724077904707613
+      },
+      {
+        "dimension": "educación",
+        "indicadores": 1,
+        "nominal": 0.125,
+        "efectivo": 0.15822167479956029
+      }
+    ],
+    "sensibilidad": [
+      {
+        "variante": "min-max + suma",
+        "spearman_con_base": 0.9846041055718473,
+        "movimiento_mediano": 1.0,
+        "movimiento_maximo": 5,
+        "cambia_el_top5": true
+      },
+      {
+        "variante": "rangos + suma",
+        "spearman_con_base": 0.9842318226844711,
+        "movimiento_mediano": 1.0,
+        "movimiento_maximo": 5,
+        "cambia_el_top5": true
+      },
+      {
+        "variante": "min-max + geométrica",
+        "spearman_con_base": 0.8049853372434018,
+        "movimiento_mediano": 3.0,
+        "movimiento_maximo": 17,
+        "cambia_el_top5": true
+      },
+      {
+        "variante": "CP1 del PCA",
+        "spearman_con_base": 0.7723607038123166,
+        "movimiento_mediano": 3.5,
+        "movimiento_maximo": 13,
+        "cambia_el_top5": true
+      }
+    ],
+    "top5_base": [
+      "CABA",
+      "Mar del Plata - Batán",
+      "Neuquén - Plottier",
+      "Rio Gallegos",
+      "Ushuaia - Rio Grande"
+    ],
+    "incertidumbre_del_puesto": {
+      "metodo": "bootstrap de personas dentro de cada aglomerado",
+      "replicas": 500,
+      "amplitud_mediana": 10.5,
+      "amplitud_maxima": 17.0,
+      "con_ic_de_10_o_mas": 21,
+      "detalle": [
+        {
+          "aglomerado": "CABA",
+          "puesto": 1,
+          "ic_bajo": 1.0,
+          "ic_alto": 1.0
+        },
+        {
+          "aglomerado": "Ushuaia - Rio Grande",
+          "puesto": 2,
+          "ic_bajo": 2.0,
+          "ic_alto": 3.0
+        },
+        {
+          "aglomerado": "Neuquén - Plottier",
+          "puesto": 3,
+          "ic_bajo": 2.0,
+          "ic_alto": 4.0
+        },
+        {
+          "aglomerado": "Rio Gallegos",
+          "puesto": 4,
+          "ic_bajo": 3.0,
+          "ic_alto": 13.0
+        },
+        {
+          "aglomerado": "Mar del Plata - Batán",
+          "puesto": 5,
+          "ic_bajo": 4.0,
+          "ic_alto": 13.0
+        },
+        {
+          "aglomerado": "Rio Cuarto",
+          "puesto": 6,
+          "ic_bajo": 4.0,
+          "ic_alto": 12.0
+        },
+        {
+          "aglomerado": "Comodoro Rivadavia - Rada Tilly",
+          "puesto": 7,
+          "ic_bajo": 4.0,
+          "ic_alto": 13.0
+        },
+        {
+          "aglomerado": "Gran Rosario",
+          "puesto": 8,
+          "ic_bajo": 4.0,
+          "ic_alto": 13.0
+        },
+        {
+          "aglomerado": "Viedma - Carmen de Patagones",
+          "puesto": 9,
+          "ic_bajo": 4.0,
+          "ic_alto": 15.0
+        },
+        {
+          "aglomerado": "Jujuy - Palpalá",
+          "puesto": 10,
+          "ic_bajo": 6.0,
+          "ic_alto": 16.0
+        },
+        {
+          "aglomerado": "Bahia Blanca - Cerri",
+          "puesto": 11,
+          "ic_bajo": 6.0,
+          "ic_alto": 20.0
+        },
+        {
+          "aglomerado": "La Rioja",
+          "puesto": 12,
+          "ic_bajo": 8.0,
+          "ic_alto": 19.0
+        },
+        {
+          "aglomerado": "Gran Paraná",
+          "puesto": 13,
+          "ic_bajo": 7.950000000000003,
+          "ic_alto": 19.0
+        },
+        {
+          "aglomerado": "San Luis - El Chorrillo",
+          "puesto": 14,
+          "ic_bajo": 9.0,
+          "ic_alto": 20.0
+        },
+        {
+          "aglomerado": "Santa Rosa - Toay",
+          "puesto": 15,
+          "ic_bajo": 6.0,
+          "ic_alto": 20.0
+        },
+        {
+          "aglomerado": "Gran Córdoba",
+          "puesto": 16,
+          "ic_bajo": 11.0,
+          "ic_alto": 22.0
+        },
+        {
+          "aglomerado": "Gran La Plata",
+          "puesto": 17,
+          "ic_bajo": 7.0,
+          "ic_alto": 24.0
+        },
+        {
+          "aglomerado": "Gran Catamarca",
+          "puesto": 18,
+          "ic_bajo": 11.0,
+          "ic_alto": 27.0
+        },
+        {
+          "aglomerado": "Salta",
+          "puesto": 19,
+          "ic_bajo": 15.0,
+          "ic_alto": 25.0
+        },
+        {
+          "aglomerado": "Gran Santa Fe",
+          "puesto": 20,
+          "ic_bajo": 12.950000000000003,
+          "ic_alto": 25.0
+        },
+        {
+          "aglomerado": "Gran San Juan",
+          "puesto": 21,
+          "ic_bajo": 17.0,
+          "ic_alto": 29.0
+        },
+        {
+          "aglomerado": "Santiago del Estero - La Banda",
+          "puesto": 22,
+          "ic_bajo": 16.0,
+          "ic_alto": 29.0
+        },
+        {
+          "aglomerado": "Posadas",
+          "puesto": 23,
+          "ic_bajo": 17.0,
+          "ic_alto": 30.0
+        },
+        {
+          "aglomerado": "Gran Mendoza",
+          "puesto": 24,
+          "ic_bajo": 18.0,
+          "ic_alto": 29.0
+        },
+        {
+          "aglomerado": "Rawson - Trelew",
+          "puesto": 25,
+          "ic_bajo": 14.0,
+          "ic_alto": 30.0
+        },
+        {
+          "aglomerado": "Corrientes",
+          "puesto": 26,
+          "ic_bajo": 18.0,
+          "ic_alto": 31.0
+        },
+        {
+          "aglomerado": "Gran Tucumán - Tafi Viejo",
+          "puesto": 27,
+          "ic_bajo": 20.0,
+          "ic_alto": 30.0
+        },
+        {
+          "aglomerado": "Partidos del GBA",
+          "puesto": 28,
+          "ic_bajo": 21.0,
+          "ic_alto": 29.0
+        },
+        {
+          "aglomerado": "San Nicolas - Villa Constitución",
+          "puesto": 29,
+          "ic_bajo": 23.0,
+          "ic_alto": 32.0
+        },
+        {
+          "aglomerado": "Formosa",
+          "puesto": 30,
+          "ic_bajo": 22.0,
+          "ic_alto": 32.0
+        },
+        {
+          "aglomerado": "Gran Resistencia",
+          "puesto": 31,
+          "ic_bajo": 27.0,
+          "ic_alto": 32.0
+        },
+        {
+          "aglomerado": "Concordia",
+          "puesto": 32,
+          "ic_bajo": 27.0,
+          "ic_alto": 32.0
+        }
+      ]
+    }
+  },
+  "mds": {
+    "reconstruccion": {
+      "nota": "Centroides de los aglomerados, sus 496 distancias, y el mapa que el MDS devuelve sin ver ninguna coordenada.",
+      "n": 32,
+      "distancias": 496,
+      "distancia_maxima_km": 3355.2689926255575,
+      "par_mas_lejano": [
+        "Jujuy - Palpalá",
+        "Ushuaia - Rio Grande"
+      ],
+      "prop_valores_propios": [
+        0.848181007203409,
+        0.1518189927965906,
+        9.925756736727635e-17,
+        8.047909552709788e-17
+      ],
+      "correlacion_procrustes": 1.0,
+      "error_posicion_maximo": 5.5964663601774135e-16,
+      "correlacion_distancias": 1.0,
+      "error_distancia_maximo_km": 1.6298145055770874e-12
+    },
+    "identidad_con_pca": {
+      "nota": "MDS clásico sobre distancias euclídeas = PCA sobre los datos.",
+      "diferencia_maxima_por_eje": [
+        3.552713678800501e-15,
+        5.329070518200751e-15
+      ],
+      "diferencia_maxima_valores_propios": 1.3322676295501878e-15
+    }
+  },
+  "correspondencias": {
+    "tabla": {
+      "filas": 32,
+      "columnas": 4,
+      "n": 19554,
+      "celdas": 128
+    },
+    "categorias": [
+      "Profesional",
+      "Técnica",
+      "Operativa",
+      "No calificada"
+    ],
+    "chi2": 558.4143240353989,
+    "gl": 93,
+    "p": 1.5864059423225988e-67,
+    "inercia_total": 0.028557549556888565,
+    "inercia_chi2_sobre_n": 0.028557549556888558,
+    "inercias": [
+      0.019664611266688028,
+      0.00584065294095892,
+      0.0030522853492416183,
+      6.720695151532955e-33
+    ],
+    "prop_inercia": [
+      0.6885958904672405,
+      0.20452220276546998,
+      0.10688190676728969,
+      2.3533864970259007e-31
+    ],
+    "columnas": [
+      {
+        "categoria": "Profesional",
+        "masa": 0.08371688657052266,
+        "dim1": -0.36592116457663715,
+        "dim2": -0.0012062075943114448
+      },
+      {
+        "categoria": "Técnica",
+        "masa": 0.17571852306433466,
+        "dim1": -0.12847835269176638,
+        "dim2": 0.08010270846880263
+      },
+      {
+        "categoria": "Operativa",
+        "masa": 0.5768129283011149,
+        "dim1": 0.04608762789342485,
+        "dim2": -0.06016934149399658
+      },
+      {
+        "categoria": "No calificada",
+        "masa": 0.16375166206402783,
+        "dim1": 0.16259906659928983,
+        "dim2": 0.12660576459833517
+      }
+    ],
+    "filas_extremas": [
+      {
+        "aglomerado": "CABA",
+        "masa": 0.03661654904367393,
+        "dim1": -0.5697000089712814,
+        "dim2": 0.05811035432269969,
+        "cos2_plano": 0.9981495863256109,
+        "contrib_dim1": 0.6043443947670576
+      },
+      {
+        "aglomerado": "Neuquén - Plottier",
+        "masa": 0.025161092359619518,
+        "dim1": -0.15148809922022408,
+        "dim2": -0.05232621420286875,
+        "cos2_plano": 0.9663666089810828,
+        "contrib_dim1": 0.029363049619860124
+      },
+      {
+        "aglomerado": "Ushuaia - Rio Grande",
+        "masa": 0.023166615526235043,
+        "dim1": -0.1266639764144374,
+        "dim2": -0.11161565902086909,
+        "cos2_plano": 0.9873312414551181,
+        "contrib_dim1": 0.01890094251785259
+      },
+      {
+        "aglomerado": "Gran San Juan",
+        "masa": 0.027615833077631175,
+        "dim1": 0.15190038824420252,
+        "dim2": -0.025078626054776607,
+        "cos2_plano": 0.9976026135535698,
+        "contrib_dim1": 0.03240339770105108
+      },
+      {
+        "aglomerado": "Santiago del Estero - La Banda",
+        "masa": 0.02945688861613992,
+        "dim1": 0.1870542436014382,
+        "dim2": 0.3050175896422007,
+        "cos2_plano": 0.9998341145602141,
+        "contrib_dim1": 0.052412712652306334
+      },
+      {
+        "aglomerado": "Viedma - Carmen de Patagones",
+        "masa": 0.016978623299580647,
+        "dim1": 0.22783689358032133,
+        "dim2": -0.0717830409087945,
+        "cos2_plano": 0.9907966145365535,
+        "contrib_dim1": 0.04481931436661989
+      }
+    ],
+    "peor_representadas": [
+      {
+        "aglomerado": "Gran Paraná",
+        "dim1": 0.0007890855770508736,
+        "dim2": 0.005470102643507543,
+        "cos2_plano": 0.016785029523908344,
+        "cos2_dim3": 0.9832149704760916
+      },
+      {
+        "aglomerado": "Salta",
+        "dim1": 0.006356893398941156,
+        "dim2": -0.022129077318552785,
+        "cos2_plano": 0.06821747425565428,
+        "cos2_dim3": 0.9317825257443457
+      },
+      {
+        "aglomerado": "Corrientes",
+        "dim1": -0.0072775024085010055,
+        "dim2": 0.04450128830608087,
+        "cos2_plano": 0.21910245461727443,
+        "cos2_dim3": 0.7808975453827257
+      }
+    ],
+    "linea_de_base": {
+      "inercia_ruido_media": 0.004761763346329083,
+      "inercia_ruido_p95": 0.005922620177165948,
+      "prop_2dim_real": 0.8931180932327104,
+      "prop_2dim_ruido_media": 0.7838806715750402,
+      "prop_2dim_ruido_p95": 0.84538652017081
+    }
+  },
+  "densidad_y_forma": {
+    "nota": "Mismos 32 aglomerados: qué devuelve cada método frente al grupo patagónico.",
+    "metodos": {
+      "k-medias": {
+        "grupo": [
+          "Comodoro Rivadavia - Rada Tilly",
+          "Neuquén - Plottier",
+          "Rio Gallegos",
+          "Ushuaia - Rio Grande"
+        ],
+        "es_patagonia_exacta": true,
+        "ushuaia_es_ruido": false
+      },
+      "espectral": {
+        "grupo": [
+          "Comodoro Rivadavia - Rada Tilly",
+          "Gran Paraná",
+          "Gran Santa Fe",
+          "Neuquén - Plottier",
+          "Rio Gallegos",
+          "Ushuaia - Rio Grande",
+          "Viedma - Carmen de Patagones"
+        ],
+        "es_patagonia_exacta": false,
+        "ushuaia_es_ruido": false
+      }
+    },
+    "mezclas_no_se_pueden_ajustar": {
+      "parametros": 62,
+      "observaciones": 32,
+      "por_semilla": [
+        {
+          "semilla": 0,
+          "tamanio_grupo_de_ushuaia": 14,
+          "log_verosimilitud": -314.7019225323679,
+          "es_patagonia_exacta": false
+        },
+        {
+          "semilla": 1,
+          "tamanio_grupo_de_ushuaia": 4,
+          "log_verosimilitud": -323.7600993169399,
+          "es_patagonia_exacta": true
+        },
+        {
+          "semilla": 7,
+          "tamanio_grupo_de_ushuaia": 5,
+          "log_verosimilitud": -350.8926794199171,
+          "es_patagonia_exacta": false
+        },
+        {
+          "semilla": 2026,
+          "tamanio_grupo_de_ushuaia": 27,
+          "log_verosimilitud": -321.8337444107215,
+          "es_patagonia_exacta": false
+        }
+      ],
+      "tamanios_distintos": 4
+    },
+    "dbscan_barrido": [
+      {
+        "eps": 2.0,
+        "grupos": 1,
+        "ruido": 17,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 2.25,
+        "grupos": 1,
+        "ruido": 14,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 2.5,
+        "grupos": 1,
+        "ruido": 10,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 2.75,
+        "grupos": 1,
+        "ruido": 7,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 3.0,
+        "grupos": 1,
+        "ruido": 7,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 3.25,
+        "grupos": 1,
+        "ruido": 5,
+        "tamanio_grupo_de_ushuaia": 0,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 3.5,
+        "grupos": 1,
+        "ruido": 1,
+        "tamanio_grupo_de_ushuaia": 31,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 3.75,
+        "grupos": 1,
+        "ruido": 1,
+        "tamanio_grupo_de_ushuaia": 31,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 4.0,
+        "grupos": 1,
+        "ruido": 1,
+        "tamanio_grupo_de_ushuaia": 31,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 4.25,
+        "grupos": 1,
+        "ruido": 1,
+        "tamanio_grupo_de_ushuaia": 31,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 4.5,
+        "grupos": 1,
+        "ruido": 1,
+        "tamanio_grupo_de_ushuaia": 31,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 4.75,
+        "grupos": 1,
+        "ruido": 0,
+        "tamanio_grupo_de_ushuaia": 32,
+        "es_patagonia_exacta": false
+      },
+      {
+        "eps": 5.0,
+        "grupos": 1,
+        "ruido": 0,
+        "tamanio_grupo_de_ushuaia": 32,
+        "es_patagonia_exacta": false
+      }
+    ],
+    "dbscan_encuentra_patagonia": false,
+    "diagnostico": {
+      "distancia_media_a_3_vecinos_patagonia": 3.4763693214005946,
+      "distancia_media_a_3_vecinos_resto": 2.1932428931264396,
+      "distancia_media_entre_patagonicos": 3.5863521913875727,
+      "distancia_media_al_resto": 5.239485881179853
+    }
+  },
+  "estabilidad_cp1": {
+    "metodo": "bootstrap de aglomerados; congruencia de Tucker con el CP1 completo",
+    "replicas": 5000,
+    "phi_mediana": 0.954922750436547,
+    "phi_p5": 0.23510143924912286,
+    "prop_phi_mayor_igual_095": 0.523,
+    "cociente_vp1_vp2": 1.528272583030139
+  }
+}

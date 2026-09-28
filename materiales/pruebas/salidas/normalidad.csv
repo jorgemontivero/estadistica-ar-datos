@@ -1,0 +1,26 @@
+variable,etiqueta,factor,grupo,n,media,desvio,asimetria,shapiro_w,shapiro_p,veredicto
+edad,Edad (años),grupo,Control,75,40.213333,11.568005,-0.209423,0.973667,0.119599,normal
+edad,Edad (años),grupo,Tratamiento,74,41.878378,12.124867,0.055359,0.979477,0.271474,normal
+ingreso,Ingreso mensual del hogar,grupo,Control,74,507090.304700,325858.618100,1.731941,0.859700,0.000001,no-normal
+ingreso,Ingreso mensual del hogar,grupo,Tratamiento,74,568462.383000,361097.493400,1.374100,0.876008,0.000003,no-normal
+puntaje,Puntaje de satisfacción,grupo,Control,75,6.266667,1.726842,0.107967,0.952750,0.007077,no-normal
+puntaje,Puntaje de satisfacción,grupo,Tratamiento,74,7.391892,1.661964,-0.154917,0.948132,0.004257,no-normal
+horas,Horas de estudio por semana,grupo,Control,75,11.641333,4.542148,0.297321,0.979038,0.248571,normal
+horas,Horas de estudio por semana,grupo,Tratamiento,75,13.453333,4.248444,-0.240188,0.980391,0.296906,normal
+gasto,Gasto mensual en materiales,grupo,Control,75,46826.683730,81494.319690,4.940213,0.322771,0.000000,no-normal
+gasto,Gasto mensual en materiales,grupo,Tratamiento,75,42134.049470,14102.339690,0.487362,0.971691,0.090955,normal
+edad,Edad (años),nivel,Primario,36,40.972222,12.953733,0.161536,0.980074,0.747887,normal
+edad,Edad (años),nivel,Secundario,50,41.000000,13.149067,-0.163377,0.958835,0.079439,normal
+edad,Edad (años),nivel,Superior,63,41.111111,10.153835,-0.114469,0.986486,0.719739,normal
+ingreso,Ingreso mensual del hogar,nivel,Primario,37,454178.051400,257078.357700,1.548281,0.876498,0.000697,no-normal
+ingreso,Ingreso mensual del hogar,nivel,Secundario,49,533350.838800,334550.269200,1.377267,0.886130,0.000200,no-normal
+ingreso,Ingreso mensual del hogar,nivel,Superior,62,591163.224000,388809.513600,1.425899,0.867198,0.000008,no-normal
+puntaje,Puntaje de satisfacción,nivel,Primario,37,6.459459,1.501751,-0.333793,0.938561,0.041524,no-normal
+puntaje,Puntaje de satisfacción,nivel,Secundario,50,6.820000,1.803511,-0.306738,0.949391,0.032208,no-normal
+puntaje,Puntaje de satisfacción,nivel,Superior,62,7.048387,1.902780,0.076063,0.932881,0.002173,no-normal
+horas,Horas de estudio por semana,nivel,Primario,37,12.740541,5.262998,-0.322842,0.978907,0.693573,normal
+horas,Horas de estudio por semana,nivel,Secundario,50,12.548000,4.700510,0.170705,0.970522,0.243005,normal
+horas,Horas de estudio por semana,nivel,Superior,63,12.433333,3.817320,0.197149,0.963662,0.059854,normal
+gasto,Gasto mensual en materiales,nivel,Primario,37,32576.565950,16077.603590,1.098613,0.903375,0.003663,no-normal
+gasto,Gasto mensual en materiales,nivel,Secundario,50,50036.362000,68200.894660,4.591838,0.354322,0.000000,no-normal
+gasto,Gasto mensual en materiales,nivel,Superior,63,47061.967460,65077.124070,7.368680,0.270069,0.000000,no-normal

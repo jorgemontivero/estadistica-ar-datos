@@ -1,0 +1,9 @@
+clave,valor
+datos,datos/indicadores.csv
+tabla,datos/educacion.csv
+unidad,jurisdiccion
+componentes,3
+conglomerados,4
+enlace,ward
+ejes,2
+confianza,0.95

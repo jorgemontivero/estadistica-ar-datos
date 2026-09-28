@@ -1,0 +1,29 @@
+{
+  "fuente": "INDEC, Encuesta Permanente de Hogares, base usuario",
+  "periodo": "1º trimestre de 2026",
+  "repeticiones": 20000,
+  "semilla": 1976,
+  "media_poblacional": 1104227,
+  "desvio_poblacional": 1063114,
+  "asimetria_poblacional": 5.46,
+  "por_tamano": {
+    "2": {
+      "media_de_las_medias": 1104288.264,
+      "desvio_observado": 747790.359,
+      "error_estandar_teorico": 751734.808,
+      "asimetria": 3.096
+    },
+    "10": {
+      "media_de_las_medias": 1107811.101,
+      "desvio_observado": 338734.397,
+      "error_estandar_teorico": 336186.026,
+      "asimetria": 1.818
+    },
+    "50": {
+      "media_de_las_medias": 1104274.97,
+      "desvio_observado": 149843.148,
+      "error_estandar_teorico": 150346.962,
+      "asimetria": 0.774
+    }
+  }
+}

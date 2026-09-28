@@ -1,0 +1,14 @@
+clave,valor
+confianza,0.95
+semilla,2026
+estrato,region
+conglomerado,radio
+calibrar_por,tamano
+variable,ingreso
+variable_total,personas
+variable_binaria,agua
+exito,Sí
+conglomerados_por_estrato,8
+hogares_por_conglomerado,10
+tasa_de_no_respuesta,0.12
+replicas_de_cobertura,500

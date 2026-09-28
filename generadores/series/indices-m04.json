@@ -1,0 +1,76 @@
+{
+  "ipc": {
+    "fuente": "IPC nacional, nivel general, base diciembre 2016 = 100. INDEC",
+    "primer_dato": "2016-12-01",
+    "ultimo_dato": "2026-07-01",
+    "indice_ultimo": 12076.3937,
+    "var_mensual_ultima": 0.021137724267861868,
+    "var_interanual_ultima": 0.33825685205396794,
+    "var_acumulada_anio": 0.19315783439032952,
+    "variacion_anual_dic_dic": {
+      "2017": 24.8,
+      "2018": 47.6,
+      "2019": 53.8,
+      "2020": 36.1,
+      "2021": 50.9,
+      "2022": 94.8,
+      "2023": 211.4,
+      "2024": 117.8,
+      "2025": 31.5
+    },
+    "por_region_ultimo": {
+      "nacional": 12076.3937,
+      "gba": 12078.7372,
+      "pampeana": 12027.5347,
+      "nea": 12190.8218,
+      "noa": 12181.1952,
+      "cuyo": 12160.2347,
+      "patagonia": 12051.1073
+    }
+  },
+  "cambio_de_base": {
+    "base_original": "diciembre 2016 = 100",
+    "base_nueva": "diciembre 2023 = 100",
+    "indice_dic_2023_en_base_vieja": 3533.1922,
+    "factor": 0.02830301731108769,
+    "ejemplo_ultimo_en_base_nueva": 341.79837994661034
+  },
+  "deflactacion": {
+    "media_nominal_1T2026": 1104227.053351031,
+    "ipc_promedio_1T2026": 10734.905733333333,
+    "ipc_promedio_1T2025": 8090.1447333333335,
+    "factor": 1.326911456738586,
+    "media_a_precios_1T2025": 832178.4002567204
+  },
+  "pernoctes": {
+    "fuente": "EOH, INDEC. Pernoctaciones en hoteles y parahoteles, total país",
+    "primer_dato": "2007-01-01",
+    "ultimo_dato": "2025-11-01",
+    "n_meses": 225,
+    "maximo": {
+      "fecha": "2011-01-01",
+      "valor": 6499344.0
+    },
+    "minimo": {
+      "fecha": "2020-06-01",
+      "valor": 74247.0
+    },
+    "indices_estacionales": {
+      "ene": 1.5956715471003846,
+      "feb": 1.36514379683064,
+      "mar": 1.0232742087781106,
+      "abr": 0.8366406439352072,
+      "may": 0.6988149864224767,
+      "jun": 0.6537926716406331,
+      "jul": 1.111702644090811,
+      "ago": 0.8973801087126843,
+      "sep": 0.9211444300238739,
+      "oct": 0.9777668899638765,
+      "nov": 0.9699447895489329,
+      "dic": 0.9487232829523703
+    },
+    "razon_max_min_estacional": 2.440638471973374,
+    "enero_2020": 6284406.0,
+    "abril_2020": NaN
+  }
+}

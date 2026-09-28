@@ -1,0 +1,4 @@
+variable,factor,aviso
+beca,grupo,"La frecuencia esperada más chica de la tabla es 3,50. El chi-cuadrado pide que todas las esperadas lleguen a 5; con menos, su valor p no es confiable."
+beca,nivel,"La frecuencia esperada más chica de la tabla es 1,73. El chi-cuadrado pide que todas las esperadas lleguen a 5; con menos, su valor p no es confiable."
+beca,nivel,La prueba exacta de Fisher para tablas de más de 2×2 no está en este proyecto: R y SciPy no la resuelven igual. Con esperadas tan chicas conviene juntar categorías o usar una prueba de permutaciones.

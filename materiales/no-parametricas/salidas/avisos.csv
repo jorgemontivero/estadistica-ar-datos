@@ -1,0 +1,7 @@
+donde,aviso
+apareadas,"Tratar estos datos como dos muestras independientes cambia la conclusión. No es una diferencia de matiz: el apareamiento es información que está en los datos, y tirarla no es una decisión conservadora, es perder el resultado."
+independientes,"Mann-Whitney rechaza y la t de Welch no. No es que una esté bien y la otra mal: miden cosas distintas. La t compara promedios y le pesan los valores extremos; Mann-Whitney compara posiciones en el orden y no los ve. Con datos muy asimétricos, la de rangos suele tener más potencia, al revés de lo que se cree."
+independientes,"Mann-Whitney rechaza, y lo que rechaza es que P(X > Y) valga un medio: acá vale 0,301. Eso NO es lo mismo que decir que las medianas difieren. Solo lo es si las dos distribuciones tienen la misma forma; si no, hay que informar P(X > Y) y no una diferencia de medianas."
+bootstrap,"En «media», el intervalo BCa se corre 22 % del ancho respecto del percentil. El percentil es el que casi todo el mundo informa, y acá está sesgado: el que corresponde es el BCa."
+bootstrap,"En «ric», el intervalo BCa se corre 21 % del ancho respecto del percentil. El percentil es el que casi todo el mundo informa, y acá está sesgado: el que corresponde es el BCa."
+bootstrap,"En «desvio», el intervalo BCa se corre 23 % del ancho respecto del percentil. El percentil es el que casi todo el mundo informa, y acá está sesgado: el que corresponde es el BCa."

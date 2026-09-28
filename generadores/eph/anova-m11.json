@@ -1,0 +1,368 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, total aglomerados urbanos",
+  "advertencia": "Sin ponderar; el diseño real es por conglomerados.",
+  "variable": "Ingreso de la ocupación principal",
+  "factor": "Nivel educativo (6 niveles)",
+  "descriptivos": [
+    {
+      "nivel": "Primario incompleto",
+      "n": 349,
+      "media": 629074.4985673352,
+      "s": 696462.7294510991,
+      "mediana": 500000.0
+    },
+    {
+      "nivel": "Primario completo",
+      "n": 1683,
+      "media": 701355.7130124777,
+      "s": 598292.3136823272,
+      "mediana": 600000.0
+    },
+    {
+      "nivel": "Secundario incompleto",
+      "n": 2399,
+      "media": 753549.8541058775,
+      "s": 848003.9854800776,
+      "mediana": 600000.0
+    },
+    {
+      "nivel": "Secundario completo",
+      "n": 5075,
+      "media": 917169.0660098522,
+      "s": 903933.7683644904,
+      "mediana": 800000.0
+    },
+    {
+      "nivel": "Superior incompleto",
+      "n": 2190,
+      "media": 981894.5433789954,
+      "s": 820499.258186698,
+      "mediana": 800000.0
+    },
+    {
+      "nivel": "Superior completo",
+      "n": 3669,
+      "media": 1428474.5290269828,
+      "s": 1317167.249593899,
+      "mediana": 1100000.0
+    }
+  ],
+  "media_general": 992759.5100553206,
+  "anova": {
+    "N": 15365,
+    "k": 6,
+    "sc_entre": 1052156236064188.8,
+    "sc_dentro": 1.4478651220171158e+16,
+    "sc_total": 1.5530807456235348e+16,
+    "gl_entre": 5,
+    "gl_dentro": 15359,
+    "cm_entre": 210431247212837.75,
+    "cm_dentro": 942681894665.7438,
+    "F": 223.22614702115658,
+    "p": 9.746806417776714e-231,
+    "eta2": 0.06774639625332335,
+    "omega2": 0.06743881515447618
+  },
+  "supuestos": {
+    "levene_p": 1.0390438072647478e-57,
+    "bartlett_p": 0.0,
+    "razon_var_max_min": 4.846798899449975,
+    "asimetria_residuos": 10.948594318943389
+  },
+  "welch": {
+    "F_clasico": 223.2261470211566,
+    "welch_F": 184.50837604582654,
+    "welch_gl1": 5,
+    "welch_gl2": 2951.3716862440674,
+    "welch_p": 2.3998026245299627e-171,
+    "alexander_govern_A": 865.4176692471575,
+    "alexander_govern_p": 8.111532653074994e-185
+  },
+  "kruskal": {
+    "H": 1768.1109455419708,
+    "p": 0.0,
+    "gl": 5
+  },
+  "tukey": [
+    {
+      "grupo_1": "Primario incompleto",
+      "grupo_2": "Primario completo",
+      "diferencia": -72281.21444514254,
+      "q": 1.7899907029870663,
+      "p": 0.8037574858283837,
+      "significativa": false
+    },
+    {
+      "grupo_1": "Primario incompleto",
+      "grupo_2": "Secundario incompleto",
+      "diferencia": -124475.35553854227,
+      "q": 3.1647197949419317,
+      "p": 0.2204508458498996,
+      "significativa": false
+    },
+    {
+      "grupo_1": "Primario incompleto",
+      "grupo_2": "Secundario completo",
+      "diferencia": -288094.56744251703,
+      "q": 7.582953277752913,
+      "p": 1.2455631058783112e-06,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Primario incompleto",
+      "grupo_2": "Superior incompleto",
+      "diferencia": -352820.0448116602,
+      "q": 8.916390614976,
+      "p": 4.465289249466764e-09,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Primario incompleto",
+      "grupo_2": "Superior completo",
+      "diferencia": -799400.0304596476,
+      "q": 20.786347262125314,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Primario completo",
+      "grupo_2": "Secundario incompleto",
+      "diferencia": -52194.141093399725,
+      "q": 2.3909739907180767,
+      "p": 0.5379698573426468,
+      "significativa": false
+    },
+    {
+      "grupo_1": "Primario completo",
+      "grupo_2": "Secundario completo",
+      "diferencia": -215813.3529973745,
+      "q": 11.175364949533488,
+      "p": 2.3381296898605797e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Primario completo",
+      "grupo_2": "Superior incompleto",
+      "diferencia": -280538.83036651765,
+      "q": 12.605665066907113,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Primario completo",
+      "grupo_2": "Superior completo",
+      "diferencia": -727118.8160145051,
+      "q": 35.97457397495055,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Secundario incompleto",
+      "grupo_2": "Secundario completo",
+      "diferencia": -163619.21190397476,
+      "q": 9.618853534773462,
+      "p": 1.8426871140064804e-10,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Secundario incompleto",
+      "grupo_2": "Superior incompleto",
+      "diferencia": -228344.68927311793,
+      "q": 11.253859344009895,
+      "p": 2.3365420709353657e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Secundario incompleto",
+      "grupo_2": "Superior completo",
+      "diferencia": -674924.6749211054,
+      "q": 37.441558220984994,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Secundario completo",
+      "grupo_2": "Superior incompleto",
+      "diferencia": -64725.47736914316,
+      "q": 3.687482334117615,
+      "p": 0.09544517849561407,
+      "significativa": false
+    },
+    {
+      "grupo_1": "Secundario completo",
+      "grupo_2": "Superior completo",
+      "diferencia": -511305.4630171306,
+      "q": 34.36763540915133,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    },
+    {
+      "grupo_1": "Superior incompleto",
+      "grupo_2": "Superior completo",
+      "diferencia": -446579.98564798746,
+      "q": 24.088837089105837,
+      "p": 2.3337221044528178e-11,
+      "significativa": true
+    }
+  ],
+  "dos_factores": {
+    "celdas": [
+      {
+        "educacion": "Hasta sec. inc.",
+        "sexo": "Varón",
+        "n": 2868,
+        "media": 860221.4086471408
+      },
+      {
+        "educacion": "Hasta sec. inc.",
+        "sexo": "Mujer",
+        "n": 1563,
+        "media": 473819.42738323734
+      },
+      {
+        "educacion": "Secundario+",
+        "sexo": "Varón",
+        "n": 5438,
+        "media": 1269379.545788893
+      },
+      {
+        "educacion": "Secundario+",
+        "sexo": "Mujer",
+        "n": 5496,
+        "media": 935802.2447234353
+      }
+    ],
+    "brecha_sin_secundario": 386401.9812639035,
+    "brecha_con_secundario": 333577.30106545775,
+    "sumas_de_cuadrados": {
+      "tipo_I_educacion_primero": {
+        "C(sec)": {
+          "sc": 450026005730405.9,
+          "gl": 1.0,
+          "F": 472.61907349446847,
+          "p": 3.086477151133486e-103
+        },
+        "C(sexo)": {
+          "sc": 453146029626401.06,
+          "gl": 1.0,
+          "F": 475.8957348078798,
+          "p": 6.27775321592076e-104
+        },
+        "Residual": {
+          "sc": 1.462763542087856e+16,
+          "gl": 15362.0,
+          "F": null,
+          "p": null
+        }
+      },
+      "tipo_I_sexo_primero": {
+        "C(sexo)": {
+          "sc": 331160576048185.75,
+          "gl": 1.0,
+          "F": 347.78613377189833,
+          "p": 9.042398733675412e-77
+        },
+        "C(sec)": {
+          "sc": 572011459308636.0,
+          "gl": 1.0,
+          "F": 600.7286745304656,
+          "p": 3.627226506290907e-130
+        },
+        "Residual": {
+          "sc": 1.462763542087856e+16,
+          "gl": 15362.0,
+          "F": null,
+          "p": null
+        }
+      },
+      "tipo_III": {
+        "Intercept": {
+          "sc": 737010770036029.9,
+          "gl": 1.0,
+          "F": 774.0115967843471,
+          "p": 3.092666523885142e-166
+        },
+        "C(sec)": {
+          "sc": 572011459308637.4,
+          "gl": 1.0,
+          "F": 600.7286745304671,
+          "p": 3.627226506287805e-130
+        },
+        "C(sexo)": {
+          "sc": 453146029626381.7,
+          "gl": 1.0,
+          "F": 475.89573480785947,
+          "p": 6.277753215983028e-104
+        },
+        "Residual": {
+          "sc": 1.462763542087856e+16,
+          "gl": 15362.0,
+          "F": null,
+          "p": null
+        }
+      }
+    },
+    "con_interaccion": {
+      "pesos": {
+        "C(sec)": {
+          "sc": 259725245954203.34,
+          "gl": 1.0,
+          "F": 272.78513849471847,
+          "p": 9.365575805243321e-61,
+          "eta2_parcial": 0.017448438498943276
+        },
+        "C(sexo)": {
+          "sc": 151048029532996.97,
+          "gl": 1.0,
+          "F": 158.64325204172965,
+          "p": 3.380544624721904e-36,
+          "eta2_parcial": 0.010222093991809953
+        },
+        "C(sec):C(sexo)": {
+          "sc": 2060416616503.9968,
+          "gl": 1.0,
+          "F": 2.164021560649391,
+          "p": 0.14129500418768615,
+          "eta2_parcial": 0.00014085780491651363
+        },
+        "Residual": {
+          "sc": 1.4625575004262056e+16,
+          "gl": 15361.0,
+          "F": null,
+          "p": null,
+          "eta2_parcial": 0.5
+        }
+      },
+      "logaritmo": {
+        "C(sec)": {
+          "sc": 602.971824316241,
+          "gl": 1.0,
+          "F": 964.6136619035282,
+          "p": 1.8754673606925675e-205,
+          "eta2_parcial": 0.05908590524560144
+        },
+        "C(sexo)": {
+          "sc": 425.4737937005649,
+          "gl": 1.0,
+          "F": 680.6583950268231,
+          "p": 7.45011577445931e-147,
+          "eta2_parcial": 0.04243067507520534
+        },
+        "C(sec):C(sexo)": {
+          "sc": 73.46866357067793,
+          "gl": 1.0,
+          "F": 117.5326503563147,
+          "p": 2.7551321991831387e-27,
+          "eta2_parcial": 0.007593268238744137
+        },
+        "Residual": {
+          "sc": 9602.030905351312,
+          "gl": 15361.0,
+          "F": null,
+          "p": null,
+          "eta2_parcial": 0.5
+        }
+      }
+    }
+  }
+}

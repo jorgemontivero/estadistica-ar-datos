@@ -1,0 +1,6 @@
+caso,ponderador,que_hace_con_el_menos_nueve,que_hace_con_el_cero,n,poblacion,media,mediana,diferencia,diferencia_relativa
+Lo correcto,PONDIIO,lo saca,lo saca,1803,1658412.000000,715067.358400,497000.000000,0.000000,0.000000
+Con los que no declaran adentro,PONDIIO,lo deja,lo saca,2392,1658412.000000,715067.358400,497000.000000,0.000000,0.000000
+Con el ponderador general,PONDERA,lo saca,lo saca,1803,1342132.000000,700544.411400,483000.000000,-14522.946980,-0.020310
+Con el ponderador general y los que no declaran adentro,PONDERA,lo deja,lo saca,2392,1663866.000000,565081.669100,373000.000000,-149985.689300,-0.209750
+Con los ocupados sin ingreso adentro,PONDIIO,lo saca,lo deja,1836,1690258.000000,701594.838200,486000.000000,-13472.520230,-0.018841

@@ -1,0 +1,2 @@
+shapiro_w,shapiro_p,residuos_normales,breusch_pagan_lm,breusch_pagan_gl,breusch_pagan_p,varianza_constante,durbin_watson,palanca_umbral,casos_palanca_alta,casos_residuo_grande,cook_maximo
+0.977048,0.013443,No,6.368543,3,0.094994,Sí,1.853116,0.053691,7,4,0.947668

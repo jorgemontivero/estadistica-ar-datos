@@ -1,0 +1,13 @@
+clave,valor
+casos,150
+pares_completos,148
+p_wilcoxon,0.000402
+p_signos,0.000194
+p_sin_aparear,0.205575
+el_apareamiento_cambia_la_conclusion,Sí
+p_mann_whitney,0.000027
+probabilidad_de_superar,0.301333
+p_t_de_welch,0.624534
+replicas,2000
+p_permutacion,0.001000
+avisos,6

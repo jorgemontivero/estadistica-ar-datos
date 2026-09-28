@@ -1,0 +1,15 @@
+clave,valor
+casos,150
+usados,148
+celdas,6
+f_un_factor,3.257442
+p_un_factor,0.041321
+eta_cuadrado,0.042998
+p_interaccion,0.000001
+interaccion_significativa,Sí
+efectos_simples_significativos,2
+comparaciones,15
+significativas_sin_corregir,9
+significativas_con_tukey,5
+pares_donde_discrepan_los_metodos,1
+avisos,3

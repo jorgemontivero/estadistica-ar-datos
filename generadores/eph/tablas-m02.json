@@ -1,0 +1,181 @@
+{
+  "fuente": "INDEC, Encuesta Permanente de Hogares, base usuario",
+  "periodo": "1º trimestre de 2026",
+  "nota": "Frecuencias expandidas con el ponderador PONDERA.",
+  "nivel_educativo": {
+    "universo": "Personas ocupadas",
+    "n": 19573,
+    "poblacion": 13471636,
+    "filas": [
+      {
+        "etiqueta": "Sin instrucción",
+        "ni": 30675,
+        "fi": 0.002,
+        "pi": 0.2
+      },
+      {
+        "etiqueta": "Primario incompleto",
+        "ni": 328302,
+        "fi": 0.024,
+        "pi": 2.4
+      },
+      {
+        "etiqueta": "Primario completo",
+        "ni": 1467428,
+        "fi": 0.109,
+        "pi": 10.9
+      },
+      {
+        "etiqueta": "Secundario incompleto",
+        "ni": 2007555,
+        "fi": 0.149,
+        "pi": 14.9
+      },
+      {
+        "etiqueta": "Secundario completo",
+        "ni": 4210831,
+        "fi": 0.313,
+        "pi": 31.3
+      },
+      {
+        "etiqueta": "Superior incompleto",
+        "ni": 2086296,
+        "fi": 0.155,
+        "pi": 15.5
+      },
+      {
+        "etiqueta": "Superior completo",
+        "ni": 3340549,
+        "fi": 0.248,
+        "pi": 24.8
+      }
+    ]
+  },
+  "personas_por_hogar": {
+    "universo": "Hogares",
+    "n": 15447,
+    "poblacion": 10207750,
+    "filas": [
+      {
+        "etiqueta": "1",
+        "ni": 2218984,
+        "fi": 0.217,
+        "pi": 21.7,
+        "Ni": 2218984,
+        "Pi": 21.7
+      },
+      {
+        "etiqueta": "2",
+        "ni": 2487862,
+        "fi": 0.244,
+        "pi": 24.4,
+        "Ni": 4706846,
+        "Pi": 46.1
+      },
+      {
+        "etiqueta": "3",
+        "ni": 2091743,
+        "fi": 0.205,
+        "pi": 20.5,
+        "Ni": 6798589,
+        "Pi": 66.6
+      },
+      {
+        "etiqueta": "4",
+        "ni": 1728992,
+        "fi": 0.169,
+        "pi": 16.9,
+        "Ni": 8527581,
+        "Pi": 83.5
+      },
+      {
+        "etiqueta": "5",
+        "ni": 971144,
+        "fi": 0.095,
+        "pi": 9.5,
+        "Ni": 9498725,
+        "Pi": 93.1
+      },
+      {
+        "etiqueta": "6",
+        "ni": 386675,
+        "fi": 0.038,
+        "pi": 3.8,
+        "Ni": 9885400,
+        "Pi": 96.8
+      },
+      {
+        "etiqueta": "7 o más",
+        "ni": 322350,
+        "fi": 0.032,
+        "pi": 3.2,
+        "Ni": 10207750,
+        "Pi": 100.0
+      }
+    ],
+    "mediana_en": "3"
+  },
+  "edades_agrupadas": {
+    "universo": "Personas ocupadas de 15 a 74 años",
+    "n": 19437,
+    "poblacion": 13359544,
+    "minimo": 15,
+    "maximo": 74,
+    "filas": [
+      {
+        "etiqueta": "[15, 25)",
+        "ni": 1368119,
+        "fi": 0.102,
+        "pi": 10.2,
+        "Ni": 1368119,
+        "Pi": 10.2,
+        "marca": 20.0
+      },
+      {
+        "etiqueta": "[25, 35)",
+        "ni": 3280131,
+        "fi": 0.246,
+        "pi": 24.6,
+        "Ni": 4648250,
+        "Pi": 34.8,
+        "marca": 30.0
+      },
+      {
+        "etiqueta": "[35, 45)",
+        "ni": 3434016,
+        "fi": 0.257,
+        "pi": 25.7,
+        "Ni": 8082266,
+        "Pi": 60.5,
+        "marca": 40.0
+      },
+      {
+        "etiqueta": "[45, 55)",
+        "ni": 3018739,
+        "fi": 0.226,
+        "pi": 22.6,
+        "Ni": 11101005,
+        "Pi": 83.1,
+        "marca": 50.0
+      },
+      {
+        "etiqueta": "[55, 65)",
+        "ni": 1734456,
+        "fi": 0.13,
+        "pi": 13.0,
+        "Ni": 12835461,
+        "Pi": 96.1,
+        "marca": 60.0
+      },
+      {
+        "etiqueta": "[65, 75)",
+        "ni": 524083,
+        "fi": 0.039,
+        "pi": 3.9,
+        "Ni": 13359544,
+        "Pi": 100.0,
+        "marca": 70.0
+      }
+    ]
+  }
+}

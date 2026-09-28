@@ -1,0 +1,12 @@
+clave,valor
+casos,150
+usados_en_el_ajuste,149
+predictores,3
+r2,0.053938
+coeficientes_significativos,1
+caso_mas_influyente,96
+cook_maximo,0.947668
+coeficientes_que_cambian_sin_el,1
+vueltas_del_irls,7
+auc,0.851175
+avisos,3

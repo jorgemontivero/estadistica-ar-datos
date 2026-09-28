@@ -1,0 +1,10 @@
+clave,valor
+archivo,datos/usu_individual_T425_simulado.txt
+separador,;
+codificacion,latin1
+ponderador,PONDERA
+ponderador_ingreso,PONDIIO
+ingreso,P21
+confianza,0.95
+region,
+aglomerado,

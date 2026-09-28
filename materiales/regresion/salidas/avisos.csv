@@ -1,0 +1,4 @@
+donde,aviso
+normalidad,Shapiro-Wilk rechaza la normalidad de los residuos. Con n grande esto casi no afecta a los coeficientes ni a sus errores estándar: el teorema central del límite se ocupa. Donde sí importa es en los intervalos de predicción para un caso individual.
+influencia,Hay 7 casos con palanca mayor que 2k/n. No es un problema en sí: significa que están lejos del centro de los predictores y que pesan más que el resto en el ajuste.
+influencia,Sacar el caso 96 cambia la conclusión de 1 coeficiente. Un resultado que depende de un solo caso entre 149 no es un resultado: es ese caso.

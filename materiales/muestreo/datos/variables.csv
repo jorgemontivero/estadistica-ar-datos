@@ -1,0 +1,8 @@
+nombre,etiqueta,tipo
+hogar,Identificador del hogar,identificador
+region,Región,categorica
+radio,Radio censal,categorica
+ingreso,Ingreso mensual del hogar,numerica
+personas,Personas en el hogar,numerica
+agua,Tiene agua de red,binaria
+tamano,Tamaño del hogar,categorica

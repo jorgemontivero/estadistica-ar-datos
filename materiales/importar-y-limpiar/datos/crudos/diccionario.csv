@@ -1,0 +1,8 @@
+nombre,tipo,minimo,maximo,codigos,faltante,id
+id,texto,,,,,Sí
+fecha,fecha,,,,,No
+grupo,categoria,,,Control;Tratamiento,,No
+edad,entero,18,99,,999,No
+ingreso,decimal,0,,,,No
+puntaje,entero,1,10,,99,No
+comentario,texto,,,,,No

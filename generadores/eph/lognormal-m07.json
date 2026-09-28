@@ -1,0 +1,122 @@
+{
+  "fuente": "INDEC, Encuesta Permanente de Hogares, base usuario",
+  "periodo": "1º trimestre de 2026",
+  "universo": "Ocupados con ingreso declarado de la ocupación principal, total de 31 aglomerados urbanos",
+  "advertencia": "Ponderado con PONDIIO, igual que el caso ingresos-eph; el diseño real es por conglomerados.",
+  "n": 15448,
+  "poblacion": 13127975,
+  "ingreso": {
+    "media": 1104227.053351031,
+    "mediana": 900000.0,
+    "desvio": 1063113.5610915022,
+    "cv": 0.962767175342462,
+    "asimetria": 5.455604156860462,
+    "curtosis": 95.48982611898882
+  },
+  "log_ingreso": {
+    "media": 13.566769610781908,
+    "desvio": 0.9003088521184204,
+    "asimetria": -0.7669013791707336,
+    "curtosis": 1.6367999401013194
+  },
+  "lognormal_ajustada": {
+    "mu": 13.566769610781908,
+    "sigma": 0.9003088521184204,
+    "media": 1169454.1101611753,
+    "mediana": 779781.9519338029,
+    "modo": 346699.4625828285,
+    "cv": 1.1176574773685357,
+    "asimetria": 4.749103475789751
+  },
+  "normal_ajustada": {
+    "media": 1104227.053351031,
+    "desvio": 1063113.5610915022,
+    "prob_bajo_cero": 0.14947848648569012,
+    "p05": -644439.1434716226
+  },
+  "cuantiles": [
+    {
+      "q": 0.05,
+      "observado": 150000.0,
+      "lognormal": 177352.28247312122,
+      "normal": -644439.1434716226
+    },
+    {
+      "q": 0.1,
+      "observado": 240000.0,
+      "lognormal": 245973.08340517525,
+      "normal": -258207.79521747888
+    },
+    {
+      "q": 0.25,
+      "observado": 500000.0,
+      "lognormal": 424862.35209237837,
+      "normal": 387167.85310035676
+    },
+    {
+      "q": 0.5,
+      "observado": 900000.0,
+      "lognormal": 779781.9519338029,
+      "normal": 1104227.053351031
+    },
+    {
+      "q": 0.75,
+      "observado": 1400000.0,
+      "lognormal": 1431192.689978519,
+      "normal": 1821286.2536017052
+    },
+    {
+      "q": 0.9,
+      "observado": 2000000.0,
+      "lognormal": 2472058.666517079,
+      "normal": 2466661.901919541
+    },
+    {
+      "q": 0.95,
+      "observado": 3000000.0,
+      "lognormal": 3428542.8080343185,
+      "normal": 2852893.2501736837
+    },
+    {
+      "q": 0.99,
+      "observado": 5014047.279073461,
+      "lognormal": 6332471.719306719,
+      "normal": 3577399.0260602348
+    }
+  ],
+  "amontonamiento": {
+    "valores": [
+      {
+        "valor": 1000000.0,
+        "casos": 1191,
+        "pct": 7.70973588814086
+      },
+      {
+        "valor": 800000.0,
+        "casos": 1068,
+        "pct": 6.9135163127913
+      },
+      {
+        "valor": 600000.0,
+        "casos": 856,
+        "pct": 5.541170378042465
+      },
+      {
+        "valor": 1200000.0,
+        "casos": 832,
+        "pct": 5.385810460901087
+      },
+      {
+        "valor": 500000.0,
+        "casos": 822,
+        "pct": 5.32107716209218
+      },
+      {
+        "valor": 1500000.0,
+        "casos": 809,
+        "pct": 5.236923873640601
+      }
+    ],
+    "pct_en_los_6_mas_repetidos": 36.10823407560849
+  }
+}

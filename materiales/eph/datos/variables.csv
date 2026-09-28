@@ -1,0 +1,22 @@
+nombre,que_es,codigos
+CODUSU,Identificador de la vivienda,texto
+NRO_HOGAR,Número de hogar dentro de la vivienda,entero
+COMPONENTE,Número de persona dentro del hogar,entero
+ANO4,Año del relevamiento,entero
+TRIMESTRE,Trimestre del relevamiento,1 a 4
+REGION,Región estadística,1 GBA / 40 Noroeste / 41 Nordeste / 42 Cuyo / 43 Pampeana / 44 Patagonia
+AGLOMERADO,Aglomerado urbano,ver aglomerados.csv
+MAS_500,El aglomerado tiene más de 500.000 habitantes,S / N
+PONDERA,Ponderador general de la persona,entero positivo
+PONDIIO,Ponderador del ingreso de la ocupación principal,entero; vale 0 para el que no declaró
+CH03,Relación con el jefe de hogar,1 jefe / 2 cónyuge / 3 hijo / 5 nieto / 9 otro
+CH04,Sexo,1 varón / 2 mujer
+CH06,Edad en años,-1 es «menos de un año»
+NIVEL_ED,Máximo nivel educativo alcanzado,1 a 7; ver 01_leer
+ESTADO,Condición de actividad,0 no realizada / 1 ocupado / 2 desocupado / 3 inactivo / 4 menor de 10
+CAT_OCUP,Categoría ocupacional,1 patrón / 2 cuenta propia / 3 obrero o empleado / 4 familiar
+PP07H,Le hacen el descuento jubilatorio,1 sí / 2 no / 0 no corresponde
+INTENSI,Intensidad de la ocupación,1 subocupado / 2 pleno / 3 sobreocupado / 4 no trabajó
+P21,Ingreso de la ocupación principal,pesos; -9 es «no responde» y 0 es «sin ingreso»
+ITF,Ingreso total familiar,pesos
+IPCF,Ingreso per cápita familiar,pesos

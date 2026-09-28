@@ -1,0 +1,139 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, total aglomerados urbanos",
+  "advertencia": "Sin ponderar; el diseño real es por conglomerados.",
+  "semilla": 2026,
+  "normalidad": {
+    "ingreso": {
+      "n_submuestra": 5000,
+      "asimetria": 10.213141587076903,
+      "curtosis": 267.2831700127527,
+      "shapiro_W": 0.4817507495912534,
+      "shapiro_p": 6.314412821908496e-81
+    },
+    "edad": {
+      "n_submuestra": 5000,
+      "asimetria": 0.25979774337880945,
+      "curtosis": -0.6195498278791107,
+      "shapiro_W": 0.9812164291359593,
+      "shapiro_p": 3.137151781673798e-25
+    },
+    "edad_rechazo_por_n": [
+      {
+        "n": 10,
+        "prop_rechaza": 0.07
+      },
+      {
+        "n": 20,
+        "prop_rechaza": 0.065
+      },
+      {
+        "n": 30,
+        "prop_rechaza": 0.145
+      },
+      {
+        "n": 50,
+        "prop_rechaza": 0.245
+      },
+      {
+        "n": 100,
+        "prop_rechaza": 0.605
+      },
+      {
+        "n": 500,
+        "prop_rechaza": 1.0
+      },
+      {
+        "n": 1000,
+        "prop_rechaza": 1.0
+      },
+      {
+        "n": 5000,
+        "prop_rechaza": 1.0
+      }
+    ]
+  },
+  "transformacion": {
+    "asimetria_original": 10.213141587076903,
+    "asimetria_log": -0.6419036541123034,
+    "curtosis_original": 267.2831700127527,
+    "curtosis_log": 1.3600313684546022,
+    "media_original": 990200.8591403418,
+    "mediana_original": 800000.0,
+    "media_geometrica": 719240.5266699608,
+    "shapiro_p_log": 9.60249754676972e-31
+  },
+  "mann_whitney": {
+    "n_varones": 8364,
+    "n_mujeres": 7084,
+    "mediana_varones": 900000.0,
+    "mediana_mujeres": 700000.0,
+    "U": 36634565.0,
+    "p": 2.38533387098773e-142,
+    "prob_superioridad": 0.6182988837104301,
+    "r_efecto": 0.20437839903747176,
+    "t_welch": 18.75973022163196,
+    "p_t": 1.2863799875368837e-77
+  },
+  "kruskal": {
+    "H": 1789.3552129081602,
+    "gl": 5,
+    "p": 0.0,
+    "epsilon2": 0.11580706210463138,
+    "F_anova": 225.80499845927497,
+    "p_anova": 2.294310493957298e-233,
+    "medianas": [
+      500000.0,
+      600000.0,
+      600000.0,
+      800000.0,
+      800000.0,
+      1100000.0
+    ]
+  },
+  "kolmogorov": {
+    "ks_ingreso_vs_normal_D": 0.20157143194673463,
+    "ks_ingreso_vs_normal_p": 1.4546941330623548e-178,
+    "ks_dos_muestras_D": 0.18194854342006733,
+    "ks_dos_muestras_p": 2.144175852025175e-111
+  },
+  "bootstrap": {
+    "B": 10000,
+    "media": {
+      "observado": 990200.8591403418,
+      "ee_bootstrap": 8079.495159193603,
+      "ic95_percentil": [
+        974552.9964445236,
+        1005980.3480660927
+      ],
+      "valores_distintos": 10000
+    },
+    "cv": {
+      "observado": 1.0137552192406094,
+      "ee_bootstrap": 0.060778449250463704,
+      "ic95_percentil": [
+        0.9025870594570594,
+        1.138935978706015
+      ],
+      "valores_distintos": 10000
+    },
+    "mediana": {
+      "observado": 800000.0,
+      "ee_bootstrap": 0.0,
+      "ic95_percentil": [
+        800000.0,
+        800000.0
+      ],
+      "valores_distintos": 1
+    },
+    "ee_media_formula": 8076.44558902895,
+    "frecuencia_del_valor_mediano": 1068,
+    "prop_en_5_valores_mas_frecuentes": 0.30871310201967894
+  },
+  "permutacion": {
+    "P": 10000,
+    "diferencia_observada": 291750.30378020287,
+    "p": 9.999000099990002e-05,
+    "max_dif_permutada": 63669.983983143,
+    "p_t_welch": 1.2863799875368837e-77
+  }
+}

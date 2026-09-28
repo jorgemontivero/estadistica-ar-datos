@@ -1,0 +1,11 @@
+donde,aviso
+componentes,"Sin tipificar, el primer componente explica el 100,0 % de la varianza y su correlación con «poblacion» es de 1,000. No es un resumen de las variables: es esa variable con otro nombre, porque su unidad de medida es la más grande de la tabla."
+conglomerados,"La silueta de los datos de verdad es 0,264 y ninguno de los 23 desordenados la alcanza: el mejor llega a 0,228. Hay estructura. Eso no dice que los grupos sean los correctos ni que sean cuatro: dice que no son un invento del método."
+conglomerados,"Cambiar de enlace cambia los grupos. Entre «ward» y «simple» el índice de Rand ajustado es 0,209. Los cuatro árboles salen de la misma matriz de distancias: lo único que cambia es cómo se mide la distancia entre dos grupos ya armados."
+conglomerados,"El enlace simple deja 21 de las 24 unidades en un solo grupo y el resto casi sueltas. Es lo que hace: encadena. No está roto, está haciendo lo que la fórmula dice, y por eso casi nunca se usa para armar tipologías."
+conglomerados,"Hay 4 unidad(es) con silueta negativa: están más cerca del grupo de al lado que del propio. Un dendrograma no las muestra, y en un mapa de los dos primeros componentes tampoco se ven."
+correspondencias,"Los 2 ejes que se grafican se llevan el 95,8 % de la inercia. El resto está en las otras 2 dimensiones, que el mapa no muestra."
+correspondencias,"El χ² da 1.478.333 y el p es diminuto, pero eso no dice nada: el χ² crece con el total de casos y acá hay 26.711.969. Lo que mide la fuerza de la asociación es la inercia, que es 0,0553; puesta en escala de cero a uno —la V de Cramér— da 0,118. La asociación existe y es débil. El mapa muestra su forma, no su tamaño."
+correspondencias,"Hay 7 punto(s) con menos de la mitad de su inercia representada en los ejes que se grafican —«Catamarca», «Jujuy», «La Pampa», «La Rioja»—. Están en el mapa, se ven igual que los demás, y su posición es una sombra: están lejos en una dirección que no se está mirando."
+correspondencias,"El eje 1 lo construye casi solo «Ciudad de Buenos Aires», que aporta el 79,8 % de su inercia. Un eje definido por un punto describe a ese punto, no a la tabla."
+correspondencias,"El eje 2 lo construye casi solo «Hasta 6 años», que aporta el 65,6 % de su inercia. Un eje definido por un punto describe a ese punto, no a la tabla."

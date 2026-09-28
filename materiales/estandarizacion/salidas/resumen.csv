@@ -1,0 +1,24 @@
+clave,valor
+poblaciones,24
+grupos_de_edad,16
+estandar,oms
+estandares_disponibles,3
+casos,394940
+expuestos,45618787
+tasa_cruda_del_conjunto,865.739810
+mas_alta_ajustada,Chaco
+mas_alta_ajustada_valor,844.063139
+mas_baja_ajustada,Tierra del Fuego
+mas_baja_ajustada_valor,496.215960
+mayor_vuelco,Ciudad de Buenos Aires
+mayor_vuelco_rango_crudo,1
+mayor_vuelco_rango_estandarizado,23
+mayor_vuelco_cruda,1076.352613
+mayor_vuelco_estandarizada,496.351163
+pares_que_se_dan_vuelta_por_el_estandar,32
+de_esos_con_intervalos_pisados_con_los_dos,29
+mayor_razon_entre_niveles,2.341568
+referencia_de_la_indirecta,el total de las poblaciones
+razones_que_no_contienen_al_uno,19
+pares_comparados,3
+avisos,9

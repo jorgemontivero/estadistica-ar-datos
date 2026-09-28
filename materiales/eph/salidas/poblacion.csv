@@ -1,0 +1,6 @@
+condicion,codigo,n,poblacion,porcentaje
+Ocupado,1,2425,1690233.000000,0.450237
+Desocupado,2,203,136167.000000,0.036272
+Inactivo,3,2288,1514715.000000,0.403484
+Menor de 10 años,4,584,409993.000000,0.109212
+Entrevista individual no realizada,0,7,2986.000000,0.000795

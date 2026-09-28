@@ -1,0 +1,5 @@
+prueba,n,estadistico,z,p,significativa,desplazamiento,detalle
+Wilcoxon de rangos con signo,148,3664.000000,-3.538600,0.000402,Sí,1.650000,0 pares sin cambio
+Prueba de los signos,148,97,,0.000194,Sí,,97 suben y 51 bajan
+"Mann-Whitney, tirando el apareamiento",148,,,0.205575,No,,No corresponde: está para comparar
+"t de Welch, tirando el apareamiento",148,,,0.220120,No,,No corresponde: está para comparar

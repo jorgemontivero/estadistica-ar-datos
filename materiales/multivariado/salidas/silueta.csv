@@ -1,0 +1,5 @@
+enlace,grupos,mayor,menor,silueta,negativas,acuerdo_con_el_elegido
+simple,4,21,1,0.266333,0,0.208995
+completo,4,13,1,0.291704,1,0.368948
+promedio,4,21,1,0.266333,0,0.208995
+ward,4,14,1,0.264181,4,1.000000

@@ -1,0 +1,162 @@
+{
+  "periodo": "1º trimestre de 2026",
+  "periodo_corto": "1T 2026",
+  "fuente": "INDEC, Encuesta Permanente de Hogares, base usuario",
+  "codificacion": {
+    "n_filas": 43739,
+    "p21_sin_vacios": true,
+    "p21_valores_negativos": [
+      -9
+    ],
+    "por_estado": [
+      {
+        "estado": 0,
+        "etiqueta": "Entrevista no realizada",
+        "n": 86,
+        "p21_cero": 86,
+        "p21_menos9": 0,
+        "p21_positivo": 0
+      },
+      {
+        "estado": 1,
+        "etiqueta": "Ocupado",
+        "n": 19573,
+        "p21_cero": 399,
+        "p21_menos9": 3726,
+        "p21_positivo": 15448
+      },
+      {
+        "estado": 2,
+        "etiqueta": "Desocupado",
+        "n": 1423,
+        "p21_cero": 1423,
+        "p21_menos9": 0,
+        "p21_positivo": 0
+      },
+      {
+        "estado": 3,
+        "etiqueta": "Inactivo",
+        "n": 17983,
+        "p21_cero": 17983,
+        "p21_menos9": 0,
+        "p21_positivo": 0
+      },
+      {
+        "estado": 4,
+        "etiqueta": "Menor de 10 años",
+        "n": 4674,
+        "p21_cero": 4674,
+        "p21_menos9": 0,
+        "p21_positivo": 0
+      }
+    ],
+    "estado_4_son_menores_de_10": true,
+    "ch06_negativos": {
+      "valores": [
+        -1
+      ],
+      "n": 286
+    },
+    "promedios": {
+      "toda_la_columna": 349724.2583963968,
+      "descartando_los_menos9": 382291.3271186864,
+      "correcto_ocupados_con_ingreso": 990200.8591403418
+    }
+  },
+  "no_respuesta": {
+    "ocupados": 19573,
+    "no_respondieron": 3726,
+    "pct_no_respuesta": 19.036427732079908,
+    "pondiio_de_los_que_no_responden_es_cero": true,
+    "poblacion": {
+      "pondera_todos_los_ocupados": 13471636,
+      "pondiio_todos_los_ocupados": 13471663,
+      "pondiio_de_los_que_responden": 13127975,
+      "pondera_de_los_que_responden": 9786920
+    },
+    "perfil": {
+      "no_respondieron": {
+        "n": 3726,
+        "edad_media": 42.29575952764358,
+        "pct_mujeres": 42.53891572732152,
+        "pct_superior": 38.70101986044015,
+        "pct_hasta_primario": 12.936124530327428,
+        "pct_asalariados": 63.875469672571114,
+        "pct_patrones": 6.494900697799248,
+        "pct_cuenta_propia": 29.629629629629626
+      },
+      "respondieron": {
+        "n": 15448,
+        "edad_media": 41.594381149663384,
+        "pct_mujeres": 45.85706887622993,
+        "pct_superior": 37.92723977213879,
+        "pct_hasta_primario": 13.173226307612637,
+        "pct_asalariados": 73.40756084930088,
+        "pct_patrones": 3.1784049715173484,
+        "pct_cuenta_propia": 23.414034179181773
+      }
+    },
+    "no_respuesta_por_nivel_educativo": [
+      {
+        "nivel": 1,
+        "pct": 20.92511013215859,
+        "n": 454
+      },
+      {
+        "nivel": 2,
+        "pct": 18.341232227488153,
+        "n": 2110
+      },
+      {
+        "nivel": 3,
+        "pct": 16.11831173147225,
+        "n": 3009
+      },
+      {
+        "nivel": 4,
+        "pct": 20.135363790186126,
+        "n": 6501
+      },
+      {
+        "nivel": 5,
+        "pct": 16.952242070725482,
+        "n": 2743
+      },
+      {
+        "nivel": 6,
+        "pct": 20.72989603225122,
+        "n": 4713
+      }
+    ]
+  },
+  "universo": "Ocupados con ingreso declarado de la ocupación principal, total de 31 aglomerados urbanos",
+  "n": 15448,
+  "poblacion": 13127975,
+  "media": 1104227,
+  "mediana": 900000,
+  "q1": 500000,
+  "q3": 1400000,
+  "ric": 900000,
+  "desvio": 1063114,
+  "cv": 0.963,
+  "asimetria": 5.46,
+  "minimo": 5000.0,
+  "maximo": 40000000.0,
+  "razon_media_mediana": 1.227,
+  "pct_bajo_la_media": 65.5,
+  "limite_superior": 2750000,
+  "pct_atipicos": 5.5,
+  "masa_decil_10": 36.8,
+  "pct_fuera_del_grafico": 3.4,
+  "deciles": {
+    "D1": 240000,
+    "D2": 400000,
+    "D3": 600000,
+    "D4": 750000,
+    "D5": 900000,
+    "D6": 1000000,
+    "D7": 1200000,
+    "D8": 1500000,
+    "D9": 2000000
+  }
+}

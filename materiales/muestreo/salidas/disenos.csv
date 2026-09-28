@@ -1,0 +1,6 @@
+diseno,n,unidades_primarias,suma_de_pesos,peso_minimo,peso_maximo,sin_reemplazo
+aleatorio simple,320,320,4000.000000,12.500000,12.500000,Sí
+sistemático,320,320,4000.000000,12.500000,12.500000,Sí
+estratificado proporcional,320,320,4000.000000,12.500000,12.500000,Sí
+estratificado de Neyman,320,320,4000.000000,11.111111,15.517241,Sí
+bietápico,320,32,4000.000000,7.500000,20.000000,Sí

@@ -1,0 +1,5 @@
+termino,con_el_caso,p_con,sin_el_caso,p_sin,cambio_relativo,cambia_la_conclusion,cambia_de_signo
+(ordenada),2.056938,0.000100,1.961014,0.000190,-0.046634,No,No
+horas,0.064800,0.010703,0.069109,0.006304,0.066508,No,No
+gasto,0.000002,0.201371,0.000006,0.024031,1.496884,Sí,No
+edad,0.002352,0.804682,-0.000022,0.998190,-1.009163,No,Sí

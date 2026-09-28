@@ -1,0 +1,2 @@
+corte,verdaderos_positivos,falsos_positivos,verdaderos_negativos,falsos_negativos,sensibilidad,especificidad,exactitud,exactitud_trivial,auc
+0.500000,59,18,52,20,0.746835,0.742857,0.744966,0.530201,0.851175

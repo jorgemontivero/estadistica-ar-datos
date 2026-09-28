@@ -1,0 +1,4 @@
+cuando,n,suma,poblacion,diferencia_con_la_poblacion,minimo,maximo,media,coeficiente_de_variacion,razon_maximo_minimo,deff_de_kish,n_efectivo_de_kish
+pesos de diseño,320,4000.000000,4000,0.000000,7.500000,20.000000,12.500000,0.367999,2.666667,1.135423,281.833241
+ajustados por no respuesta,276,4000.000000,4000,0.000000,7.500000,33.333333,14.492754,0.372377,4.444444,1.138664,242.389236
+post-estratificados,276,4000.000000,4000,0.000000,6.940190,36.761615,14.492754,0.384129,5.296917,1.147555,240.511338

@@ -1,0 +1,93 @@
+enlace,paso,unidad_a,unidad_b,altura,tamano
+simple,1,Córdoba,Santa Fe,0.559116,2
+simple,2,Chubut,Río Negro,0.669189,2
+simple,3,Chubut,Entre Ríos,0.881300,3
+simple,4,Chubut,Neuquén,0.948931,4
+simple,5,Chubut,Córdoba,1.093911,6
+simple,6,San Juan,Tucumán,1.164765,2
+simple,7,Chubut,La Rioja,1.190075,7
+simple,8,Mendoza,San Luis,1.204518,2
+simple,9,Chubut,Santa Cruz,1.281813,8
+simple,10,Mendoza,San Juan,1.336420,4
+simple,11,Corrientes,Jujuy,1.523457,2
+simple,12,Catamarca,Chubut,1.559954,9
+simple,13,Chaco,Formosa,1.689699,2
+simple,14,Corrientes,Mendoza,1.712400,6
+simple,15,Corrientes,Salta,1.774274,7
+simple,16,Catamarca,Corrientes,1.817873,16
+simple,17,Catamarca,Chaco,1.854344,18
+simple,18,Catamarca,Misiones,1.891659,19
+simple,19,Catamarca,Santiago del Estero,2.103830,20
+simple,20,Catamarca,La Pampa,2.382824,21
+simple,21,Catamarca,Tierra del Fuego,3.315772,22
+simple,22,Buenos Aires,Catamarca,4.187125,23
+simple,23,Buenos Aires,Ciudad de Buenos Aires,4.253848,24
+completo,1,Córdoba,Santa Fe,0.559116,2
+completo,2,Chubut,Río Negro,0.669189,2
+completo,3,Chubut,Neuquén,1.093517,3
+completo,4,San Juan,Tucumán,1.164765,2
+completo,5,Mendoza,San Luis,1.204518,2
+completo,6,Córdoba,Entre Ríos,1.454148,3
+completo,7,Corrientes,Jujuy,1.523457,2
+completo,8,Catamarca,La Rioja,1.559954,2
+completo,9,Chaco,Formosa,1.689699,2
+completo,10,Chubut,Santa Cruz,1.834375,4
+completo,11,Corrientes,San Juan,1.984763,4
+completo,12,Córdoba,Mendoza,2.292857,5
+completo,13,Chaco,Santiago del Estero,2.360825,3
+completo,14,Catamarca,Misiones,2.523308,3
+completo,15,Chaco,Salta,2.532466,4
+completo,16,Catamarca,Chubut,2.997398,7
+completo,17,Chaco,Corrientes,3.547404,8
+completo,18,Catamarca,Córdoba,3.914513,12
+completo,19,Catamarca,La Pampa,4.188763,13
+completo,20,Chaco,Tierra del Fuego,5.595356,9
+completo,21,Buenos Aires,Catamarca,5.987126,14
+completo,22,Buenos Aires,Chaco,7.130530,23
+completo,23,Buenos Aires,Ciudad de Buenos Aires,8.909628,24
+promedio,1,Córdoba,Santa Fe,0.559116,2
+promedio,2,Chubut,Río Negro,0.669189,2
+promedio,3,Chubut,Neuquén,1.021224,3
+promedio,4,San Juan,Tucumán,1.164765,2
+promedio,5,Mendoza,San Luis,1.204518,2
+promedio,6,Chubut,Entre Ríos,1.261074,4
+promedio,7,Corrientes,Jujuy,1.523457,2
+promedio,8,Catamarca,La Rioja,1.559954,2
+promedio,9,Chubut,Córdoba,1.561111,6
+promedio,10,Chaco,Formosa,1.689699,2
+promedio,11,Corrientes,San Juan,1.816498,4
+promedio,12,Chubut,Santa Cruz,2.021701,7
+promedio,13,Chaco,Santiago del Estero,2.232327,3
+promedio,14,Chubut,Mendoza,2.299766,9
+promedio,15,Catamarca,Chubut,2.316707,11
+promedio,16,Chaco,Salta,2.388466,4
+promedio,17,Chaco,Corrientes,2.665855,8
+promedio,18,Catamarca,Misiones,3.121734,12
+promedio,19,Catamarca,La Pampa,3.235614,13
+promedio,20,Catamarca,Chaco,3.801241,21
+promedio,21,Catamarca,Tierra del Fuego,4.549742,22
+promedio,22,Buenos Aires,Catamarca,5.520082,23
+promedio,23,Buenos Aires,Ciudad de Buenos Aires,6.550217,24
+ward,1,Córdoba,Santa Fe,0.559116,2
+ward,2,Chubut,Río Negro,0.669189,2
+ward,3,Chubut,Neuquén,1.117241,3
+ward,4,San Juan,Tucumán,1.164765,2
+ward,5,Mendoza,San Luis,1.204518,2
+ward,6,Córdoba,Entre Ríos,1.450260,3
+ward,7,Corrientes,Jujuy,1.523457,2
+ward,8,Catamarca,La Rioja,1.559954,2
+ward,9,Chaco,Formosa,1.689699,2
+ward,10,Chubut,Santa Cruz,1.746142,4
+ward,11,Corrientes,San Juan,2.186790,4
+ward,12,Salta,Santiago del Estero,2.384314,2
+ward,13,Chaco,Salta,2.542560,4
+ward,14,Catamarca,Misiones,2.651891,3
+ward,15,Chubut,Córdoba,2.914637,7
+ward,16,Chubut,La Pampa,3.256900,8
+ward,17,Corrientes,Mendoza,3.393669,6
+ward,18,Catamarca,Corrientes,4.462015,9
+ward,19,Catamarca,Tierra del Fuego,5.165920,10
+ward,20,Catamarca,Chaco,6.038186,14
+ward,21,Buenos Aires,Chubut,6.530227,9
+ward,22,Buenos Aires,Ciudad de Buenos Aires,6.682809,10
+ward,23,Buenos Aires,Catamarca,11.201725,24

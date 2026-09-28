@@ -1,0 +1,4 @@
+donde,aviso
+interacción,"La interacción nivel × grupo es significativa. Los efectos principales son promedios de efectos que no son iguales entre sí, así que no describen a nadie: lo que hay que interpretar son los efectos simples. Ojo con grupo: el efecto principal no da significativo, y eso NO significa que no pase nada."
+post hoc,"En 1 de las 15 comparaciones los cuatro métodos no coinciden (Primario / Control vs Secundario / Tratamiento). Ahí la conclusión la decide la corrección elegida y no los datos: hay que declarar cuál se usó y por qué, y la respuesta honesta es que está en el borde."
+post hoc,"Sin corregir darían 9 pares significativos y con Tukey quedan 5. Esa diferencia es el precio de haber hecho 15 comparaciones, y no es opcional: sin pagarlo, la probabilidad de encontrar al menos un falso positivo no es 5 % sino mucho más."

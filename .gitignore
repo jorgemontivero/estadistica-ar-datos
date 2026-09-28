@@ -1,0 +1,19 @@
+# Los microdatos no se versionan: cada fuente se baja de su organismo.
+# Ver FUENTES.md.
+datos-fuente/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

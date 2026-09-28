@@ -1,0 +1,8 @@
+donde,aviso
+no respuesta,"Contestaron 276 de 320 hogares. Sin ajustar, los pesos sumarían 3479 y no 4000: la encuesta estaría representando menos población de la que hay. El ajuste reparte el peso de los que faltan entre sus vecinos del mismo conglomerado, y eso supone que se parecen. Es un supuesto, no un dato."
+ponderadores,"El peso más grande es más de cinco veces el más chico. Con pesos así de desparejos unos pocos casos mandan sobre la estimación: conviene mirar si vale la pena recortarlos, aunque recortar introduce sesgo."
+calibración,"La post-estratificación movió los pesos hasta un 10,3 %. Eso es lo que la muestra se había desviado de los totales conocidos, y es la parte del sesgo de no respuesta que la calibración sí puede corregir."
+estimación,"Hay estimaciones con un efecto de diseño mayor que 2: la muestra vale menos de la mitad de lo que su tamaño sugiere. Con conglomerados eso es lo esperable, y es el precio de no tener que recorrer la provincia entera."
+estimación,"El error estándar del sistemático está calculado como si fuera un aleatorio simple, porque para una muestra sistemática **no existe** un estimador insesgado de la varianza con una sola muestra. Es la convención habitual y suele ser conservadora, pero es una convención, no un cálculo."
+cobertura,"Sobre 500 muestras, el intervalo que ignora el diseño cubrió el valor verdadero el 61,0 % de las veces en vez del 95 % que promete. No es mala suerte de una muestra: es la fórmula."
+estimación,Hay 4 estratos con menos de diez conglomerados en la muestra. El error estándar de esas estimaciones está calculado con muy pocos grados de libertad y es poco confiable: una muestra que alcanza para el total puede no alcanzar para ninguna de sus partes.

@@ -1,0 +1,76 @@
+a,b,metodo,diferencia,error_estandar,estadistico,p_sin_corregir,p,inferior,superior,significativa,cambia_entre_correcciones
+Primario / Control,Primario / Tratamiento,sin corregir,-11.973292,3.236285,-3.699703,0.000308,0.000308,-18.370815,-5.575769,Sí,No
+Primario / Control,Primario / Tratamiento,tukey,-11.973292,3.236285,5.232170,0.000308,0.004096,-21.322989,-2.623595,Sí,No
+Primario / Control,Primario / Tratamiento,bonferroni,-11.973292,3.236285,-3.699703,0.000308,0.004618,-21.635782,-2.310802,Sí,No
+Primario / Control,Primario / Tratamiento,holm,-11.973292,3.236285,-3.699703,0.000308,0.003904,-21.635782,-2.310802,Sí,No
+Primario / Control,Primario / Tratamiento,scheffe,-11.973292,3.236285,2.737560,0.000308,0.021540,-22.895317,-1.051267,Sí,No
+Primario / Control,Secundario / Control,sin corregir,-5.834435,2.758421,-2.115136,0.036165,0.036165,-11.287311,-0.381559,Sí,No
+Primario / Control,Secundario / Control,tukey,-5.834435,2.758421,2.991254,0.036165,0.285493,-13.803572,2.134703,No,No
+Primario / Control,Secundario / Control,bonferroni,-5.834435,2.758421,-2.115136,0.036165,0.542468,-14.070179,2.401309,No,No
+Primario / Control,Secundario / Control,holm,-5.834435,2.758421,-2.115136,0.036165,0.284785,-14.070179,2.401309,No,No
+Primario / Control,Secundario / Control,scheffe,-5.834435,2.758421,0.894760,0.036165,0.486467,-15.143733,3.474863,No,No
+Primario / Control,Secundario / Tratamiento,sin corregir,-8.226268,2.785821,-2.952906,0.003685,0.003685,-13.733309,-2.719227,Sí,Sí
+Primario / Control,Secundario / Tratamiento,tukey,-8.226268,2.785821,4.176040,0.003685,0.042016,-16.274565,-0.177971,Sí,Sí
+Primario / Control,Secundario / Tratamiento,bonferroni,-8.226268,2.785821,-2.952906,0.003685,0.055276,-16.543820,0.091284,No,Sí
+Primario / Control,Secundario / Tratamiento,holm,-8.226268,2.785821,-2.952906,0.003685,0.040536,-16.543820,0.091284,Sí,Sí
+Primario / Control,Secundario / Tratamiento,scheffe,-8.226268,2.785821,1.743931,0.003685,0.128370,-17.628038,1.175502,No,Sí
+Primario / Control,Superior / Control,sin corregir,-15.656361,2.709025,-5.779334,0.000000,0.000000,-21.011591,-10.301130,Sí,No
+Primario / Control,Superior / Control,tukey,-15.656361,2.709025,8.173213,0.000000,0.000001,-23.482793,-7.829929,Sí,No
+Primario / Control,Superior / Control,bonferroni,-15.656361,2.709025,-5.779334,0.000000,0.000001,-23.744625,-7.568096,Sí,No
+Primario / Control,Superior / Control,holm,-15.656361,2.709025,-5.779334,0.000000,0.000001,-23.744625,-7.568096,Sí,No
+Primario / Control,Superior / Control,scheffe,-15.656361,2.709025,6.680141,0.000000,0.000013,-24.798955,-6.513766,Sí,No
+Primario / Control,Superior / Tratamiento,sin corregir,-5.561863,2.562653,-2.170353,0.031643,0.031643,-10.627745,-0.495982,Sí,No
+Primario / Control,Superior / Tratamiento,tukey,-5.561863,2.562653,3.069343,0.031643,0.258230,-12.965425,1.841698,No,No
+Primario / Control,Superior / Tratamiento,bonferroni,-5.561863,2.562653,-2.170353,0.031643,0.474641,-13.213110,2.089383,No,No
+Primario / Control,Superior / Tratamiento,holm,-5.561863,2.562653,-2.170353,0.031643,0.284785,-13.213110,2.089383,No,No
+Primario / Control,Superior / Tratamiento,scheffe,-5.561863,2.562653,0.942087,0.031643,0.455828,-14.210473,3.086746,No,No
+Primario / Tratamiento,Secundario / Control,sin corregir,6.138857,3.186927,1.926262,0.056070,0.056070,-0.161095,12.438809,No,No
+Primario / Tratamiento,Secundario / Control,tukey,6.138857,3.186927,2.724146,0.056070,0.390571,-3.068244,15.345958,No,No
+Primario / Tratamiento,Secundario / Control,bonferroni,6.138857,3.186927,1.926262,0.056070,0.841043,-3.376266,15.653980,No,No
+Primario / Tratamiento,Secundario / Control,holm,6.138857,3.186927,1.926262,0.056070,0.336417,-3.376266,15.653980,No,No
+Primario / Tratamiento,Secundario / Control,scheffe,6.138857,3.186927,0.742097,0.056070,0.593172,-4.616591,16.894306,No,No
+Primario / Tratamiento,Secundario / Tratamiento,sin corregir,3.747024,3.210672,1.167053,0.245145,0.245145,-2.599868,10.093916,No,No
+Primario / Tratamiento,Secundario / Tratamiento,tukey,3.747024,3.210672,1.650462,0.245145,0.851706,-5.528678,13.022726,No,No
+Primario / Tratamiento,Secundario / Tratamiento,bonferroni,3.747024,3.210672,1.167053,0.245145,1.000000,-5.838995,13.333043,No,No
+Primario / Tratamiento,Secundario / Tratamiento,holm,3.747024,3.210672,1.167053,0.245145,1.000000,-5.838995,13.333043,No,No
+Primario / Tratamiento,Secundario / Tratamiento,scheffe,3.747024,3.210672,0.272402,0.245145,0.927591,-7.088562,14.582610,No,No
+Primario / Tratamiento,Superior / Control,sin corregir,-3.683069,3.144270,-1.171359,0.243416,0.243416,-9.898696,2.532559,No,No
+Primario / Tratamiento,Superior / Control,tukey,-3.683069,3.144270,1.656552,0.243416,0.849729,-12.766933,5.400796,No,No
+Primario / Tratamiento,Superior / Control,bonferroni,-3.683069,3.144270,-1.171359,0.243416,1.000000,-13.070833,5.704695,No,No
+Primario / Tratamiento,Superior / Control,holm,-3.683069,3.144270,-1.171359,0.243416,1.000000,-13.070833,5.704695,No,No
+Primario / Tratamiento,Superior / Control,scheffe,-3.683069,3.144270,0.274416,0.243416,0.926505,-14.294556,6.928419,No,No
+Primario / Tratamiento,Superior / Tratamiento,sin corregir,6.411429,3.019074,2.123641,0.035434,0.035434,0.443289,12.379568,Sí,No
+Primario / Tratamiento,Superior / Tratamiento,tukey,6.411429,3.019074,3.003281,0.035434,0.281185,-2.310743,15.133600,No,No
+Primario / Tratamiento,Superior / Tratamiento,bonferroni,6.411429,3.019074,2.123641,0.035434,0.531506,-2.602542,15.425399,No,No
+Primario / Tratamiento,Superior / Tratamiento,holm,6.411429,3.019074,2.123641,0.035434,0.284785,-2.602542,15.425399,No,No
+Primario / Tratamiento,Superior / Tratamiento,scheffe,6.411429,3.019074,0.901970,0.035434,0.481718,-3.777541,16.600398,No,No
+Secundario / Control,Secundario / Tratamiento,sin corregir,-2.391833,2.728326,-0.876667,0.382148,0.382148,-7.785218,3.001551,No,No
+Secundario / Control,Secundario / Tratamiento,tukey,-2.391833,2.728326,1.239794,0.382148,0.951509,-10.274026,5.490359,No,No
+Secundario / Control,Secundario / Tratamiento,bonferroni,-2.391833,2.728326,-0.876667,0.382148,1.000000,-10.537723,5.754057,No,No
+Secundario / Control,Secundario / Tratamiento,holm,-2.391833,2.728326,-0.876667,0.382148,1.000000,-10.537723,5.754057,No,No
+Secundario / Control,Secundario / Tratamiento,scheffe,-2.391833,2.728326,0.153709,0.382148,0.978629,-11.599565,6.815898,No,No
+Secundario / Control,Superior / Control,sin corregir,-9.821926,2.649864,-3.706577,0.000300,0.000300,-15.060206,-4.583646,Sí,No
+Secundario / Control,Superior / Control,tukey,-9.821926,2.649864,5.241892,0.000300,0.004000,-17.477441,-2.166411,Sí,No
+Secundario / Control,Superior / Control,bonferroni,-9.821926,2.649864,-3.706577,0.000300,0.004505,-17.733555,-1.910297,Sí,No
+Secundario / Control,Superior / Control,holm,-9.821926,2.649864,-3.706577,0.000300,0.003904,-17.733555,-1.910297,Sí,No
+Secundario / Control,Superior / Control,scheffe,-9.821926,2.649864,2.747743,0.000300,0.021137,-18.764860,-0.878992,Sí,No
+Secundario / Control,Superior / Tratamiento,sin corregir,0.272571,2.500031,0.109027,0.913335,0.913335,-4.669517,5.214660,No,No
+Secundario / Control,Superior / Tratamiento,tukey,0.272571,2.500031,0.154188,0.913335,0.999998,-6.950073,7.495216,No,No
+Secundario / Control,Superior / Tratamiento,bonferroni,0.272571,2.500031,0.109027,0.913335,1.000000,-7.191705,7.736848,No,No
+Secundario / Control,Superior / Tratamiento,holm,0.272571,2.500031,0.109027,0.913335,1.000000,-7.191705,7.736848,No,No
+Secundario / Control,Superior / Tratamiento,scheffe,0.272571,2.500031,0.002377,0.913335,0.999999,-8.164697,8.709839,No,No
+Secundario / Tratamiento,Superior / Control,sin corregir,-7.430093,2.678375,-2.774105,0.006280,0.006280,-12.724734,-2.135451,Sí,No
+Secundario / Tratamiento,Superior / Control,tukey,-7.430093,2.678375,3.923176,0.006280,0.067632,-15.167976,0.307791,No,No
+Secundario / Tratamiento,Superior / Control,bonferroni,-7.430093,2.678375,-2.774105,0.006280,0.094201,-15.426846,0.566661,No,No
+Secundario / Tratamiento,Superior / Control,holm,-7.430093,2.678375,-2.774105,0.006280,0.062800,-15.426846,0.566661,No,No
+Secundario / Tratamiento,Superior / Control,scheffe,-7.430093,2.678375,1.539131,0.006280,0.181400,-16.469248,1.609062,No,No
+Secundario / Tratamiento,Superior / Tratamiento,sin corregir,2.664405,2.530231,1.053028,0.294117,0.294117,-2.337384,7.666193,No,No
+Secundario / Tratamiento,Superior / Tratamiento,tukey,2.664405,2.530231,1.489207,0.294117,0.898847,-4.645488,9.974297,No,No
+Secundario / Tratamiento,Superior / Tratamiento,bonferroni,2.664405,2.530231,1.053028,0.294117,1.000000,-4.890039,10.218849,No,No
+Secundario / Tratamiento,Superior / Tratamiento,holm,2.664405,2.530231,1.053028,0.294117,1.000000,-4.890039,10.218849,No,No
+Secundario / Tratamiento,Superior / Tratamiento,scheffe,2.664405,2.530231,0.221774,0.294117,0.952662,-5.874784,11.203593,No,No
+Superior / Control,Superior / Tratamiento,sin corregir,10.094497,2.445422,4.127917,0.000062,0.000062,5.260361,14.928634,Sí,No
+Superior / Control,Superior / Tratamiento,tukey,10.094497,2.445422,5.837756,0.000062,0.000867,3.029621,17.159374,Sí,No
+Superior / Control,Superior / Tratamiento,bonferroni,10.094497,2.445422,4.127917,0.000062,0.000932,2.793267,17.395728,Sí,No
+Superior / Control,Superior / Tratamiento,holm,10.094497,2.445422,4.127917,0.000062,0.000870,2.793267,17.395728,Sí,No
+Superior / Control,Superior / Tratamiento,scheffe,10.094497,2.445422,3.407940,0.000062,0.006139,1.841529,18.347466,Sí,No

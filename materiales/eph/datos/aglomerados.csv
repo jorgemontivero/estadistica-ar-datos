@@ -1,0 +1,33 @@
+codigo,aglomerado,region,nombre_region,mas_500
+2,Gran La Plata,43,Pampeana,S
+3,Bahía Blanca - Cerri,43,Pampeana,N
+4,Gran Rosario,43,Pampeana,S
+5,Gran Santa Fe,43,Pampeana,S
+6,Gran Paraná,43,Pampeana,N
+7,Posadas,41,Nordeste,N
+8,Gran Resistencia,41,Nordeste,N
+9,Comodoro Rivadavia - Rada Tilly,44,Patagonia,N
+10,Gran Mendoza,42,Cuyo,S
+12,Corrientes,41,Nordeste,N
+13,Gran Córdoba,43,Pampeana,S
+14,Concordia,43,Pampeana,N
+15,Formosa,41,Nordeste,N
+17,Neuquén - Plottier,44,Patagonia,N
+18,Santiago del Estero - La Banda,40,Noroeste,N
+19,Jujuy - Palpalá,40,Noroeste,N
+20,Río Gallegos,44,Patagonia,N
+22,Gran Catamarca,40,Noroeste,N
+23,Gran Salta,40,Noroeste,S
+25,La Rioja,40,Noroeste,N
+26,Gran San Luis,42,Cuyo,N
+27,Gran San Juan,42,Cuyo,S
+29,Gran Tucumán - Tafí Viejo,40,Noroeste,S
+30,Santa Rosa - Toay,43,Pampeana,N
+31,Ushuaia - Río Grande,44,Patagonia,N
+32,Ciudad Autónoma de Buenos Aires,1,Gran Buenos Aires,S
+33,Partidos del GBA,1,Gran Buenos Aires,S
+34,Mar del Plata,43,Pampeana,S
+36,Río Cuarto,43,Pampeana,N
+38,San Nicolás - Villa Constitución,43,Pampeana,N
+91,Rawson - Trelew,44,Patagonia,N
+93,Viedma - Carmen de Patagones,44,Patagonia,N

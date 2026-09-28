@@ -1,0 +1,12 @@
+clave,valor
+datos,datos/mortalidad-2022.csv
+estandares,datos/estandares.csv
+estandar,oms
+multiplicador,100000
+confianza,0.95
+poblacion,jurisdiccion
+grupo,grupo_edad
+casos,defunciones
+expuestos,poblacion
+referencia,
+pares,Ciudad de Buenos Aires | Chaco; Ciudad de Buenos Aires | Tierra del Fuego; Catamarca | Santiago del Estero

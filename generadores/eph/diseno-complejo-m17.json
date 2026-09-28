@@ -1,0 +1,183 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, INDEC",
+  "semilla": 2026,
+  "B": 2000,
+  "conglomerado": "CODUSU (vivienda)",
+  "nota": "Aproximación por lo bajo: el diseño real agrupa además por radio censal, así que el deff verdadero es mayor.",
+  "resultados": [
+    {
+      "indicador": "Ingreso medio de la ocupación principal",
+      "n": 15448,
+      "conglomerados": 10010,
+      "tamano_medio_conglomerado": 1.5432567432567432,
+      "estimacion": 1095162.0103171375,
+      "ee_simple": 8076.44558902895,
+      "ee_conglomerados": 17994.533771563754,
+      "razon_ee": 2.2280263728895227,
+      "deff": 4.964101518291242,
+      "n_efectivo": 3111.942804368263,
+      "ic95_simple": [
+        1079332.1769626408,
+        1110991.843671634
+      ],
+      "ic95_complejo": [
+        1059892.7241248726,
+        1130431.2965094023
+      ]
+    },
+    {
+      "indicador": "Proporción de menores de 15 años",
+      "n": 43739,
+      "conglomerados": 15368,
+      "tamano_medio_conglomerado": 2.8461087975013015,
+      "estimacion": 0.2216911169900299,
+      "ee_simple": 0.0018587342152646613,
+      "ee_conglomerados": 0.003936275884335985,
+      "razon_ee": 2.117718526946849,
+      "deff": 4.484731759373931,
+      "n_efectivo": 9752.868699131734,
+      "ic95_simple": [
+        0.21804799792811116,
+        0.22533423605194866
+      ],
+      "ic95_complejo": [
+        0.21397601625673138,
+        0.22940621772332845
+      ]
+    },
+    {
+      "indicador": "Tasa de desocupación",
+      "n": 20988,
+      "conglomerados": 12259,
+      "tamano_medio_conglomerado": 1.7120482910514725,
+      "estimacion": 0.07836182192526508,
+      "ee_simple": 0.001735386199228681,
+      "ee_conglomerados": 0.003209003704213702,
+      "razon_ee": 1.8491582482562052,
+      "deff": 3.4193862270939577,
+      "n_efectivo": 6137.943655998499,
+      "ic95_simple": [
+        0.07496046497477687,
+        0.0817631788757533
+      ],
+      "ic95_complejo": [
+        0.07207217466500623,
+        0.08465146918552394
+      ]
+    },
+    {
+      "indicador": "Proporción con secundario completo o más",
+      "n": 33554,
+      "conglomerados": 15364,
+      "tamano_medio_conglomerado": 2.1839364748763344,
+      "estimacion": 0.6579543139883273,
+      "ee_simple": 0.0026048795738552663,
+      "ee_conglomerados": 0.0051921462871487856,
+      "razon_ee": 1.993238512544486,
+      "deff": 3.9729997678905553,
+      "n_efectivo": 8445.50766682157,
+      "ic95_simple": [
+        0.6528487500235709,
+        0.6630598779530836
+      ],
+      "ic95_complejo": [
+        0.6477777072655156,
+        0.6681309207111389
+      ]
+    },
+    {
+      "indicador": "Edad media",
+      "n": 43739,
+      "conglomerados": 15368,
+      "tamano_medio_conglomerado": 2.8461087975013015,
+      "estimacion": 35.45466300613758,
+      "ee_simple": 0.10649292438633218,
+      "ee_conglomerados": 0.22549571272429458,
+      "razon_ee": 2.1174713158054264,
+      "deff": 4.483684773258764,
+      "n_efectivo": 9755.146093424022,
+      "ic95_simple": [
+        35.245936874340366,
+        35.66338913793479
+      ],
+      "ic95_complejo": [
+        35.01269140919796,
+        35.896634603077196
+      ]
+    }
+  ],
+  "estratificacion": [
+    {
+      "indicador": "Ingreso medio de la ocupación principal",
+      "n": 15448,
+      "ee_simple": 8076.44558902895,
+      "ee_solo_conglomerado": 18183.250683874012,
+      "ee_con_estrato": 17721.129029443237,
+      "deff_solo_conglomerado": 5.068769113467946,
+      "deff_con_estrato": 4.814400686346572,
+      "exceso": 0.0260774386137006
+    },
+    {
+      "indicador": "Edad media",
+      "n": 43739,
+      "ee_simple": 0.10649292438633218,
+      "ee_solo_conglomerado": 0.2269070384577518,
+      "ee_con_estrato": 0.22942837947990913,
+      "deff_solo_conglomerado": 4.539985109820751,
+      "deff_con_estrato": 4.641440297964526,
+      "exceso": -0.010989664957199108
+    }
+  ],
+  "estimacion_puntual": [
+    {
+      "indicador": "Ingreso medio de la ocupación principal",
+      "sin_ponderar": 990200.8591403418,
+      "con_ponderar": 1095162.0103171375,
+      "dif_relativa": 0.10599985872353157
+    },
+    {
+      "indicador": "Edad media",
+      "sin_ponderar": 37.3310775280642,
+      "con_ponderar": 35.45466300613758,
+      "dif_relativa": -0.050264140393911694
+    },
+    {
+      "indicador": "Proporción con secundario completo o más",
+      "sin_ponderar": 0.6494307683137629,
+      "con_ponderar": 0.6579543139883273,
+      "dif_relativa": 0.013124640978584345
+    }
+  ],
+  "ponderador": {
+    "sin ponderar": {
+      "media": 990200.8591403418,
+      "poblacion": 15448.0,
+      "dif_con_pondiio": -0.10326335862235081
+    },
+    "PONDERA": {
+      "media": 1095162.0103171375,
+      "poblacion": 9786920.0,
+      "dif_con_pondiio": -0.008209401324105858
+    },
+    "PONDIIO": {
+      "media": 1104227.053351031,
+      "poblacion": 13127975.0,
+      "dif_con_pondiio": 0.0
+    },
+    "PONDIH": {
+      "media": 1125588.024022726,
+      "poblacion": 13040818.0,
+      "dif_con_pondiio": 0.019344726799502387
+    }
+  },
+  "subpoblacion": {
+    "indicador": "Edad media de los desocupados",
+    "n": 1423,
+    "viviendas_totales": 15368,
+    "viviendas_con_el_subgrupo": 1287,
+    "estimacion": 34.610997726681006,
+    "ee_declarando_primero": 0.550753731535901,
+    "ee_filtrando_primero": 0.561734422087726,
+    "subestimacion": -0.01993756904960553
+  }
+}

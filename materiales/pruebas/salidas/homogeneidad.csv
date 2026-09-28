@@ -1,0 +1,11 @@
+variable,etiqueta,factor,k,levene_f,gl1,gl2,levene_p,homogeneas,decide
+edad,Edad (años),grupo,2,0.668016,1,147,0.415067,Sí,No
+ingreso,Ingreso mensual del hogar,grupo,2,0.922278,1,146,0.338465,Sí,No
+puntaje,Puntaje de satisfacción,grupo,2,0.107142,1,147,0.743888,Sí,No
+horas,Horas de estudio por semana,grupo,2,0.521406,1,148,0.471382,Sí,No
+gasto,Gasto mensual en materiales,grupo,2,2.459487,1,148,0.118953,Sí,No
+edad,Edad (años),nivel,3,2.577608,2,146,0.079409,Sí,Sí
+ingreso,Ingreso mensual del hogar,nivel,3,1.981606,2,145,0.141563,Sí,Sí
+puntaje,Puntaje de satisfacción,nivel,3,1.288056,2,146,0.278922,Sí,Sí
+horas,Horas de estudio por semana,nivel,3,1.853292,2,147,0.160363,Sí,Sí
+gasto,Gasto mensual en materiales,nivel,3,0.436263,2,147,0.647282,Sí,Sí

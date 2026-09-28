@@ -1,0 +1,17 @@
+clave,valor
+poblacion,4000
+muestra,320
+contestaron,276
+conglomerados_en_la_muestra,32
+suma_de_pesos,4000.000000
+deff_de_kish,1.147555
+verdadero,581312.406200
+estimacion,616931.878400
+ee_del_diseno,48275.050570
+ee_ingenuo,25389.934260
+deff,3.615117
+n_efectivo,88.517198
+el_ingenuo_contiene_al_verdadero,Sí
+cobertura_del_diseno,0.920000
+cobertura_ingenua,0.610000
+avisos,7

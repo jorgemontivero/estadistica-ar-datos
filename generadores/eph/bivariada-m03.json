@@ -1,0 +1,147 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, total aglomerados urbanos",
+  "advertencia": "Cálculos sin ponderar; el diseño real es por conglomerados.",
+  "ingreso_horas": {
+    "nombre": "Horas semanales trabajadas vs. ingreso de la ocupación principal",
+    "n": 14212,
+    "covarianza": 4107508.8970185653,
+    "sx": 16.20610023415549,
+    "sy": 1016984.3596234724,
+    "pearson": 0.24922162202894332,
+    "p_pearson": 3.6577607434441403e-200,
+    "spearman": 0.4106507729746432,
+    "p_spearman": 0.0,
+    "r2": 0.06211141688673749,
+    "b0": 408671.6749897292,
+    "b1": 15639.449838108183,
+    "ee_b1": 509.8170303002417
+  },
+  "ingreso_edad": {
+    "nombre": "Edad vs. ingreso de la ocupación principal",
+    "n": 15448,
+    "covarianza": 1240534.3527140145,
+    "sx": 12.877138756323461,
+    "sy": 1003821.289050057,
+    "pearson": 0.09596945263978608,
+    "p_pearson": 6.13717442200754e-33,
+    "spearman": 0.12073855497431002,
+    "p_spearman": 2.945445286176817e-51,
+    "r2": 0.009210135839980144,
+    "b0": 679025.8496109919,
+    "b1": 7481.178970055867,
+    "ee_b1": 624.3380287485276
+  },
+  "log_ingreso_horas": {
+    "nombre": "Horas vs. logaritmo del ingreso",
+    "n": 14212,
+    "covarianza": 5.97841364924665,
+    "sx": 16.20610023415549,
+    "sy": 0.8562209647948948,
+    "pearson": 0.4308455212118515,
+    "p_pearson": 0.0,
+    "spearman": 0.4106507729746432,
+    "p_spearman": 0.0,
+    "r2": 0.18562786314831198,
+    "b0": 12.635056534883365,
+    "b1": 0.022762969654605152,
+    "ee_b1": 0.00039996478080813516
+  },
+  "ingreso_horario_horas": {
+    "nombre": "Horas vs. ingreso por hora",
+    "n": 14212,
+    "covarianza": -22218.41853581321,
+    "sx": 16.20610023415549,
+    "sy": 7800.528319981105,
+    "pearson": -0.17575618004269775,
+    "p_pearson": 5.750707518679576e-99,
+    "spearman": -0.20056308413215085,
+    "p_spearman": 6.834576958602794e-129,
+    "r2": 0.030890234823201187,
+    "b0": 9893.790099282862,
+    "b1": -84.59722203527421,
+    "ee_b1": 3.9749799567708384
+  },
+  "tabla_2x2": {
+    "tabla": [
+      [
+        1472,
+        2045
+      ],
+      [
+        7207,
+        3140
+      ]
+    ],
+    "n": 13864,
+    "riesgo_sin_secundario": 0.5814614728461757,
+    "riesgo_con_secundario": 0.3034696047163429,
+    "diferencia_riesgos": 0.2779918681298328,
+    "riesgo_relativo": 1.9160451781972547,
+    "odds_ratio": 3.1886758775270008,
+    "chi2": 866.4053035781244,
+    "phi": 0.24998633886190594,
+    "v_cramer": 0.24998633886190594
+  },
+  "simpson_sexo_educacion": {
+    "global": {
+      "varones": 0.3564802182810368,
+      "n_varones": 7330,
+      "mujeres": 0.3936333027242118,
+      "n_mujeres": 6534
+    },
+    "por_nivel_educativo": [
+      {
+        "nivel_ed": 1,
+        "varones": 0.5895953757225434,
+        "n_varones": 173,
+        "mujeres": 0.7032967032967034,
+        "n_mujeres": 91
+      },
+      {
+        "nivel_ed": 2,
+        "varones": 0.5012135922330098,
+        "n_varones": 824,
+        "mujeres": 0.6299212598425197,
+        "n_mujeres": 508
+      },
+      {
+        "nivel_ed": 3,
+        "varones": 0.5467860048820179,
+        "n_varones": 1229,
+        "mujeres": 0.684971098265896,
+        "n_mujeres": 692
+      },
+      {
+        "nivel_ed": 4,
+        "varones": 0.3394630378815741,
+        "n_varones": 2719,
+        "mujeres": 0.4651741293532338,
+        "n_mujeres": 2010
+      },
+      {
+        "nivel_ed": 5,
+        "varones": 0.3308668076109937,
+        "n_varones": 946,
+        "mujeres": 0.4274735830931796,
+        "n_mujeres": 1041
+      },
+      {
+        "nivel_ed": 6,
+        "varones": 0.1320361362056984,
+        "n_varones": 1439,
+        "mujeres": 0.15237226277372262,
+        "n_mujeres": 2192
+      }
+    ],
+    "diferencia_global": -0.037153084443175,
+    "diferencias_por_estrato": [
+      -0.11370132757415996,
+      -0.1287076676095099,
+      -0.13818509338387808,
+      -0.1257110914716597,
+      -0.09660677548218594,
+      -0.02033612656802422
+    ],
+    "hay_reversion_total": false
+  }
+}

@@ -1,0 +1,4 @@
+poblacion_a,poblacion_b,cruda_a,cruda_b,diferencia_cruda,efecto_estructura,efecto_tasas,residuo_de_la_identidad,parte_estructura,estandarizada_a,estandarizada_b,diferencia_estandarizada,razon,razon_inferior,razon_superior,la_razon_excluye_al_uno,se_dan_vuelta
+Ciudad de Buenos Aires,Chaco,1076.352613,879.866051,196.486562,681.397027,-484.910465,0.000000,3.467907,496.351163,844.063139,-347.711976,0.588050,0.574606,0.601808,Sí,Sí
+Ciudad de Buenos Aires,Tierra del Fuego,1076.352613,409.822771,666.529842,657.646987,8.882855,0.000000,0.986673,496.351163,496.215960,0.135203,1.000272,0.928234,1.077901,No,No
+Catamarca,Santiago del Estero,744.109909,677.096333,67.013577,69.499970,-2.486393,0.000000,1.037103,625.372725,634.116285,-8.743560,0.986211,0.945387,1.028798,No,Sí

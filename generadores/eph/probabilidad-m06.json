@@ -1,0 +1,36 @@
+{
+  "fuente": "EPH continua, 1er trimestre de 2026, total aglomerados urbanos",
+  "universo": "Asalariados ocupados de 18 años o más con registración declarada",
+  "n": 13864,
+  "poblacion_expandida": 9613294.0,
+  "conjunta": {
+    "sec0_reg0": 0.14935016030925508,
+    "sec0_reg1": 0.10415337344306748,
+    "sec1_reg0": 0.2270504782231772,
+    "sec1_reg1": 0.5194459880245003
+  },
+  "marginal_secundario": {
+    "0": 0.25350353375232254,
+    "1": 0.7464964662476774
+  },
+  "marginal_registrado": {
+    "0": 0.3764006385324323,
+    "1": 0.6235993614675678
+  },
+  "cond_registrado_dado_secundario": {
+    "0": 0.41085570643298086,
+    "1": 0.6958452069244694
+  },
+  "cond_secundario_dado_registrado": {
+    "0": 0.6032149124625185,
+    "1": 0.832980307744455
+  },
+  "esperado_si_independientes_sec0_reg0": 0.0954188919746022,
+  "diagnostico": {
+    "prevalencia": 0.3764006385324323,
+    "sensibilidad": 0.3967850875374815,
+    "especificidad": 0.832980307744455,
+    "vpp": 0.5891442935670193,
+    "vpn": 0.6958452069244694
+  }
+}

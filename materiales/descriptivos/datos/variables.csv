@@ -1,0 +1,7 @@
+nombre,etiqueta,tipo
+grupo,Grupo,grupo
+edad,Edad (años),numerica
+ingreso,Ingreso mensual del hogar,numerica
+puntaje,Puntaje de satisfacción,numerica
+sexo,Sexo,categorica
+nivel,Nivel educativo,categorica

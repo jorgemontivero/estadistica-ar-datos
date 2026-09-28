@@ -1,0 +1,385 @@
+jurisdiccion,codigo,grupo_edad,defunciones,poblacion
+Ciudad de Buenos Aires,02,0 a 9,204,289177
+Ciudad de Buenos Aires,02,10 a 14,28,170699
+Ciudad de Buenos Aires,02,15 a 19,50,182661
+Ciudad de Buenos Aires,02,20 a 24,95,212524
+Ciudad de Buenos Aires,02,25 a 29,145,231903
+Ciudad de Buenos Aires,02,30 a 34,182,251579
+Ciudad de Buenos Aires,02,35 a 39,245,242337
+Ciudad de Buenos Aires,02,40 a 44,361,234013
+Ciudad de Buenos Aires,02,45 a 49,482,218201
+Ciudad de Buenos Aires,02,50 a 54,748,189285
+Ciudad de Buenos Aires,02,55 a 59,1037,172119
+Ciudad de Buenos Aires,02,60 a 64,1575,163952
+Ciudad de Buenos Aires,02,65 a 69,2339,148163
+Ciudad de Buenos Aires,02,70 a 74,3197,131895
+Ciudad de Buenos Aires,02,75 a 79,4291,108342
+Ciudad de Buenos Aires,02,80 y más,18339,148604
+Buenos Aires,06,0 a 9,1941,2421619
+Buenos Aires,06,10 a 14,281,1407051
+Buenos Aires,06,15 a 19,735,1367538
+Buenos Aires,06,20 a 24,1011,1293362
+Buenos Aires,06,25 a 29,1270,1296778
+Buenos Aires,06,30 a 34,1442,1292913
+Buenos Aires,06,35 a 39,1719,1241676
+Buenos Aires,06,40 a 44,2627,1267205
+Buenos Aires,06,45 a 49,3543,1121090
+Buenos Aires,06,50 a 54,5039,971898
+Buenos Aires,06,55 a 59,6989,848854
+Buenos Aires,06,60 a 64,10250,765838
+Buenos Aires,06,65 a 69,14379,668744
+Buenos Aires,06,70 a 74,18358,556735
+Buenos Aires,06,75 a 79,21266,407708
+Buenos Aires,06,80 y más,66481,479897
+Catamarca,10,0 a 9,42,60921
+Catamarca,10,10 a 14,9,34514
+Catamarca,10,15 a 19,24,35354
+Catamarca,10,20 a 24,35,36661
+Catamarca,10,25 a 29,39,36620
+Catamarca,10,30 a 34,42,32828
+Catamarca,10,35 a 39,55,30943
+Catamarca,10,40 a 44,60,31277
+Catamarca,10,45 a 49,81,26799
+Catamarca,10,50 a 54,104,22192
+Catamarca,10,55 a 59,149,19211
+Catamarca,10,60 a 64,219,17285
+Catamarca,10,65 a 69,319,14921
+Catamarca,10,70 a 74,380,11607
+Catamarca,10,75 a 79,397,7603
+Catamarca,10,80 y más,1227,8889
+Córdoba,14,0 a 9,448,518788
+Córdoba,14,10 a 14,67,287822
+Córdoba,14,15 a 19,136,294939
+Córdoba,14,20 a 24,227,307775
+Córdoba,14,25 a 29,295,295708
+Córdoba,14,30 a 34,302,282806
+Córdoba,14,35 a 39,312,270698
+Córdoba,14,40 a 44,489,280745
+Córdoba,14,45 a 49,660,237816
+Córdoba,14,50 a 54,959,204847
+Córdoba,14,55 a 59,1343,186735
+Córdoba,14,60 a 64,2269,169323
+Córdoba,14,65 a 69,3068,149214
+Córdoba,14,70 a 74,4203,126739
+Córdoba,14,75 a 79,5030,91824
+Córdoba,14,80 y más,16002,106285
+Corrientes,18,0 a 9,254,189763
+Corrientes,18,10 a 14,32,101819
+Corrientes,18,15 a 19,57,102386
+Corrientes,18,20 a 24,91,104712
+Corrientes,18,25 a 29,117,100610
+Corrientes,18,30 a 34,122,93797
+Corrientes,18,35 a 39,115,82473
+Corrientes,18,40 a 44,176,81059
+Corrientes,18,45 a 49,218,67151
+Corrientes,18,50 a 54,328,59314
+Corrientes,18,55 a 59,479,55948
+Corrientes,18,60 a 64,657,49271
+Corrientes,18,65 a 69,928,43003
+Corrientes,18,70 a 74,1084,32114
+Corrientes,18,75 a 79,1194,21829
+Corrientes,18,80 y más,3131,24422
+Chaco,22,0 a 9,275,178918
+Chaco,22,10 a 14,46,93889
+Chaco,22,15 a 19,93,95261
+Chaco,22,20 a 24,143,96699
+Chaco,22,25 a 29,132,97565
+Chaco,22,30 a 34,155,90035
+Chaco,22,35 a 39,192,82051
+Chaco,22,40 a 44,244,78449
+Chaco,22,45 a 49,295,63745
+Chaco,22,50 a 54,405,54113
+Chaco,22,55 a 59,584,50562
+Chaco,22,60 a 64,836,44307
+Chaco,22,65 a 69,1072,36894
+Chaco,22,70 a 74,1193,26168
+Chaco,22,75 a 79,1212,16934
+Chaco,22,80 y más,3018,19013
+Chubut,26,0 a 9,76,83810
+Chubut,26,10 a 14,12,48669
+Chubut,26,15 a 19,28,44725
+Chubut,26,20 a 24,33,42255
+Chubut,26,25 a 29,39,46142
+Chubut,26,30 a 34,60,47481
+Chubut,26,35 a 39,60,47202
+Chubut,26,40 a 44,95,47137
+Chubut,26,45 a 49,103,39371
+Chubut,26,50 a 54,149,31413
+Chubut,26,55 a 59,221,28211
+Chubut,26,60 a 64,298,24212
+Chubut,26,65 a 69,358,20454
+Chubut,26,70 a 74,500,15546
+Chubut,26,75 a 79,484,10520
+Chubut,26,80 y más,1607,12306
+Entre Ríos,30,0 a 9,217,204078
+Entre Ríos,30,10 a 14,34,110627
+Entre Ríos,30,15 a 19,61,110689
+Entre Ríos,30,20 a 24,96,109804
+Entre Ríos,30,25 a 29,104,108710
+Entre Ríos,30,30 a 34,124,106100
+Entre Ríos,30,35 a 39,138,100622
+Entre Ríos,30,40 a 44,188,101260
+Entre Ríos,30,45 a 49,267,86489
+Entre Ríos,30,50 a 54,349,75213
+Entre Ríos,30,55 a 59,592,70404
+Entre Ríos,30,60 a 64,844,62305
+Entre Ríos,30,65 a 69,1227,55135
+Entre Ríos,30,70 a 74,1485,45084
+Entre Ríos,30,75 a 79,1724,31685
+Entre Ríos,30,80 y más,5353,36892
+Formosa,34,0 a 9,166,98963
+Formosa,34,10 a 14,16,53962
+Formosa,34,15 a 19,52,52169
+Formosa,34,20 a 24,75,50109
+Formosa,34,25 a 29,78,51468
+Formosa,34,30 a 34,83,46126
+Formosa,34,35 a 39,104,40745
+Formosa,34,40 a 44,112,40254
+Formosa,34,45 a 49,151,33858
+Formosa,34,50 a 54,196,29476
+Formosa,34,55 a 59,257,28090
+Formosa,34,60 a 64,370,24248
+Formosa,34,65 a 69,477,20463
+Formosa,34,70 a 74,555,15082
+Formosa,34,75 a 79,580,9830
+Formosa,34,80 y más,1430,10664
+Jujuy,38,0 a 9,92,120012
+Jujuy,38,10 a 14,20,69488
+Jujuy,38,15 a 19,47,66010
+Jujuy,38,20 a 24,57,65531
+Jujuy,38,25 a 29,95,67337
+Jujuy,38,30 a 34,84,60612
+Jujuy,38,35 a 39,101,59179
+Jujuy,38,40 a 44,136,60952
+Jujuy,38,45 a 49,180,51360
+Jujuy,38,50 a 54,196,41143
+Jujuy,38,55 a 59,284,36053
+Jujuy,38,60 a 64,361,31589
+Jujuy,38,65 a 69,522,27779
+Jujuy,38,70 a 74,620,21151
+Jujuy,38,75 a 79,655,14665
+Jujuy,38,80 y más,2002,16503
+La Pampa,42,0 a 9,36,49585
+La Pampa,42,10 a 14,1,28267
+La Pampa,42,15 a 19,22,27029
+La Pampa,42,20 a 24,16,24292
+La Pampa,42,25 a 29,18,26486
+La Pampa,42,30 a 34,21,27799
+La Pampa,42,35 a 39,20,26463
+La Pampa,42,40 a 44,49,26094
+La Pampa,42,45 a 49,53,22681
+La Pampa,42,50 a 54,74,19809
+La Pampa,42,55 a 59,125,18584
+La Pampa,42,60 a 64,165,16332
+La Pampa,42,65 a 69,262,14602
+La Pampa,42,70 a 74,334,12064
+La Pampa,42,75 a 79,423,8952
+La Pampa,42,80 y más,1316,10154
+La Rioja,46,0 a 9,61,54156
+La Rioja,46,10 a 14,7,30561
+La Rioja,46,15 a 19,21,32361
+La Rioja,46,20 a 24,40,33497
+La Rioja,46,25 a 29,46,35524
+La Rioja,46,30 a 34,32,30754
+La Rioja,46,35 a 39,49,27257
+La Rioja,46,40 a 44,56,28417
+La Rioja,46,45 a 49,65,23620
+La Rioja,46,50 a 54,107,19418
+La Rioja,46,55 a 59,132,17175
+La Rioja,46,60 a 64,237,15075
+La Rioja,46,65 a 69,274,12467
+La Rioja,46,70 a 74,351,9305
+La Rioja,46,75 a 79,322,6248
+La Rioja,46,80 y más,971,6618
+Mendoza,50,0 a 9,215,301683
+Mendoza,50,10 a 14,37,167781
+Mendoza,50,15 a 19,74,155359
+Mendoza,50,20 a 24,109,152043
+Mendoza,50,25 a 29,135,156833
+Mendoza,50,30 a 34,158,153120
+Mendoza,50,35 a 39,182,141926
+Mendoza,50,40 a 44,209,142295
+Mendoza,50,45 a 49,320,123819
+Mendoza,50,50 a 54,429,105784
+Mendoza,50,55 a 59,614,93063
+Mendoza,50,60 a 64,925,87095
+Mendoza,50,65 a 69,1561,80070
+Mendoza,50,70 a 74,2030,67702
+Mendoza,50,75 a 79,2389,48654
+Mendoza,50,80 y más,7078,53546
+Misiones,54,0 a 9,249,221991
+Misiones,54,10 a 14,39,118970
+Misiones,54,15 a 19,92,109481
+Misiones,54,20 a 24,137,107797
+Misiones,54,25 a 29,123,105121
+Misiones,54,30 a 34,152,98684
+Misiones,54,35 a 39,170,89326
+Misiones,54,40 a 44,201,83252
+Misiones,54,45 a 49,257,69658
+Misiones,54,50 a 54,367,59462
+Misiones,54,55 a 59,535,55508
+Misiones,54,60 a 64,816,48851
+Misiones,54,65 a 69,960,39622
+Misiones,54,70 a 74,1161,27872
+Misiones,54,75 a 79,1164,18162
+Misiones,54,80 y más,3032,19590
+Neuquén,58,0 a 9,65,100805
+Neuquén,58,10 a 14,15,58829
+Neuquén,58,15 a 19,23,51817
+Neuquén,58,20 a 24,39,51047
+Neuquén,58,25 a 29,42,57884
+Neuquén,58,30 a 34,68,61708
+Neuquén,58,35 a 39,63,56167
+Neuquén,58,40 a 44,101,55377
+Neuquén,58,45 a 49,95,46910
+Neuquén,58,50 a 54,157,39017
+Neuquén,58,55 a 59,220,34173
+Neuquén,58,60 a 64,296,28755
+Neuquén,58,65 a 69,415,24020
+Neuquén,58,70 a 74,532,17894
+Neuquén,58,75 a 79,514,11809
+Neuquén,58,80 y más,1540,12366
+Río Negro,62,0 a 9,88,104835
+Río Negro,62,10 a 14,14,59967
+Río Negro,62,15 a 19,37,55548
+Río Negro,62,20 a 24,55,53942
+Río Negro,62,25 a 29,60,58116
+Río Negro,62,30 a 34,63,59674
+Río Negro,62,35 a 39,79,57295
+Río Negro,62,40 a 44,111,56766
+Río Negro,62,45 a 49,134,48874
+Río Negro,62,50 a 54,181,40573
+Río Negro,62,55 a 59,246,37430
+Río Negro,62,60 a 64,357,32214
+Río Negro,62,65 a 69,498,27983
+Río Negro,62,70 a 74,626,21687
+Río Negro,62,75 a 79,760,15490
+Río Negro,62,80 y más,2148,17303
+Salta,66,0 a 9,254,234836
+Salta,66,10 a 14,37,128027
+Salta,66,15 a 19,93,123568
+Salta,66,20 a 24,137,122879
+Salta,66,25 a 29,143,122358
+Salta,66,30 a 34,164,107206
+Salta,66,35 a 39,208,100554
+Salta,66,40 a 44,213,97437
+Salta,66,45 a 49,283,83906
+Salta,66,50 a 54,325,69304
+Salta,66,55 a 59,463,61442
+Salta,66,60 a 64,631,52239
+Salta,66,65 a 69,845,45087
+Salta,66,70 a 74,1159,34802
+Salta,66,75 a 79,1222,23514
+Salta,66,80 y más,3357,27066
+San Juan,70,0 a 9,118,131907
+San Juan,70,10 a 14,18,70523
+San Juan,70,15 a 19,39,69988
+San Juan,70,20 a 24,55,66111
+San Juan,70,25 a 29,48,64106
+San Juan,70,30 a 34,61,59542
+San Juan,70,35 a 39,68,54817
+San Juan,70,40 a 44,105,55795
+San Juan,70,45 a 49,127,49643
+San Juan,70,50 a 54,185,41010
+San Juan,70,55 a 59,267,35654
+San Juan,70,60 a 64,395,32348
+San Juan,70,65 a 69,609,29112
+San Juan,70,70 a 74,765,24418
+San Juan,70,75 a 79,895,17066
+San Juan,70,80 y más,2435,17405
+San Luis,74,0 a 9,63,75710
+San Luis,74,10 a 14,13,44830
+San Luis,74,15 a 19,28,46136
+San Luis,74,20 a 24,39,43691
+San Luis,74,25 a 29,39,43474
+San Luis,74,30 a 34,37,40553
+San Luis,74,35 a 39,45,37883
+San Luis,74,40 a 44,78,40276
+San Luis,74,45 a 49,95,33555
+San Luis,74,50 a 54,136,28953
+San Luis,74,55 a 59,191,25957
+San Luis,74,60 a 64,248,22630
+San Luis,74,65 a 69,403,19306
+San Luis,74,70 a 74,487,15370
+San Luis,74,75 a 79,548,10992
+San Luis,74,80 y más,1532,11232
+Santa Cruz,78,0 a 9,55,51811
+Santa Cruz,78,10 a 14,7,30110
+Santa Cruz,78,15 a 19,16,27019
+Santa Cruz,78,20 a 24,26,23727
+Santa Cruz,78,25 a 29,28,27755
+Santa Cruz,78,30 a 34,34,29374
+Santa Cruz,78,35 a 39,40,28202
+Santa Cruz,78,40 a 44,55,26753
+Santa Cruz,78,45 a 49,61,21726
+Santa Cruz,78,50 a 54,99,17415
+Santa Cruz,78,55 a 59,131,14867
+Santa Cruz,78,60 a 64,163,12082
+Santa Cruz,78,65 a 69,208,9619
+Santa Cruz,78,70 a 74,205,6332
+Santa Cruz,78,75 a 79,260,4266
+Santa Cruz,78,80 y más,574,4619
+Santa Fe,82,0 a 9,467,485241
+Santa Fe,82,10 a 14,77,260705
+Santa Fe,82,15 a 19,213,260137
+Santa Fe,82,20 a 24,296,256472
+Santa Fe,82,25 a 29,305,269157
+Santa Fe,82,30 a 34,316,270780
+Santa Fe,82,35 a 39,350,262873
+Santa Fe,82,40 a 44,543,264254
+Santa Fe,82,45 a 49,665,218517
+Santa Fe,82,50 a 54,952,186399
+Santa Fe,82,55 a 59,1354,175768
+Santa Fe,82,60 a 64,2191,160310
+Santa Fe,82,65 a 69,3026,141592
+Santa Fe,82,70 a 74,4027,117705
+Santa Fe,82,75 a 79,4618,86251
+Santa Fe,82,80 y más,15443,102898
+Santiago del Estero,86,0 a 9,168,173939
+Santiago del Estero,86,10 a 14,48,95096
+Santiago del Estero,86,15 a 19,75,92386
+Santiago del Estero,86,20 a 24,105,93756
+Santiago del Estero,86,25 a 29,105,90217
+Santiago del Estero,86,30 a 34,104,78998
+Santiago del Estero,86,35 a 39,121,73162
+Santiago del Estero,86,40 a 44,179,73618
+Santiago del Estero,86,45 a 49,203,60893
+Santiago del Estero,86,50 a 54,290,48850
+Santiago del Estero,86,55 a 59,373,42803
+Santiago del Estero,86,60 a 64,514,38517
+Santiago del Estero,86,65 a 69,701,33497
+Santiago del Estero,86,70 a 74,840,25502
+Santiago del Estero,86,75 a 79,905,17090
+Santiago del Estero,86,80 y más,2431,19428
+Tucumán,90,0 a 9,299,260385
+Tucumán,90,10 a 14,40,141385
+Tucumán,90,15 a 19,97,142421
+Tucumán,90,20 a 24,155,148749
+Tucumán,90,25 a 29,179,144422
+Tucumán,90,30 a 34,158,129259
+Tucumán,90,35 a 39,199,118848
+Tucumán,90,40 a 44,286,127665
+Tucumán,90,45 a 49,299,101620
+Tucumán,90,50 a 54,383,83845
+Tucumán,90,55 a 59,648,76292
+Tucumán,90,60 a 64,926,70951
+Tucumán,90,65 a 69,1485,65519
+Tucumán,90,70 a 74,1823,49536
+Tucumán,90,75 a 79,1842,30653
+Tucumán,90,80 y más,4823,35787
+Tierra del Fuego,94,0 a 9,14,27234
+Tierra del Fuego,94,10 a 14,2,15315
+Tierra del Fuego,94,15 a 19,11,14037
+Tierra del Fuego,94,20 a 24,10,13026
+Tierra del Fuego,94,25 a 29,1,16097
+Tierra del Fuego,94,30 a 34,17,17806
+Tierra del Fuego,94,35 a 39,11,16070
+Tierra del Fuego,94,40 a 44,24,14805
+Tierra del Fuego,94,45 a 49,15,11649
+Tierra del Fuego,94,50 a 54,44,9441
+Tierra del Fuego,94,55 a 59,46,9228
+Tierra del Fuego,94,60 a 64,87,7977
+Tierra del Fuego,94,65 a 69,90,5288
+Tierra del Fuego,94,70 a 74,86,3254
+Tierra del Fuego,94,75 a 79,91,1823
+Tierra del Fuego,94,80 y más,209,1908

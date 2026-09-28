@@ -1,0 +1,7 @@
+clave,valor
+confianza,0.95
+respuesta_numerica,nota
+predictores,horas;gasto;edad
+respuesta_binaria,aprueba
+predictores_binaria,horas;puntaje
+exito,Sí

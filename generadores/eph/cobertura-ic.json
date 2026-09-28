@@ -1,0 +1,11 @@
+{
+  "fuente": "INDEC, Encuesta Permanente de Hogares, base usuario",
+  "periodo": "1º trimestre de 2026",
+  "n_por_muestra": 200,
+  "cantidad_de_muestras": 100,
+  "semilla": 1976,
+  "media_poblacional": 1104227,
+  "contienen": 94,
+  "no_contienen": 6,
+  "ancho_medio": 284955
+}
