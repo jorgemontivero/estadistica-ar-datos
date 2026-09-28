@@ -1,0 +1,211 @@
+{
+  "fuente": "Extracto de la Encuesta Permanente de Hogares, base individual del primer trimestre de 2026, INDEC. Solo el aglomerado Gran Catamarca y once variables.",
+  "generado_por": "datos/ejercicios/generar-ejercicio-eph.py",
+  "archivo": "/datos/eph-catamarca-2026t1.csv",
+  "sha256": "b56088f046c4285cad4d2dc7d61c879052fe4e4fc8197ec7492fa3dd9d6c68fe",
+  "separador": ";",
+  "filas": 1339,
+  "viviendas": 426,
+  "columnas": [
+    "CODUSU",
+    "NRO_HOGAR",
+    "COMPONENTE",
+    "AGLOMERADO",
+    "CH04",
+    "CH06",
+    "NIVEL_ED",
+    "ESTADO",
+    "CAT_OCUP",
+    "P21",
+    "PONDERA",
+    "PONDIIO"
+  ],
+  "poblacion_representada": 236275,
+  "ejercicios": [
+    {
+      "id": "eph-descriptivos-01",
+      "tema": "descriptivos-con-archivo",
+      "concepto": "media-aritmetica",
+      "nivel": 2,
+      "titulo": "Resumir una variable en un archivo real",
+      "intro": "",
+      "preguntas": [
+        {
+          "texto": "¿Cuántas filas tiene el archivo, sin contar el encabezado?",
+          "respuesta": 1339.0,
+          "tolerancia": 0.0,
+          "solucion": "El extracto tiene 1.339 personas, repartidas en 426 viviendas.",
+          "diagnosticos": [
+            {
+              "valor": 1.0,
+              "motivo": "El archivo se leyó con coma como separador. El INDEC publica con punto y coma, y así se conservó acá: todo entró en una sola columna."
+            }
+          ]
+        },
+        {
+          "texto": "¿Cuál es la edad promedio de las personas del extracto?",
+          "respuesta": 36.1695,
+          "tolerancia": 0.02,
+          "solucion": "La media es 36,1695 años. La clave es que `CH06 = -1` no es una edad sino el código de «menos de un año»: hay 7 personas así, y corresponde contarlas como 0. Acá son pocas y la media casi no se mueve, pero el criterio no depende de eso: un código no es un valor.",
+          "diagnosticos": [
+            {
+              "valor": 36.3596,
+              "motivo": "Se excluyó a los menores de un año en lugar de contarlos como 0. Son personas del hogar y cuentan."
+            }
+          ]
+        },
+        {
+          "texto": "Entre los ocupados con ingreso declarado, ¿cuál es el ingreso medio de la ocupación principal, sin ponderar?",
+          "respuesta": 881991.58,
+          "tolerancia": 1.0,
+          "solucion": "Hay que quedarse con `ESTADO = 1` y `P21 > 0`: son 594 personas y la media es $881.991,58. Los `P21 = 0` son «fuera de universo» y los `P21 = -9`, no respuesta. En este extracto filtrar por `P21 > 0` ya deja solo ocupados, pero conviene escribir las dos condiciones: en otra base no pasa.",
+          "diagnosticos": [
+            {
+              "valor": 830273.74,
+              "motivo": "Se promediaron todos los ocupados, incluidos los 7 con `P21 = 0`. Ese cero no es un ingreso de cero pesos: es que la pregunta no correspondía."
+            },
+            {
+              "valor": 839587.71,
+              "motivo": "Se excluyeron los ceros pero quedaron los 30 casos con `P21 = -9`, que es el código de no respuesta y arrastra la media hacia abajo."
+            }
+          ]
+        },
+        {
+          "texto": "¿Y la mediana de ese mismo ingreso?",
+          "respuesta": 700000.0,
+          "tolerancia": 1.0,
+          "solucion": "La mediana es $700.000,00, bastante por debajo de la media de $881.991,58. La diferencia es la asimetría típica de cualquier distribución de ingresos: unos pocos valores altos empujan la media y no mueven la mediana.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "Ponderando con `PONDIIO`, ¿cuál es el ingreso medio de la ocupación principal?",
+          "respuesta": 887611.83,
+          "tolerancia": 1.0,
+          "solucion": "La media ponderada es la suma de `P21 × PONDIIO` dividida por la suma de `PONDIIO`: $887.611,83. `PONDIIO` es el ponderador que corresponde al ingreso de la ocupación principal, y reparte el peso de quienes no declararon ingreso entre quienes sí lo hicieron.",
+          "diagnosticos": [
+            {
+              "valor": 881991.58,
+              "motivo": "No se ponderó: se calculó el promedio simple. La muestra no es autoponderada, así que no da lo mismo."
+            },
+            {
+              "valor": 886230.1,
+              "motivo": "Se usó `PONDERA` en lugar de `PONDIIO`. Para la media la diferencia es chica; para el total de población es enorme."
+            }
+          ]
+        },
+        {
+          "texto": "¿A cuántas personas representa el extracto? Sumá `PONDERA`.",
+          "respuesta": 236275.0,
+          "tolerancia": 1.0,
+          "solucion": "La suma de `PONDERA` da 236.275 personas. Ese es el sentido del ponderador: 1.339 entrevistas representan a la población del aglomerado.",
+          "diagnosticos": [
+            {
+              "valor": 1339.0,
+              "motivo": "Se contaron las filas. Cada fila no es una persona de la población sino una persona de la muestra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eph-cuantiles",
+      "tema": "cuantiles-con-archivo",
+      "concepto": "cuantiles",
+      "nivel": 2,
+      "titulo": "Cuartiles y atípicos en un archivo real",
+      "intro": "Trabajá sobre los 594 ocupados con ingreso declarado: `ESTADO = 1` y `P21 > 0`. Usá el método que explica la entrada de cuantiles, que es el que traen R, pandas, NumPy y `CUARTIL.INC`.",
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el primer cuartil del ingreso?",
+          "respuesta": 400000.0,
+          "tolerancia": 1.0,
+          "solucion": "Q₁ = $400.000. Llama la atención lo redondo, y no es casualidad: la gente declara su ingreso en cifras redondas, así que los cuantiles caen sobre valores como 400.000 o 500.000.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Y el tercer cuartil?",
+          "respuesta": 1000000.0,
+          "tolerancia": 1.0,
+          "solucion": "Q₃ = $1.000.000, así que el 50 % central de los ocupados con ingreso gana entre $400.000 y $1.000.000.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "Calculá el mismo Q₃ con `CUARTIL.EXC` de Excel o con SPSS, que usan otro método. ¿Cuánto da?",
+          "respuesta": 1000000.0,
+          "tolerancia": 1.0,
+          "solucion": "Lo mismo: $1.000.000. Con los datos a mano de los otros ejercicios los métodos daban distinto; con 594 casos dan igual. Eso es exactamente lo que dice la teoría: la convención importa con muestras chicas y deja de importar cuando hay muchas.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Cuántos casos superan el cerco superior de la regla del 1,5?",
+          "respuesta": 46.0,
+          "tolerancia": 0.0,
+          "solucion": "El cerco está en Q₃ + 1,5 × RIC = $1.900.000, y lo superan 46 de 594 casos: el 7,7 %. Con una variable asimétrica como el ingreso la regla marca muchísimos, y ninguno es un error: son personas que ganan bien. La regla sirve para mirar, no para borrar.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Cuál es la mediana del ingreso **ponderando** con `PONDIIO`?",
+          "respuesta": 730000.0,
+          "tolerancia": 1.0,
+          "solucion": "$730.000. No se busca el valor del medio entre los casos sino aquel donde la suma acumulada de los pesos llega a la mitad del total. Sin ponderar da $700.000.",
+          "diagnosticos": [
+            {
+              "valor": 700000.0,
+              "motivo": "Es la mediana sin ponderar: se ordenó y se tomó el valor del medio, sin usar PONDIIO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eph-tabla",
+      "tema": "tabla-con-archivo",
+      "concepto": "tabla-de-frecuencias",
+      "nivel": 2,
+      "titulo": "Agrupar en clases un archivo real",
+      "intro": "Trabajá sobre la edad —columna `CH06`— de las 1.339 personas del archivo. Acordate de que el `-1` es «menos de un año» y hay que contarlo como 0. Usá clases de amplitud 10 empezando en 0, con intervalos semiabiertos [Lᵢ, Lᵢ₊₁).",
+      "preguntas": [
+        {
+          "texto": "¿Cuántas clases sugiere Sturges? Redondeá al entero más cercano.",
+          "respuesta": 11.0,
+          "tolerancia": 0.0,
+          "solucion": "k = 1 + 3,322 × log₁₀(1.339) = 11,3872, o sea 11. Con amplitud 10 desde 0 hacen falta 11 clases para cubrir hasta la edad máxima, así que la sugerencia y la construcción coinciden. No siempre pasa.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Cuántas personas caen en la clase [20, 30)?",
+          "respuesta": 253.0,
+          "tolerancia": 0.0,
+          "solucion": "253 personas: las de 20 a 29 años cumplidos. El 30 no entra.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Y la frecuencia relativa de esa clase?",
+          "respuesta": 0.188947,
+          "tolerancia": 0.002,
+          "solucion": "253 / 1.339 = 0,1889, el 18,9 % de las personas del archivo. Es la clase más numerosa.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿Cuántas personas hay acumuladas por debajo de 30 años?",
+          "respuesta": 584.0,
+          "tolerancia": 0.0,
+          "solucion": "584 de 1.339, o sea el 43,6 %. Casi la mitad del aglomerado tiene menos de 30 años.",
+          "diagnosticos": []
+        },
+        {
+          "texto": "¿En qué clase caen las personas con `CH06 = -1`? Respondé cuántas son.",
+          "respuesta": 7.0,
+          "tolerancia": 0.0,
+          "solucion": "Son 7, y van en la primera clase, [0, 10), porque `-1` significa «menos de un año». Si se toma la columna tal cual, esas 7 personas caen fuera de todas las clases y la tabla no cierra: la suma de las frecuencias da 1.332 y no 1.339.",
+          "diagnosticos": [
+            {
+              "valor": 0.0,
+              "motivo": "Si el filtro descartó los −1 antes de agrupar, no aparece ninguno y se pierden esas personas sin que nada lo avise."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

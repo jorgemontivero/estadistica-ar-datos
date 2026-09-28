@@ -1,0 +1,562 @@
+{
+  "fuente": "Gráficos dibujados a partir de datos inventados con semilla fija, o tomados del extracto de la EPH. No son una fuente de datos y no deben citarse.",
+  "generado_por": "datos/ejercicios/generar-graficos.py",
+  "advertencia": "La respuesta es una categoría y no se recalcula. Lo que se comprueba es que esté entre las opciones, que cada distractor tenga su motivo, que los datos de cada gráfico sean coherentes con el tipo que declaran y que la correcta no caiga siempre en el mismo lugar.",
+  "concepto": "histograma",
+  "concepto_criterio": "eleccion-del-grafico",
+  "identificar": {
+    "titulo": "¿Qué gráfico es este?",
+    "preguntas": [
+      {
+        "id": "identificar-01",
+        "grafico": {
+          "tipo": "barras",
+          "etiquetas": [
+            "Primaria",
+            "Secundaria",
+            "Terciaria",
+            "Universitaria"
+          ],
+          "valores": [
+            412,
+            508,
+            187,
+            232
+          ],
+          "ejey": "Personas"
+        },
+        "opciones": [
+          "Diagrama de caja",
+          "Histograma",
+          "Gráfico de sectores",
+          "Gráfico de barras"
+        ],
+        "respuesta": "Gráfico de barras",
+        "solucion": "Es un gráfico de barras: las categorías del eje horizontal no tienen un orden numérico ni una escala continua, y por eso las barras van **separadas**. Cualquier orden entre ellas es una decisión de quien dibuja.",
+        "por_que_no": [
+          {
+            "opcion": "Histograma",
+            "motivo": "En un histograma el eje horizontal es una escala continua y las barras se tocan. Acá hay categorías y hay espacio entre las barras: esas dos cosas van juntas siempre."
+          }
+        ]
+      },
+      {
+        "id": "identificar-02",
+        "grafico": {
+          "tipo": "histograma",
+          "limites": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "valores": [
+            8,
+            21,
+            34,
+            27,
+            15,
+            6
+          ],
+          "ejex": "Minutos",
+          "ejey": "Frecuencia"
+        },
+        "opciones": [
+          "Polígono de frecuencias",
+          "Gráfico de barras",
+          "Gráfico de sectores",
+          "Histograma"
+        ],
+        "respuesta": "Histograma",
+        "solucion": "Es un histograma: el eje horizontal es una variable continua partida en clases, las barras **se tocan** y el área de cada una representa su frecuencia.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Las barras de un gráfico de barras van separadas porque las categorías no son contiguas. Acá el eje es una escala y las clases se continúan una con otra."
+          },
+          {
+            "opcion": "Polígono de frecuencias",
+            "motivo": "El polígono une con una línea las marcas de clase en vez de dibujar barras. Acá hay barras."
+          }
+        ]
+      },
+      {
+        "id": "identificar-03",
+        "grafico": {
+          "tipo": "sectores",
+          "etiquetas": [
+            "Ocupados",
+            "Desocupados",
+            "Inactivos"
+          ],
+          "valores": [
+            631,
+            26,
+            545
+          ]
+        },
+        "opciones": [
+          "Diagrama de caja",
+          "Gráfico de barras",
+          "Histograma",
+          "Gráfico de sectores"
+        ],
+        "respuesta": "Gráfico de sectores",
+        "solucion": "Es un gráfico de sectores. Sirve para mostrar la **composición de un total** y solo funciona con pocas categorías: con más de cinco o seis, comparar ángulos es más difícil que comparar alturas y conviene pasar a barras.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Las barras comparan magnitudes; los sectores muestran partes de un todo que suma 100 %."
+          }
+        ]
+      },
+      {
+        "id": "identificar-04",
+        "grafico": {
+          "tipo": "caja",
+          "grupos": [
+            {
+              "nombre": "Varones",
+              "min": 12,
+              "q1": 28,
+              "me": 41,
+              "q3": 58,
+              "max": 79,
+              "atipicos": [
+                112
+              ]
+            },
+            {
+              "nombre": "Mujeres",
+              "min": 9,
+              "q1": 24,
+              "me": 35,
+              "q3": 49,
+              "max": 71,
+              "atipicos": []
+            }
+          ],
+          "ejey": "Ingreso, en miles"
+        },
+        "opciones": [
+          "Gráfico de sectores",
+          "Diagrama de caja",
+          "Histograma",
+          "Gráfico de barras"
+        ],
+        "respuesta": "Diagrama de caja",
+        "solucion": "Es un diagrama de caja. Muestra cinco números —mínimo, los tres cuartiles y máximo— y los puntos que quedan fuera de los cercos. Es el gráfico que conviene para **comparar la distribución entre grupos**.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Una barra muestra un solo número por categoría; la caja muestra la distribución entera."
+          }
+        ]
+      },
+      {
+        "id": "identificar-05",
+        "grafico": {
+          "tipo": "dispersion",
+          "puntos": [
+            [
+              1.0,
+              5.76
+            ],
+            [
+              1.43,
+              8.91
+            ],
+            [
+              1.86,
+              11.57
+            ],
+            [
+              2.29,
+              9.94
+            ],
+            [
+              2.71,
+              12.59
+            ],
+            [
+              3.14,
+              9.4
+            ],
+            [
+              3.57,
+              12.11
+            ],
+            [
+              4.0,
+              12.52
+            ],
+            [
+              4.43,
+              15.33
+            ],
+            [
+              4.86,
+              16.91
+            ],
+            [
+              5.29,
+              21.37
+            ],
+            [
+              5.71,
+              13.18
+            ],
+            [
+              6.14,
+              17.26
+            ],
+            [
+              6.57,
+              17.51
+            ],
+            [
+              7.0,
+              20.37
+            ],
+            [
+              7.43,
+              21.9
+            ],
+            [
+              7.86,
+              16.48
+            ],
+            [
+              8.29,
+              25.84
+            ],
+            [
+              8.71,
+              20.84
+            ],
+            [
+              9.14,
+              21.65
+            ],
+            [
+              9.57,
+              26.05
+            ],
+            [
+              10.0,
+              26.46
+            ]
+          ],
+          "ejex": "Años de estudio",
+          "ejey": "Ingreso, en miles"
+        },
+        "opciones": [
+          "Diagrama de dispersión",
+          "Gráfico de líneas",
+          "Gráfico de barras",
+          "Histograma"
+        ],
+        "respuesta": "Diagrama de dispersión",
+        "solucion": "Es un diagrama de dispersión: cada punto es **un caso con dos variables cuantitativas**. Es el gráfico de la correlación y el primero que hay que mirar antes de ajustar una recta.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de líneas",
+            "motivo": "La línea une puntos consecutivos porque el eje horizontal tiene un orden —el tiempo, casi siempre—. Acá los puntos son casos independientes y unirlos no significaría nada."
+          }
+        ]
+      },
+      {
+        "id": "identificar-06",
+        "grafico": {
+          "tipo": "lineas",
+          "etiquetas": [
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ],
+          "valores": [
+            100.0,
+            92.4,
+            101.8,
+            110.2,
+            114.9,
+            108.3,
+            117.6,
+            124.1
+          ],
+          "ejey": "Índice, base 2019 = 100"
+        },
+        "opciones": [
+          "Histograma",
+          "Diagrama de dispersión",
+          "Gráfico de líneas",
+          "Gráfico de barras"
+        ],
+        "respuesta": "Gráfico de líneas",
+        "solucion": "Es un gráfico de líneas. Se usa cuando el eje horizontal tiene un **orden natural**, casi siempre el tiempo: la línea sugiere continuidad entre un punto y el siguiente, y eso solo tiene sentido si esa continuidad existe.",
+        "por_que_no": [
+          {
+            "opcion": "Diagrama de dispersión",
+            "motivo": "La dispersión no une los puntos porque no hay un orden que recorrer entre ellos."
+          }
+        ]
+      },
+      {
+        "id": "identificar-07",
+        "grafico": {
+          "tipo": "ojiva",
+          "limites": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "acumuladas": [
+            8,
+            29,
+            63,
+            90,
+            105,
+            111
+          ],
+          "ejex": "Minutos",
+          "ejey": "Frecuencia acumulada"
+        },
+        "opciones": [
+          "Gráfico de barras",
+          "Ojiva",
+          "Gráfico de líneas",
+          "Polígono de frecuencias"
+        ],
+        "respuesta": "Ojiva",
+        "solucion": "Es una ojiva: la curva de **frecuencias acumuladas**. Nunca baja, arranca en cero y termina en el total, y se dibuja sobre los límites superiores de cada clase. Sirve para leer percentiles.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de líneas",
+            "motivo": "Una serie de tiempo puede subir y bajar; la ojiva nunca baja, porque acumula."
+          },
+          {
+            "opcion": "Polígono de frecuencias",
+            "motivo": "El polígono dibuja las frecuencias simples y sube y baja siguiendo la forma de la distribución."
+          }
+        ]
+      }
+    ]
+  },
+  "elegir": {
+    "titulo": "¿Qué gráfico corresponde?",
+    "preguntas": [
+      {
+        "id": "elegir-01",
+        "texto": "Se quiere mostrar cómo se reparten los 1.339 casos de un relevamiento entre los 24 aglomerados urbanos del país.",
+        "opciones": [
+          "Histograma",
+          "Ojiva",
+          "Gráfico de líneas",
+          "Gráfico de sectores",
+          "Diagrama de caja",
+          "Mapa de coropletas",
+          "Gráfico de barras",
+          "Diagrama de dispersión"
+        ],
+        "respuesta": "Gráfico de barras",
+        "solucion": "Barras, y ordenadas por frecuencia. Son 24 categorías sin orden natural: comparar 24 ángulos de una torta es imposible, y comparar 24 alturas alineadas es inmediato.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de sectores",
+            "motivo": "Con 24 categorías los sectores se vuelven ilegibles y la leyenda ocupa más que el gráfico."
+          },
+          {
+            "opcion": "Histograma",
+            "motivo": "El histograma es para variables continuas agrupadas en clases; el aglomerado es una categoría."
+          }
+        ]
+      },
+      {
+        "id": "elegir-02",
+        "texto": "Se quiere mostrar la forma de la distribución del ingreso de 594 personas: si es simétrica, dónde se concentra, si tiene una cola larga.",
+        "opciones": [
+          "Diagrama de dispersión",
+          "Ojiva",
+          "Gráfico de barras",
+          "Gráfico de líneas",
+          "Histograma",
+          "Gráfico de sectores",
+          "Mapa de coropletas",
+          "Diagrama de caja"
+        ],
+        "respuesta": "Histograma",
+        "solucion": "Histograma. Es una variable continua y lo que interesa es la forma: dónde se amontonan los casos y hacia qué lado se estira.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Las barras separadas sugieren categorías; acá el eje es una escala continua y las clases son contiguas."
+          },
+          {
+            "opcion": "Diagrama de caja",
+            "motivo": "La caja resume la distribución en cinco números y es excelente para comparar grupos, pero esconde la forma: no se ve si hay dos modas."
+          }
+        ]
+      },
+      {
+        "id": "elegir-03",
+        "texto": "Se quiere comparar la distribución del ingreso entre cinco niveles educativos, en un solo gráfico.",
+        "opciones": [
+          "Gráfico de barras",
+          "Gráfico de líneas",
+          "Histograma",
+          "Ojiva",
+          "Diagrama de caja",
+          "Gráfico de sectores",
+          "Mapa de coropletas",
+          "Diagrama de dispersión"
+        ],
+        "respuesta": "Diagrama de caja",
+        "solucion": "Cajas, una por nivel. Muestran la mediana, la dispersión y los atípicos de cada grupo lado a lado, que es exactamente lo que se quiere comparar.",
+        "por_que_no": [
+          {
+            "opcion": "Histograma",
+            "motivo": "Cinco histogramas superpuestos no se leen, y cinco separados obligan a ir y venir para comparar."
+          },
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Una barra por nivel mostraría solo el promedio, y perdería toda la dispersión: dos grupos con la misma media pueden ser completamente distintos."
+          }
+        ]
+      },
+      {
+        "id": "elegir-04",
+        "texto": "Se quiere mostrar la evolución del índice de precios mes a mes durante los últimos cuatro años.",
+        "opciones": [
+          "Gráfico de barras",
+          "Diagrama de dispersión",
+          "Diagrama de caja",
+          "Mapa de coropletas",
+          "Gráfico de sectores",
+          "Histograma",
+          "Gráfico de líneas",
+          "Ojiva"
+        ],
+        "respuesta": "Gráfico de líneas",
+        "solucion": "Líneas. El eje horizontal tiene un orden natural y la continuidad entre un mes y el siguiente es real, así que unir los puntos informa en lugar de engañar.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Con 48 barras el gráfico se vuelve una empalizada y la tendencia, que es lo que importa, se pierde."
+          },
+          {
+            "opcion": "Diagrama de dispersión",
+            "motivo": "Los puntos sueltos no muestran la trayectoria, que es justamente lo que se quiere ver."
+          }
+        ]
+      },
+      {
+        "id": "elegir-05",
+        "texto": "Se quiere ver si hay relación entre los años de estudio y el ingreso de cada persona.",
+        "opciones": [
+          "Diagrama de dispersión",
+          "Ojiva",
+          "Gráfico de barras",
+          "Diagrama de caja",
+          "Gráfico de sectores",
+          "Histograma",
+          "Gráfico de líneas",
+          "Mapa de coropletas"
+        ],
+        "respuesta": "Diagrama de dispersión",
+        "solucion": "Dispersión. Son dos variables cuantitativas medidas sobre los mismos casos, y lo que se busca es la forma de la relación: si es lineal, si hay curvatura, si hay puntos que se despegan.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de líneas",
+            "motivo": "Unir los puntos supondría que hay un orden entre las personas, y no lo hay."
+          },
+          {
+            "opcion": "Histograma",
+            "motivo": "El histograma describe una variable por vez y no puede mostrar la relación entre dos."
+          }
+        ]
+      },
+      {
+        "id": "elegir-06",
+        "texto": "Se quiere responder «¿qué porcentaje de los casos está por debajo de 30 minutos?» directamente sobre el gráfico.",
+        "opciones": [
+          "Gráfico de barras",
+          "Gráfico de sectores",
+          "Histograma",
+          "Ojiva",
+          "Mapa de coropletas",
+          "Diagrama de caja",
+          "Diagrama de dispersión",
+          "Gráfico de líneas"
+        ],
+        "respuesta": "Ojiva",
+        "solucion": "Ojiva. La curva acumulada permite entrar por el eje horizontal en 30, subir hasta la curva y leer el porcentaje, o hacer el camino inverso para encontrar un percentil.",
+        "por_que_no": [
+          {
+            "opcion": "Histograma",
+            "motivo": "El histograma muestra cuántos casos hay en cada clase, pero para acumular hay que ir sumando barras a ojo."
+          }
+        ]
+      },
+      {
+        "id": "elegir-07",
+        "texto": "Una variable tiene solo tres categorías —ocupado, desocupado e inactivo— y se quiere mostrar qué parte del total representa cada una.",
+        "opciones": [
+          "Diagrama de caja",
+          "Mapa de coropletas",
+          "Diagrama de dispersión",
+          "Gráfico de líneas",
+          "Histograma",
+          "Gráfico de sectores",
+          "Ojiva",
+          "Gráfico de barras"
+        ],
+        "respuesta": "Gráfico de sectores",
+        "solucion": "Acá sí funciona: son tres categorías, suman el total y lo que interesa es la proporción de cada parte. Es el único caso en que la torta compite con las barras, y aun así muchos preferirían barras.",
+        "por_que_no": [
+          {
+            "opcion": "Histograma",
+            "motivo": "La variable es cualitativa: no hay clases ni escala continua que agrupar."
+          }
+        ]
+      },
+      {
+        "id": "elegir-08",
+        "texto": "Se quiere mostrar la cantidad de nacimientos de cada uno de los 16 departamentos de una provincia, sobre el mapa.",
+        "opciones": [
+          "Histograma",
+          "Gráfico de barras",
+          "Gráfico de sectores",
+          "Diagrama de dispersión",
+          "Ojiva",
+          "Mapa de coropletas",
+          "Diagrama de caja",
+          "Gráfico de líneas"
+        ],
+        "respuesta": "Mapa de coropletas",
+        "solucion": "Un mapa de coropletas, coloreando cada departamento según su valor. Con una variable que tiene una ubicación, el mapa muestra algo que ningún otro gráfico puede: si los valores altos están cerca unos de otros.",
+        "por_que_no": [
+          {
+            "opcion": "Gráfico de barras",
+            "motivo": "Las barras ordenan bien pero pierden la ubicación, que es lo que agrega el mapa."
+          },
+          {
+            "opcion": "Gráfico de sectores",
+            "motivo": "Con 16 categorías la torta es ilegible, y además el total de nacimientos repartido en departamentos no es lo que se quiere mostrar."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "fuente": "Clasificación de las columnas del extracto de la EPH publicado en /datos/eph-catamarca-2026t1.csv. Las clases salen de un diccionario declarado una sola vez en el generador.",
+  "generado_por": "datos/ejercicios/generar-fundamentos.py",
+  "archivo": "/datos/eph-catamarca-2026t1.csv",
+  "filas": 1339,
+  "advertencia": "La respuesta es una categoría, así que no se recalcula como un número: se declara. Lo que el archivo permite comprobar —cuántos valores distintos hay, si son enteros— se comprueba; que una escala sea ordinal y no nominal es un criterio y no un dato.",
+  "opciones": [
+    "Cualitativa nominal",
+    "Cualitativa ordinal",
+    "Cuantitativa discreta",
+    "Cuantitativa continua",
+    "No es una variable de la persona"
+  ],
+  "teoria": {
+    "id": "fundamentos-teoria",
+    "tema": "conceptos-fundamentales",
+    "concepto": "que-es-la-estadistica",
+    "nivel": 1,
+    "titulo": "¿Se entendieron los conceptos?",
+    "preguntas": [
+      {
+        "tipo": "opcion",
+        "id": "teoria-01",
+        "concepto": "estadistica-descriptiva-e-inferencial",
+        "texto": "Un informe publica que en el aglomerado Gran Catamarca el ingreso medio de la ocupación principal fue de $887.612, calculado con los ponderadores de la EPH. ¿Qué tipo de afirmación es?",
+        "opciones": [
+          "Ninguna de las dos: es un dato administrativo",
+          "Inferencial, porque el número tiene decimales",
+          "Descriptiva: resume los datos de las 1.339 personas relevadas",
+          "Inferencial: estima un valor de la población a partir de una muestra"
+        ],
+        "respuesta": "Inferencial: estima un valor de la población a partir de una muestra",
+        "solucion": "El ponderador es lo que delata la intención: no se está describiendo a las 1.339 personas entrevistadas sino estimando el ingreso de toda la población del aglomerado a partir de ellas. Si el interés fuera solo la muestra, ponderar no tendría sentido.",
+        "por_que_no": [
+          {
+            "opcion": "Descriptiva: resume los datos de las 1.339 personas relevadas",
+            "motivo": "Sería descriptiva si el promedio fuera sin ponderar y la conclusión se limitara a las personas entrevistadas."
+          },
+          {
+            "opcion": "Inferencial, porque el número tiene decimales",
+            "motivo": "La precisión del número no tiene nada que ver: un promedio descriptivo también puede tener decimales."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-02",
+        "concepto": "poblacion-y-muestra",
+        "texto": "En ese mismo relevamiento, ¿cuál es la población?",
+        "opciones": [
+          "Las personas que viven en el aglomerado Gran Catamarca",
+          "Las 1.339 personas entrevistadas",
+          "Todos los habitantes de la provincia de Catamarca",
+          "Las 426 viviendas visitadas"
+        ],
+        "respuesta": "Las personas que viven en el aglomerado Gran Catamarca",
+        "solucion": "La población es el conjunto sobre el que se quiere concluir. La EPH cubre aglomerados urbanos, así que acá es la población del aglomerado, no la muestra ni la provincia entera.",
+        "por_que_no": [
+          {
+            "opcion": "Las 1.339 personas entrevistadas",
+            "motivo": "Esa es la muestra: el subconjunto que se observó."
+          },
+          {
+            "opcion": "Todos los habitantes de la provincia de Catamarca",
+            "motivo": "La EPH no releva zonas rurales ni localidades chicas, así que no permite concluir sobre toda la provincia."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-03",
+        "concepto": "unidad-de-analisis",
+        "texto": "En el archivo hay 1.339 filas y 426 valores distintos de CODUSU. Si el interés es el ingreso de las personas, ¿cuál es la unidad de análisis?",
+        "opciones": [
+          "El hogar",
+          "La vivienda",
+          "El aglomerado",
+          "La persona"
+        ],
+        "respuesta": "La persona",
+        "solucion": "La unidad de análisis es aquello de lo que se predica la variable. El ingreso de la ocupación principal es de cada persona, y por eso hay una fila por persona: 1.339.",
+        "por_que_no": [
+          {
+            "opcion": "La vivienda",
+            "motivo": "La vivienda es la unidad de **selección** de la muestra —se eligen viviendas y se entrevista a todos sus integrantes—, que es otra cosa que la unidad de análisis."
+          },
+          {
+            "opcion": "El hogar",
+            "motivo": "Sería el hogar si la variable fuera del hogar, como el ingreso total familiar o la cantidad de ambientes."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-04",
+        "concepto": "parametro-y-estadistico",
+        "texto": "El ingreso medio calculado sobre las 1.339 personas del archivo es un…",
+        "opciones": [
+          "Estadístico, porque se calcula sobre la muestra",
+          "Parámetro, porque se usó el ponderador",
+          "Parámetro, porque describe a la población",
+          "Ninguno: es un dato observado"
+        ],
+        "respuesta": "Estadístico, porque se calcula sobre la muestra",
+        "solucion": "El parámetro es el valor de la población, que no se conoce. Lo que se calcula con los datos observados es un estadístico, y sirve para estimar aquel. Ponderar no cambia eso: sigue calculándose con la muestra.",
+        "por_que_no": [
+          {
+            "opcion": "Parámetro, porque describe a la población",
+            "motivo": "El parámetro existe pero no se observa. Si se conociera, no haría falta la encuesta."
+          },
+          {
+            "opcion": "Parámetro, porque se usó el ponderador",
+            "motivo": "El ponderador sirve para estimar mejor el parámetro, no para convertir el estadístico en uno."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-05",
+        "concepto": "censo-encuesta-registro",
+        "texto": "Las actas de nacimiento que carga el Registro Civil, con las que después se arman las estadísticas vitales, son un ejemplo de…",
+        "opciones": [
+          "Fuente secundaria",
+          "Registro administrativo",
+          "Censo",
+          "Encuesta por muestreo"
+        ],
+        "respuesta": "Registro administrativo",
+        "solucion": "El dato se genera porque hay un trámite —inscribir un nacimiento—, no porque alguien haya salido a medir. Esa es la definición de registro administrativo, y explica sus virtudes —cobertura total y continuidad— y sus defectos: las variables son las que el trámite necesita y no las que el análisis querría.",
+        "por_que_no": [
+          {
+            "opcion": "Censo",
+            "motivo": "Un censo es un operativo que releva a toda la población en un momento dado. El registro es continuo y pasivo."
+          },
+          {
+            "opcion": "Fuente secundaria",
+            "motivo": "Primaria o secundaria depende de quién usa el dato, no de cómo se generó: para el Registro Civil es primaria."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-06",
+        "concepto": "fuentes-primarias-y-secundarias",
+        "texto": "Alguien escribe una tesis usando el archivo de la EPH que bajó del sitio del INDEC. Para esa tesis, la EPH es una fuente…",
+        "opciones": [
+          "Depende de si los cita o no",
+          "Primaria: los bajó directamente del organismo que los produce",
+          "Primaria: son microdatos y no un resumen",
+          "Secundaria: los datos los produjo otro con otro objetivo"
+        ],
+        "respuesta": "Secundaria: los datos los produjo otro con otro objetivo",
+        "solucion": "La distinción es sobre **quién generó el dato para qué**. Quien no participó del relevamiento usa una fuente secundaria, por más que la baje del organismo original y por más que sean microdatos.",
+        "por_que_no": [
+          {
+            "opcion": "Primaria: son microdatos y no un resumen",
+            "motivo": "El nivel de desagregación no define la distinción. Un microdato ajeno sigue siendo fuente secundaria."
+          },
+          {
+            "opcion": "Primaria: los bajó directamente del organismo que los produce",
+            "motivo": "De dónde se baja el archivo tampoco cambia quién lo produjo ni con qué objetivo."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-07",
+        "concepto": "error-y-sesgo",
+        "texto": "Una balanza marca siempre 200 gramos de más. Las mediciones que produce tienen…",
+        "opciones": [
+          "Error aleatorio, pero no sesgo",
+          "Sesgo, que se corrige tomando más mediciones",
+          "Sesgo, pero no necesariamente más error aleatorio",
+          "Ni sesgo ni error: es un problema de calibración"
+        ],
+        "respuesta": "Sesgo, pero no necesariamente más error aleatorio",
+        "solucion": "El sesgo es un error que va siempre en la misma dirección. La balanza puede ser muy precisa —repetir la misma medición da siempre lo mismo— y estar corrida: precisión y exactitud son cosas distintas.",
+        "por_que_no": [
+          {
+            "opcion": "Sesgo, que se corrige tomando más mediciones",
+            "motivo": "Esa es la confusión importante: promediar más mediciones reduce el error aleatorio y **no toca el sesgo**. Mil pesadas dan 200 gramos de más igual."
+          },
+          {
+            "opcion": "Error aleatorio, pero no sesgo",
+            "motivo": "El error aleatorio cambia de signo entre mediciones; acá el corrimiento es constante."
+          }
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "id": "teoria-08",
+        "concepto": "matriz-de-datos",
+        "texto": "En una matriz de datos bien armada, ¿qué va en las filas?",
+        "opciones": [
+          "Las unidades de análisis, una por fila",
+          "Los valores, uno por fila",
+          "Las variables, una por fila",
+          "Depende del programa que se use"
+        ],
+        "respuesta": "Las unidades de análisis, una por fila",
+        "solucion": "Una fila por caso y una columna por variable. Es la convención que esperan todos los programas estadísticos, y respetarla ahorra la mitad de los problemas de preparación.",
+        "por_que_no": [
+          {
+            "opcion": "Las variables, una por fila",
+            "motivo": "Eso es la matriz transpuesta, que aparece seguido en planillas armadas a mano y hay que dar vuelta antes de analizar."
+          },
+          {
+            "opcion": "Los valores, uno por fila",
+            "motivo": "Ese es el formato largo, útil para algunas cosas, pero no es la matriz de datos clásica."
+          }
+        ]
+      }
+    ]
+  },
+  "ejercicio": {
+    "id": "fundamentos-clasificar",
+    "tema": "clasificar-variables",
+    "concepto": "tipos-de-variables",
+    "nivel": 1,
+    "titulo": "Clasificar las variables de un archivo real",
+    "preguntas": [
+      {
+        "tipo": "opcion",
+        "columna": "CODUSU",
+        "texto": "CODUSU — Identificador de la vivienda.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "No es una variable de la persona",
+        "solucion": "Es una clave para unir registros, no una característica que se mida. No tiene sentido contar cuántas veces aparece cada valor como si fuera una categoría de análisis.",
+        "trampa": null,
+        "del_archivo": "En el archivo toma 426 valores distintos.",
+        "distintos": 426,
+        "enteros": false,
+        "codigos_declarados": [],
+        "codigos_del_archivo": [
+          "TQRMNOPPQHLNLMCDEHIBB00892829",
+          "TQRMNOPPRHLNLMCDEHIBB00892651",
+          "TQRMNOPPSHLNLMCDEHIBB00893291",
+          "TQRMNOPPTHLNLMCDEHIBB00893923",
+          "TQRMNOPPUHLMKNCDEHIBB00896652",
+          "TQRMNOPPUHLNLMCDEHIBB00894263",
+          "TQRMNOPPYHKMLLCDEHIBB00903313",
+          "TQRMNOPQQHLMKNCDEHIBB00894450",
+          "TQRMNOPQRHLMKNCDEHIBB00896653",
+          "TQRMNOPSPHJMLOCDEHIBB00876741",
+          "TQRMNOPSPHKLKUCDEHIBB00903576",
+          "TQRMNOPSQHJMLOCDEHIBB00872525"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "AGLOMERADO",
+        "texto": "AGLOMERADO — El aglomerado urbano. Acá vale 22 en todas las filas.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cualitativa nominal",
+        "solucion": "Está codificado con un número, pero el 22 no es una cantidad: es una etiqueta. Sumar aglomerados o sacarles el promedio no significa nada.",
+        "trampa": "Es el error más común del módulo: confundir una variable cualitativa codificada con números con una cuantitativa.",
+        "del_archivo": "En el archivo toma 1 valor distinto: 22 (1339).",
+        "distintos": 1,
+        "enteros": true,
+        "codigos_declarados": [
+          "22"
+        ],
+        "codigos_del_archivo": [
+          "22"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "CH04",
+        "texto": "CH04 — Sexo. 1 es varón y 2 es mujer.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cualitativa nominal",
+        "solucion": "Dos categorías sin orden entre ellas. Que estén numeradas 1 y 2 no las vuelve cuantitativas ni pone a una por encima de la otra.",
+        "trampa": "Un promedio de CH04 da un número —alrededor de 1,5— y no significa absolutamente nada.",
+        "del_archivo": "En el archivo toma 2 valores distintos: 2 (691), 1 (648).",
+        "distintos": 2,
+        "enteros": true,
+        "codigos_declarados": [
+          "1",
+          "2"
+        ],
+        "codigos_del_archivo": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "CH06",
+        "texto": "CH06 — Edad en años cumplidos. El −1 es «menos de un año».",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cuantitativa discreta",
+        "solucion": "La edad en años cumplidos toma valores enteros y separados. La edad como magnitud es continua, pero **así medida** es discreta: lo que se clasifica es la variable tal como está en la matriz.",
+        "trampa": "El −1 no es una edad negativa sino un código. Un código dentro de una columna numérica no la vuelve cualitativa, pero hay que sacarlo antes de cualquier cuenta.",
+        "del_archivo": "En el archivo toma 92 valores distintos.",
+        "distintos": 92,
+        "enteros": true,
+        "codigos_declarados": [],
+        "codigos_del_archivo": [
+          "-1",
+          "1",
+          "10",
+          "100",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "NIVEL_ED",
+        "texto": "NIVEL_ED — Nivel educativo alcanzado, del 1 al 7. El 7 es «sin instrucción».",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cualitativa ordinal",
+        "solucion": "Las categorías tienen un orden natural —primaria incompleta está por debajo de secundaria completa— pero las distancias entre ellas no son comparables: no se puede decir que de 2 a 3 haya lo mismo que de 5 a 6.",
+        "trampa": "El código no respeta el orden: el 7 es «sin instrucción», que es el nivel más bajo y está numerado último. Ordenar por el código pone al nivel más bajo arriba de todo.",
+        "del_archivo": "En el archivo toma 7 valores distintos: 4 (349), 3 (252), 6 (224), 5 (192), 1 (142), 2 (126), 7 (54).",
+        "distintos": 7,
+        "enteros": true,
+        "codigos_declarados": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "codigos_del_archivo": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "ESTADO",
+        "texto": "ESTADO — Condición de actividad: 0 entrevista no realizada, 1 ocupado, 2 desocupado, 3 inactivo, 4 menor de 10 años.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cualitativa nominal",
+        "solucion": "Son categorías sin un orden que las recorra: no hay un sentido en el que inactivo esté «por encima» de desocupado.",
+        "trampa": "El 4 no es «más» que el 1: es una categoría aparte, la de quienes no entran en la pregunta por edad. Y hay un 0 con cuatro casos —entrevista individual no realizada— que no aparece en ningún resumen y arruina cualquier conteo que suponga que todos son 1, 2, 3 o 4.",
+        "del_archivo": "En el archivo toma 5 valores distintos: 1 (631), 3 (545), 4 (133), 2 (26), 0 (4).",
+        "distintos": 5,
+        "enteros": true,
+        "codigos_declarados": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "codigos_del_archivo": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "P21",
+        "texto": "P21 — Ingreso de la ocupación principal, en pesos. El 0 es «fuera de universo» y el −9, no respuesta.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "Cuantitativa continua",
+        "solucion": "El dinero admite cualquier valor dentro de un intervalo y las diferencias son comparables. Que venga redondeado a pesos no lo vuelve discreto: lo discreto sería que solo pudiera tomar unos pocos valores posibles.",
+        "trampa": "Tiene dos códigos escondidos entre los valores reales, y los dos son números que una máquina promedia sin quejarse.",
+        "del_archivo": "En el archivo toma 100 valores distintos.",
+        "distintos": 100,
+        "enteros": true,
+        "codigos_declarados": [],
+        "codigos_del_archivo": [
+          "-9",
+          "0",
+          "100000",
+          "1000000",
+          "1010000",
+          "1046000",
+          "1050000",
+          "1100000",
+          "115000",
+          "1189000",
+          "120000",
+          "1200000"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "columna": "PONDERA",
+        "texto": "PONDERA — Ponderador: a cuántas personas representa cada fila.",
+        "opciones": [
+          "Cualitativa nominal",
+          "Cualitativa ordinal",
+          "Cuantitativa discreta",
+          "Cuantitativa continua",
+          "No es una variable de la persona"
+        ],
+        "respuesta": "No es una variable de la persona",
+        "solucion": "No es una característica de la persona entrevistada sino una propiedad del diseño de la muestra. Describir su distribución no dice nada sobre la población.",
+        "trampa": "Aparece como una columna numérica más y se cuela en cualquier «resumen de todas las variables» que uno pida al programa.",
+        "del_archivo": "En el archivo toma 190 valores distintos.",
+        "distintos": 190,
+        "enteros": true,
+        "codigos_declarados": [],
+        "codigos_del_archivo": [
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "1050",
+          "106",
+          "107",
+          "1072",
+          "108",
+          "109"
+        ]
+      }
+    ]
+  }
+}
