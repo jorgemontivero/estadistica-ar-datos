@@ -1,0 +1,1830 @@
+{
+  "semilla": 6000,
+  "fuente": "Datos simulados con semilla fija. No provienen de ninguna fuente pública y no deben citarse como tales.",
+  "generado_por": "datos/ejercicios/generar-ejercicios.py",
+  "nota": "Respuestas calculadas de los datos, no tipeadas. scripts/verificar-ejercicios.py las recalcula solo con la biblioteca estándar.",
+  "ejercicios": [
+    {
+      "id": "descriptivos-01",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los minutos que tardó el colectivo en llegar a la parada, en 7 días. Los valores, ya ordenados, son:",
+      "datos": [
+        8,
+        11,
+        12,
+        15,
+        17,
+        17,
+        20
+      ],
+      "unidad": "minutos",
+      "parametros": {
+        "n": 7
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 14.2857,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 7 valores es 100. Dividida por 7 da 14,2857."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 15.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 7 valores ordenados, la mediana es el del medio, el que ocupa la posición 4: 15,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 4.1519,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 14,2857 es 103,4286. Dividida por n − 1 = 6 da una varianza de 17,2381, y su raíz es 4,1519."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 12.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 20 y el mínimo 8: su diferencia es 12."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-02",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las consultas atendidas por guardia en un centro de salud, en 11 turnos. Los valores, ya ordenados, son:",
+      "datos": [
+        12,
+        16,
+        22,
+        24,
+        31,
+        31,
+        34,
+        37,
+        44,
+        46,
+        48
+      ],
+      "unidad": "consultas",
+      "parametros": {
+        "n": 11
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 31.3636,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 11 valores es 345. Dividida por 11 da 31,3636."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 31.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 11 valores ordenados, la mediana es el del medio, el que ocupa la posición 6: 31,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 12.0106,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 31,3636 es 1.442,5455. Dividida por n − 1 = 10 da una varianza de 144,2545, y su raíz es 12,0106."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 36.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 48 y el mínimo 12: su diferencia es 36."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-03",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los gastos en transporte de 9 hogares, en miles de pesos. Los valores, ya ordenados, son:",
+      "datos": [
+        39,
+        40,
+        42,
+        42,
+        44,
+        59,
+        61,
+        65,
+        88
+      ],
+      "unidad": "miles de pesos",
+      "parametros": {
+        "n": 9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 53.3333,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 9 valores es 480. Dividida por 9 da 53,3333."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 44.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 9 valores ordenados, la mediana es el del medio, el que ocupa la posición 5: 44,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 16.4165,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 53,3333 es 2.156,0000. Dividida por n − 1 = 8 da una varianza de 269,5000, y su raíz es 16,4165."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 49.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 88 y el mínimo 39: su diferencia es 49."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-04",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las superficies sembradas de 8 lotes, en hectáreas. Los valores, ya ordenados, son:",
+      "datos": [
+        30,
+        34,
+        57,
+        65,
+        75,
+        110,
+        120,
+        126
+      ],
+      "unidad": "hectáreas",
+      "parametros": {
+        "n": 8
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 77.125,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 8 valores es 617. Dividida por 8 da 77,1250."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 70.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 8 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 4 y 5: 70,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 37.6921,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 77,1250 es 9.944,8750. Dividida por n − 1 = 7 da una varianza de 1.420,6964, y su raíz es 37,6921."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 96.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 126 y el mínimo 30: su diferencia es 96."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-05",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los minutos que tardó el colectivo en llegar a la parada, en 7 días. Los valores, ya ordenados, son:",
+      "datos": [
+        10,
+        15,
+        18,
+        22,
+        25,
+        25,
+        26
+      ],
+      "unidad": "minutos",
+      "parametros": {
+        "n": 7
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 20.1429,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 7 valores es 141. Dividida por 7 da 20,1429."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 22.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 7 valores ordenados, la mediana es el del medio, el que ocupa la posición 4: 22,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 6.0396,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 20,1429 es 218,8571. Dividida por n − 1 = 6 da una varianza de 36,4762, y su raíz es 6,0396."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 16.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 26 y el mínimo 10: su diferencia es 16."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-06",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las consultas atendidas por guardia en un centro de salud, en 10 turnos. Los valores, ya ordenados, son:",
+      "datos": [
+        12,
+        15,
+        16,
+        26,
+        27,
+        30,
+        42,
+        42,
+        46,
+        48
+      ],
+      "unidad": "consultas",
+      "parametros": {
+        "n": 10
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 30.4,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 10 valores es 304. Dividida por 10 da 30,4000."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 28.5,
+          "tolerancia": 0.01,
+          "solucion": "Con 10 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 5 y 6: 28,5000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 13.4841,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 30,4000 es 1.636,4000. Dividida por n − 1 = 9 da una varianza de 181,8222, y su raíz es 13,4841."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 36.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 48 y el mínimo 12: su diferencia es 36."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-07",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los gastos en transporte de 10 hogares, en miles de pesos. Los valores, ya ordenados, son:",
+      "datos": [
+        22,
+        38,
+        40,
+        58,
+        59,
+        62,
+        65,
+        68,
+        70,
+        81
+      ],
+      "unidad": "miles de pesos",
+      "parametros": {
+        "n": 10
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 56.3,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 10 valores es 563. Dividida por 10 da 56,3000."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 60.5,
+          "tolerancia": 0.01,
+          "solucion": "Con 10 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 5 y 6: 60,5000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 17.7329,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 56,3000 es 2.830,1000. Dividida por n − 1 = 9 da una varianza de 314,4556, y su raíz es 17,7329."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 59.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 81 y el mínimo 22: su diferencia es 59."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-08",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las superficies sembradas de 10 lotes, en hectáreas. Los valores, ya ordenados, son:",
+      "datos": [
+        47,
+        48,
+        79,
+        99,
+        107,
+        120,
+        129,
+        131,
+        132,
+        133
+      ],
+      "unidad": "hectáreas",
+      "parametros": {
+        "n": 10
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 102.5,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 10 valores es 1025. Dividida por 10 da 102,5000."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 113.5,
+          "tolerancia": 0.01,
+          "solucion": "Con 10 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 5 y 6: 113,5000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 33.7581,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 102,5000 es 10.256,5000. Dividida por n − 1 = 9 da una varianza de 1.139,6111, y su raíz es 33,7581."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 86.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 133 y el mínimo 47: su diferencia es 86."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-09",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los minutos que tardó el colectivo en llegar a la parada, en 9 días. Los valores, ya ordenados, son:",
+      "datos": [
+        12,
+        14,
+        16,
+        16,
+        23,
+        23,
+        24,
+        25,
+        26
+      ],
+      "unidad": "minutos",
+      "parametros": {
+        "n": 9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 19.8889,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 9 valores es 179. Dividida por 9 da 19,8889."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 23.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 9 valores ordenados, la mediana es el del medio, el que ocupa la posición 5: 23,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 5.3255,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 19,8889 es 226,8889. Dividida por n − 1 = 8 da una varianza de 28,3611, y su raíz es 5,3255."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 14.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 26 y el mínimo 12: su diferencia es 14."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-10",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las consultas atendidas por guardia en un centro de salud, en 8 turnos. Los valores, ya ordenados, son:",
+      "datos": [
+        16,
+        23,
+        25,
+        28,
+        29,
+        31,
+        32,
+        33
+      ],
+      "unidad": "consultas",
+      "parametros": {
+        "n": 8
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 27.125,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 8 valores es 217. Dividida por 8 da 27,1250."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 28.5,
+          "tolerancia": 0.01,
+          "solucion": "Con 8 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 4 y 5: 28,5000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 5.6426,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 27,1250 es 222,8750. Dividida por n − 1 = 7 da una varianza de 31,8393, y su raíz es 5,6426."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 17.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 33 y el mínimo 16: su diferencia es 17."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-11",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron los gastos en transporte de 8 hogares, en miles de pesos. Los valores, ya ordenados, son:",
+      "datos": [
+        25,
+        30,
+        38,
+        40,
+        53,
+        65,
+        82,
+        83
+      ],
+      "unidad": "miles de pesos",
+      "parametros": {
+        "n": 8
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 52.0,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 8 valores es 416. Dividida por 8 da 52,0000."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 46.5,
+          "tolerancia": 0.01,
+          "solucion": "Con 8 valores ordenados, la mediana es el promedio de los dos del medio, posiciones 4 y 5: 46,5000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 22.6274,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 52,0000 es 3.584,0000. Dividida por n − 1 = 7 da una varianza de 512,0000, y su raíz es 22,6274."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 58.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 83 y el mínimo 25: su diferencia es 58."
+        }
+      ]
+    },
+    {
+      "id": "descriptivos-12",
+      "tema": "descriptivos",
+      "concepto": "media-aritmetica",
+      "nivel": 1,
+      "titulo": "Resumir una variable",
+      "enunciado": "Se registraron las superficies sembradas de 9 lotes, en hectáreas. Los valores, ya ordenados, son:",
+      "datos": [
+        61,
+        63,
+        79,
+        94,
+        95,
+        97,
+        116,
+        119,
+        127
+      ],
+      "unidad": "hectáreas",
+      "parametros": {
+        "n": 9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la media?",
+          "respuesta": 94.5556,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los 9 valores es 851. Dividida por 9 da 94,5556."
+        },
+        {
+          "texto": "¿Cuál es la mediana?",
+          "respuesta": 95.0,
+          "tolerancia": 0.01,
+          "solucion": "Con 9 valores ordenados, la mediana es el del medio, el que ocupa la posición 5: 95,0000."
+        },
+        {
+          "texto": "¿Cuál es el desvío estándar muestral?",
+          "respuesta": 23.6649,
+          "tolerancia": 0.01,
+          "solucion": "La suma de los cuadrados de los desvíos respecto de 94,5556 es 4.480,2222. Dividida por n − 1 = 8 da una varianza de 560,0278, y su raíz es 23,6649."
+        },
+        {
+          "texto": "¿Cuál es el rango?",
+          "respuesta": 66.0,
+          "tolerancia": 0.001,
+          "solucion": "El máximo es 127 y el mínimo 61: su diferencia es 66."
+        }
+      ]
+    },
+    {
+      "id": "normal-01",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el peso al nacer en una maternidad sigue una distribución normal con media 3.158,3 y desvío estándar 510,23 gramos.",
+      "datos": [],
+      "unidad": "gramos",
+      "parametros": {
+        "mu": 3158.3,
+        "sd": 510.23,
+        "corte": 3213.4,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 3.213,4 gramos?",
+          "respuesta": 0.542998,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (3.213,4 − 3.158,3) / 510,23 = 0,1080. La tabla de la normal da Φ(0,11) = 0,5430."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 2814.1551,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 3.158,3 + -0,6745 × 510,23 = 2.814,1551."
+        }
+      ]
+    },
+    {
+      "id": "normal-02",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el rendimiento de un lote de trigo sigue una distribución normal con media 39,1 y desvío estándar 6,52 quintales por hectárea.",
+      "datos": [],
+      "unidad": "quintales por hectárea",
+      "parametros": {
+        "mu": 39.1,
+        "sd": 6.52,
+        "corte": 32.9,
+        "pct": 5
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 32,9 quintales por hectárea?",
+          "respuesta": 0.170822,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (32,9 − 39,1) / 6,52 = -0,9509. La tabla de la normal da Φ(-0,95) = 0,1708."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 95 % de los casos?",
+          "respuesta": 28.3756,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 5. El z que deja 0,05 a la izquierda es -1,6449, y el valor es 39,1 + -1,6449 × 6,52 = 28,3756."
+        }
+      ]
+    },
+    {
+      "id": "normal-03",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el tiempo de atención en una ventanilla sigue una distribución normal con media 9,2 y desvío estándar 2,59 minutos.",
+      "datos": [],
+      "unidad": "minutos",
+      "parametros": {
+        "mu": 9.2,
+        "sd": 2.59,
+        "corte": 11.4,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 11,4 minutos?",
+          "respuesta": 0.802176,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (11,4 − 9,2) / 2,59 = 0,8494. La tabla de la normal da Φ(0,85) = 0,8022."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 7.4531,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 9,2 + -0,6745 × 2,59 = 7,4531."
+        }
+      ]
+    },
+    {
+      "id": "normal-04",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que la temperatura máxima diaria de enero en Catamarca sigue una distribución normal con media 34,7 y desvío estándar 3,19 °C.",
+      "datos": [],
+      "unidad": "°C",
+      "parametros": {
+        "mu": 34.7,
+        "sd": 3.19,
+        "corte": 36.8,
+        "pct": 95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 36,8 °C?",
+          "respuesta": 0.74483,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (36,8 − 34,7) / 3,19 = 0,6583. La tabla de la normal da Φ(0,66) = 0,7448."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 5 % de los casos?",
+          "respuesta": 39.9471,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 95. El z que deja 0,95 a la izquierda es 1,6449, y el valor es 34,7 + 1,6449 × 3,19 = 39,9471."
+        }
+      ]
+    },
+    {
+      "id": "normal-05",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el peso al nacer en una maternidad sigue una distribución normal con media 3.317,3 y desvío estándar 470,08 gramos.",
+      "datos": [],
+      "unidad": "gramos",
+      "parametros": {
+        "mu": 3317.3,
+        "sd": 470.08,
+        "corte": 2786.8,
+        "pct": 90
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 2.786,8 gramos?",
+          "respuesta": 0.129548,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (2.786,8 − 3.317,3) / 470,08 = -1,1285. La tabla de la normal da Φ(-1,13) = 0,1295."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 10 % de los casos?",
+          "respuesta": 3919.7318,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 90. El z que deja 0,90 a la izquierda es 1,2816, y el valor es 3.317,3 + 1,2816 × 470,08 = 3.919,7318."
+        }
+      ]
+    },
+    {
+      "id": "normal-06",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el rendimiento de un lote de trigo sigue una distribución normal con media 37,7 y desvío estándar 6,41 quintales por hectárea.",
+      "datos": [],
+      "unidad": "quintales por hectárea",
+      "parametros": {
+        "mu": 37.7,
+        "sd": 6.41,
+        "corte": 38.4,
+        "pct": 10
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 38,4 quintales por hectárea?",
+          "respuesta": 0.54348,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (38,4 − 37,7) / 6,41 = 0,1092. La tabla de la normal da Φ(0,11) = 0,5435."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 90 % de los casos?",
+          "respuesta": 29.4853,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 10. El z que deja 0,10 a la izquierda es -1,2816, y el valor es 37,7 + -1,2816 × 6,41 = 29,4853."
+        }
+      ]
+    },
+    {
+      "id": "normal-07",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el tiempo de atención en una ventanilla sigue una distribución normal con media 9,5 y desvío estándar 2,62 minutos.",
+      "datos": [],
+      "unidad": "minutos",
+      "parametros": {
+        "mu": 9.5,
+        "sd": 2.62,
+        "corte": 9.9,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 9,9 minutos?",
+          "respuesta": 0.560671,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (9,9 − 9,5) / 2,62 = 0,1527. La tabla de la normal da Φ(0,15) = 0,5607."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 7.7328,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 9,5 + -0,6745 × 2,62 = 7,7328."
+        }
+      ]
+    },
+    {
+      "id": "normal-08",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que la temperatura máxima diaria de enero en Catamarca sigue una distribución normal con media 34,0 y desvío estándar 3,31 °C.",
+      "datos": [],
+      "unidad": "°C",
+      "parametros": {
+        "mu": 34.0,
+        "sd": 3.31,
+        "corte": 34.3,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 34,3 °C?",
+          "respuesta": 0.536108,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (34,3 − 34,0) / 3,31 = 0,0906. La tabla de la normal da Φ(0,09) = 0,5361."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 31.7674,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 34,0 + -0,6745 × 3,31 = 31,7674."
+        }
+      ]
+    },
+    {
+      "id": "normal-09",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el peso al nacer en una maternidad sigue una distribución normal con media 3.134,2 y desvío estándar 496,55 gramos.",
+      "datos": [],
+      "unidad": "gramos",
+      "parametros": {
+        "mu": 3134.2,
+        "sd": 496.55,
+        "corte": 3551.3,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 3.551,3 gramos?",
+          "respuesta": 0.799545,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (3.551,3 − 3.134,2) / 496,55 = 0,8400. La tabla de la normal da Φ(0,84) = 0,7995."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 2799.2821,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 3.134,2 + -0,6745 × 496,55 = 2.799,2821."
+        }
+      ]
+    },
+    {
+      "id": "normal-10",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el rendimiento de un lote de trigo sigue una distribución normal con media 37,7 y desvío estándar 5,55 quintales por hectárea.",
+      "datos": [],
+      "unidad": "quintales por hectárea",
+      "parametros": {
+        "mu": 37.7,
+        "sd": 5.55,
+        "corte": 34.9,
+        "pct": 95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 34,9 quintales por hectárea?",
+          "respuesta": 0.306953,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (34,9 − 37,7) / 5,55 = -0,5045. La tabla de la normal da Φ(-0,50) = 0,3070."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 5 % de los casos?",
+          "respuesta": 46.8289,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 95. El z que deja 0,95 a la izquierda es 1,6449, y el valor es 37,7 + 1,6449 × 5,55 = 46,8289."
+        }
+      ]
+    },
+    {
+      "id": "normal-11",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que el tiempo de atención en una ventanilla sigue una distribución normal con media 9,3 y desvío estándar 2,19 minutos.",
+      "datos": [],
+      "unidad": "minutos",
+      "parametros": {
+        "mu": 9.3,
+        "sd": 2.19,
+        "corte": 10.6,
+        "pct": 95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 10,6 minutos?",
+          "respuesta": 0.723613,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (10,6 − 9,3) / 2,19 = 0,5936. La tabla de la normal da Φ(0,59) = 0,7236."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 5 % de los casos?",
+          "respuesta": 12.9022,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 95. El z que deja 0,95 a la izquierda es 1,6449, y el valor es 9,3 + 1,6449 × 2,19 = 12,9022."
+        }
+      ]
+    },
+    {
+      "id": "normal-12",
+      "tema": "normal",
+      "concepto": "distribucion-normal",
+      "nivel": 2,
+      "titulo": "Probabilidades con la normal",
+      "enunciado": "Se acepta que la temperatura máxima diaria de enero en Catamarca sigue una distribución normal con media 34,7 y desvío estándar 3,40 °C.",
+      "datos": [],
+      "unidad": "°C",
+      "parametros": {
+        "mu": 34.7,
+        "sd": 3.4,
+        "corte": 36.6,
+        "pct": 25
+      },
+      "preguntas": [
+        {
+          "texto": "¿Qué proporción de los casos está por debajo de 36,6 °C?",
+          "respuesta": 0.711859,
+          "tolerancia": 0.002,
+          "solucion": "Se tipifica: z = (36,6 − 34,7) / 3,40 = 0,5588. La tabla de la normal da Φ(0,56) = 0,7119."
+        },
+        {
+          "texto": "¿Por encima de qué valor está el 75 % de los casos?",
+          "respuesta": 32.4067,
+          "tolerancia": 0.05,
+          "solucion": "Es el percentil 25. El z que deja 0,25 a la izquierda es -0,6745, y el valor es 34,7 + -0,6745 × 3,40 = 32,4067."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-01",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el gasto mensual en servicios de los hogares de un barrio se tomó una muestra de 36 casos: la media fue de 42.242 y el desvío estándar muestral 8.800 pesos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "pesos",
+      "parametros": {
+        "n": 36,
+        "media": 42242.0,
+        "s": 8800.0,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 1466.666667,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 8.800,0000 / √36 = 1.466,6667."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 38247.0851,
+          "tolerancia": 0.05,
+          "solucion": "Con 35 grados de libertad, el t crítico es 2,7238. El margen es 2,7238 × 1.466,6667 = 3.994,9149, y el límite inferior 42.242,0000 − 3.994,9149 = 38.247,0851."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 46236.9149,
+          "tolerancia": 0.05,
+          "solucion": "42.242,0000 + 3.994,9149 = 46.236,9149."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-02",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar la cantidad de días de internación tras una cirugía se tomó una muestra de 31 casos: la media fue de 5,59 y el desvío estándar muestral 1,87 días. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 31,
+        "media": 5.59,
+        "s": 1.87,
+        "confianza": 0.9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.335862,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 1,8700 / √31 = 0,3359."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 90 %?",
+          "respuesta": 5.02,
+          "tolerancia": 0.05,
+          "solucion": "Con 30 grados de libertad, el t crítico es 1,6973. El margen es 1,6973 × 0,3359 = 0,5700, y el límite inferior 5,5900 − 0,5700 = 5,0200."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 6.16,
+          "tolerancia": 0.05,
+          "solucion": "5,5900 + 0,5700 = 6,1600."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-03",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el peso de bolsas que salen de una envasadora se tomó una muestra de 19 casos: la media fue de 25,03 y el desvío estándar muestral 0,66 kilos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 19,
+        "media": 25.03,
+        "s": 0.66,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.151414,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 0,6600 / √19 = 0,1514."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 24.5942,
+          "tolerancia": 0.05,
+          "solucion": "Con 18 grados de libertad, el t crítico es 2,8784. El margen es 2,8784 × 0,1514 = 0,4358, y el límite inferior 25,0300 − 0,4358 = 24,5942."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 25.4658,
+          "tolerancia": 0.05,
+          "solucion": "25,0300 + 0,4358 = 25,4658."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-04",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el gasto mensual en servicios de los hogares de un barrio se tomó una muestra de 36 casos: la media fue de 40.889 y el desvío estándar muestral 8.093 pesos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "pesos",
+      "parametros": {
+        "n": 36,
+        "media": 40889.0,
+        "s": 8093.0,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 1348.833333,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 8.093,0000 / √36 = 1.348,8333."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 37215.0402,
+          "tolerancia": 0.05,
+          "solucion": "Con 35 grados de libertad, el t crítico es 2,7238. El margen es 2,7238 × 1.348,8333 = 3.673,9598, y el límite inferior 40.889,0000 − 3.673,9598 = 37.215,0402."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 44562.9598,
+          "tolerancia": 0.05,
+          "solucion": "40.889,0000 + 3.673,9598 = 44.562,9598."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-05",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar la cantidad de días de internación tras una cirugía se tomó una muestra de 28 casos: la media fue de 5,70 y el desvío estándar muestral 1,69 días. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 28,
+        "media": 5.7,
+        "s": 1.69,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.31938,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 1,6900 / √28 = 0,3194."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 4.8151,
+          "tolerancia": 0.05,
+          "solucion": "Con 27 grados de libertad, el t crítico es 2,7707. El margen es 2,7707 × 0,3194 = 0,8849, y el límite inferior 5,7000 − 0,8849 = 4,8151."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 6.5849,
+          "tolerancia": 0.05,
+          "solucion": "5,7000 + 0,8849 = 6,5849."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-06",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el peso de bolsas que salen de una envasadora se tomó una muestra de 35 casos: la media fue de 24,97 y el desvío estándar muestral 0,58 kilos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 35,
+        "media": 24.97,
+        "s": 0.58,
+        "confianza": 0.9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.098038,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 0,5800 / √35 = 0,0980."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 90 %?",
+          "respuesta": 24.8042,
+          "tolerancia": 0.05,
+          "solucion": "Con 34 grados de libertad, el t crítico es 1,6909. El margen es 1,6909 × 0,0980 = 0,1658, y el límite inferior 24,9700 − 0,1658 = 24,8042."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 25.1358,
+          "tolerancia": 0.05,
+          "solucion": "24,9700 + 0,1658 = 25,1358."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-07",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el gasto mensual en servicios de los hogares de un barrio se tomó una muestra de 26 casos: la media fue de 43.582 y el desvío estándar muestral 7.818 pesos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "pesos",
+      "parametros": {
+        "n": 26,
+        "media": 43582.0,
+        "s": 7818.0,
+        "confianza": 0.95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 1533.235945,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 7.818,0000 / √26 = 1.533,2359."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 95 %?",
+          "respuesta": 40424.2415,
+          "tolerancia": 0.05,
+          "solucion": "Con 25 grados de libertad, el t crítico es 2,0595. El margen es 2,0595 × 1.533,2359 = 3.157,7585, y el límite inferior 43.582,0000 − 3.157,7585 = 40.424,2415."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 46739.7585,
+          "tolerancia": 0.05,
+          "solucion": "43.582,0000 + 3.157,7585 = 46.739,7585."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-08",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar la cantidad de días de internación tras una cirugía se tomó una muestra de 25 casos: la media fue de 5,26 y el desvío estándar muestral 2,00 días. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 25,
+        "media": 5.26,
+        "s": 2.0,
+        "confianza": 0.95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.4,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 2,0000 / √25 = 0,4000."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 95 %?",
+          "respuesta": 4.4344,
+          "tolerancia": 0.05,
+          "solucion": "Con 24 grados de libertad, el t crítico es 2,0639. El margen es 2,0639 × 0,4000 = 0,8256, y el límite inferior 5,2600 − 0,8256 = 4,4344."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 6.0856,
+          "tolerancia": 0.05,
+          "solucion": "5,2600 + 0,8256 = 6,0856."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-09",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el peso de bolsas que salen de una envasadora se tomó una muestra de 13 casos: la media fue de 25,06 y el desvío estándar muestral 0,62 kilos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 13,
+        "media": 25.06,
+        "s": 0.62,
+        "confianza": 0.9
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.171957,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 0,6200 / √13 = 0,1720."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 90 %?",
+          "respuesta": 24.7535,
+          "tolerancia": 0.05,
+          "solucion": "Con 12 grados de libertad, el t crítico es 1,7823. El margen es 1,7823 × 0,1720 = 0,3065, y el límite inferior 25,0600 − 0,3065 = 24,7535."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 25.3665,
+          "tolerancia": 0.05,
+          "solucion": "25,0600 + 0,3065 = 25,3665."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-10",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el gasto mensual en servicios de los hogares de un barrio se tomó una muestra de 37 casos: la media fue de 41.200 y el desvío estándar muestral 9.915 pesos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "pesos",
+      "parametros": {
+        "n": 37,
+        "media": 41200.0,
+        "s": 9915.0,
+        "confianza": 0.95
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 1630.015959,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 9.915,0000 / √37 = 1.630,0160."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 95 %?",
+          "respuesta": 37894.1744,
+          "tolerancia": 0.05,
+          "solucion": "Con 36 grados de libertad, el t crítico es 2,0281. El margen es 2,0281 × 1.630,0160 = 3.305,8256, y el límite inferior 41.200,0000 − 3.305,8256 = 37.894,1744."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 44505.8256,
+          "tolerancia": 0.05,
+          "solucion": "41.200,0000 + 3.305,8256 = 44.505,8256."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-11",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar la cantidad de días de internación tras una cirugía se tomó una muestra de 40 casos: la media fue de 5,25 y el desvío estándar muestral 1,39 días. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 40,
+        "media": 5.25,
+        "s": 1.39,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.219778,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 1,3900 / √40 = 0,2198."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 4.6549,
+          "tolerancia": 0.05,
+          "solucion": "Con 39 grados de libertad, el t crítico es 2,7079. El margen es 2,7079 × 0,2198 = 0,5951, y el límite inferior 5,2500 − 0,5951 = 4,6549."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 5.8451,
+          "tolerancia": 0.05,
+          "solucion": "5,2500 + 0,5951 = 5,8451."
+        }
+      ]
+    },
+    {
+      "id": "ic-media-12",
+      "tema": "ic-media",
+      "concepto": "ic-para-la-media",
+      "nivel": 2,
+      "titulo": "Intervalo de confianza para la media",
+      "enunciado": "Para estimar el peso de bolsas que salen de una envasadora se tomó una muestra de 25 casos: la media fue de 24,78 y el desvío estándar muestral 0,54 kilos. El desvío poblacional es desconocido.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 25,
+        "media": 24.78,
+        "s": 0.54,
+        "confianza": 0.99
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el error estándar de la media?",
+          "respuesta": 0.108,
+          "tolerancia": 0.01,
+          "solucion": "EE = s / √n = 0,5400 / √25 = 0,1080."
+        },
+        {
+          "texto": "¿Cuál es el límite inferior del intervalo al 99 %?",
+          "respuesta": 24.4779,
+          "tolerancia": 0.05,
+          "solucion": "Con 24 grados de libertad, el t crítico es 2,7969. El margen es 2,7969 × 0,1080 = 0,3021, y el límite inferior 24,7800 − 0,3021 = 24,4779."
+        },
+        {
+          "texto": "¿Y el límite superior?",
+          "respuesta": 25.0821,
+          "tolerancia": 0.05,
+          "solucion": "24,7800 + 0,3021 = 25,0821."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-01",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma una envasadora que dice llenar bolsas de 25,0 kilos. En una muestra de 23 casos la media fue de 25,006 y el desvío estándar muestral 0,594 kilos. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 23,
+        "media": 25.006,
+        "s": 0.594,
+        "mu0": 25.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 0.0484,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (25,0060 − 25,0) / (0,5940/√23) = 0,0060 / 0,1239 = 0,0484."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.9618,
+          "tolerancia": 0.005,
+          "solucion": "Con 22 grados de libertad, el área de las dos colas más allá de |t| = 0,0484 es 0,9618."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,9618, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 25,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-02",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proveedor que promete entregas en 7,0 días. En una muestra de 22 casos la media fue de 7,911 y el desvío estándar muestral 1,133 días. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 22,
+        "media": 7.911,
+        "s": 1.133,
+        "mu0": 7.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 3.7714,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (7,9110 − 7,0) / (1,1330/√22) = 0,9110 / 0,2416 = 3,7714."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.001121,
+          "tolerancia": 0.005,
+          "solucion": "Con 21 grados de libertad, el área de las dos colas más allá de |t| = 3,7714 es 0,0011."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 1.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,0011, que es menor que 0,05: se rechaza. Los datos son incompatibles con que la media valga 7,0."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-03",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proceso calibrado en 120,0 milímetros. En una muestra de 18 casos la media fue de 119,846 y el desvío estándar muestral 1,230 milímetros. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "milímetros",
+      "parametros": {
+        "n": 18,
+        "media": 119.846,
+        "s": 1.23,
+        "mu0": 120.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -0.5312,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (119,8460 − 120,0) / (1,2300/√18) = -0,1540 / 0,2899 = -0,5312."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.602157,
+          "tolerancia": 0.005,
+          "solucion": "Con 17 grados de libertad, el área de las dos colas más allá de |t| = 0,5312 es 0,6022."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,6022, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 120,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-04",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma una envasadora que dice llenar bolsas de 25,0 kilos. En una muestra de 15 casos la media fue de 25,245 y el desvío estándar muestral 0,580 kilos. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 15,
+        "media": 25.245,
+        "s": 0.58,
+        "mu0": 25.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 1.636,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (25,2450 − 25,0) / (0,5800/√15) = 0,2450 / 0,1498 = 1,6360."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.124114,
+          "tolerancia": 0.005,
+          "solucion": "Con 14 grados de libertad, el área de las dos colas más allá de |t| = 1,6360 es 0,1241."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,1241, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 25,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-05",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proveedor que promete entregas en 7,0 días. En una muestra de 27 casos la media fue de 7,008 y el desvío estándar muestral 1,179 días. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 27,
+        "media": 7.008,
+        "s": 1.179,
+        "mu0": 7.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 0.0353,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (7,0080 − 7,0) / (1,1790/√27) = 0,0080 / 0,2269 = 0,0353."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.972143,
+          "tolerancia": 0.005,
+          "solucion": "Con 26 grados de libertad, el área de las dos colas más allá de |t| = 0,0353 es 0,9721."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,9721, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 7,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-06",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proceso calibrado en 120,0 milímetros. En una muestra de 13 casos la media fue de 119,889 y el desvío estándar muestral 0,988 milímetros. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "milímetros",
+      "parametros": {
+        "n": 13,
+        "media": 119.889,
+        "s": 0.988,
+        "mu0": 120.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -0.4051,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (119,8890 − 120,0) / (0,9880/√13) = -0,1110 / 0,2740 = -0,4051."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.692549,
+          "tolerancia": 0.005,
+          "solucion": "Con 12 grados de libertad, el área de las dos colas más allá de |t| = 0,4051 es 0,6925."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,6925, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 120,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-07",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma una envasadora que dice llenar bolsas de 25,0 kilos. En una muestra de 17 casos la media fue de 25,060 y el desvío estándar muestral 0,557 kilos. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 17,
+        "media": 25.06,
+        "s": 0.557,
+        "mu0": 25.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 0.4441,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (25,0600 − 25,0) / (0,5570/√17) = 0,0600 / 0,1351 = 0,4441."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.662889,
+          "tolerancia": 0.005,
+          "solucion": "Con 16 grados de libertad, el área de las dos colas más allá de |t| = 0,4441 es 0,6629."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,6629, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 25,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-08",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proveedor que promete entregas en 7,0 días. En una muestra de 15 casos la media fue de 6,458 y el desvío estándar muestral 1,581 días. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 15,
+        "media": 6.458,
+        "s": 1.581,
+        "mu0": 7.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -1.3277,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (6,4580 − 7,0) / (1,5810/√15) = -0,5420 / 0,4082 = -1,3277."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.205507,
+          "tolerancia": 0.005,
+          "solucion": "Con 14 grados de libertad, el área de las dos colas más allá de |t| = 1,3277 es 0,2055."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,2055, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 7,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-09",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proceso calibrado en 120,0 milímetros. En una muestra de 29 casos la media fue de 119,683 y el desvío estándar muestral 0,645 milímetros. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "milímetros",
+      "parametros": {
+        "n": 29,
+        "media": 119.683,
+        "s": 0.645,
+        "mu0": 120.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -2.6467,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (119,6830 − 120,0) / (0,6450/√29) = -0,3170 / 0,1198 = -2,6467."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.013191,
+          "tolerancia": 0.005,
+          "solucion": "Con 28 grados de libertad, el área de las dos colas más allá de |t| = 2,6467 es 0,0132."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 1.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,0132, que es menor que 0,05: se rechaza. Los datos son incompatibles con que la media valga 120,0."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-10",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma una envasadora que dice llenar bolsas de 25,0 kilos. En una muestra de 27 casos la media fue de 24,733 y el desvío estándar muestral 0,669 kilos. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "kilos",
+      "parametros": {
+        "n": 27,
+        "media": 24.733,
+        "s": 0.669,
+        "mu0": 25.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -2.0738,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (24,7330 − 25,0) / (0,6690/√27) = -0,2670 / 0,1287 = -2,0738."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.04814,
+          "tolerancia": 0.005,
+          "solucion": "Con 26 grados de libertad, el área de las dos colas más allá de |t| = 2,0738 es 0,0481."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 1.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,0481, que es menor que 0,05: se rechaza. Los datos son incompatibles con que la media valga 25,0."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-11",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proveedor que promete entregas en 7,0 días. En una muestra de 28 casos la media fue de 7,263 y el desvío estándar muestral 1,702 días. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "días",
+      "parametros": {
+        "n": 28,
+        "media": 7.263,
+        "s": 1.702,
+        "mu0": 7.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": 0.8177,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (7,2630 − 7,0) / (1,7020/√28) = 0,2630 / 0,3216 = 0,8177."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 0.420706,
+          "tolerancia": 0.005,
+          "solucion": "Con 27 grados de libertad, el área de las dos colas más allá de |t| = 0,8177 es 0,4207."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 0.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,4207, que no es menor que 0,05: no se rechaza. Eso no prueba que la media sea 7,0, solo que estos datos no alcanzan para descartarlo."
+        }
+      ]
+    },
+    {
+      "id": "prueba-t-12",
+      "tema": "prueba-t",
+      "concepto": "prueba-t-para-una-media",
+      "nivel": 2,
+      "titulo": "Prueba t para una muestra",
+      "enunciado": "Se quiere comprobar lo que afirma un proceso calibrado en 120,0 milímetros. En una muestra de 21 casos la media fue de 119,146 y el desvío estándar muestral 0,791 milímetros. Se trabaja al 5 % con una prueba bilateral.",
+      "datos": [],
+      "unidad": "milímetros",
+      "parametros": {
+        "n": 21,
+        "media": 119.146,
+        "s": 0.791,
+        "mu0": 120.0,
+        "alfa": 0.05
+      },
+      "preguntas": [
+        {
+          "texto": "¿Cuánto vale el estadístico t?",
+          "respuesta": -4.9476,
+          "tolerancia": 0.01,
+          "solucion": "t = (x̄ − μ₀) / (s/√n) = (119,1460 − 120,0) / (0,7910/√21) = -0,8540 / 0,1726 = -4,9476."
+        },
+        {
+          "texto": "¿Cuál es el valor p bilateral?",
+          "respuesta": 7.8e-05,
+          "tolerancia": 0.005,
+          "solucion": "Con 20 grados de libertad, el área de las dos colas más allá de |t| = 4,9476 es 0,0001."
+        },
+        {
+          "texto": "¿Se rechaza la hipótesis nula? Respondé 1 por sí y 0 por no.",
+          "respuesta": 1.0,
+          "tolerancia": 0.0,
+          "solucion": "El valor p es 0,0001, que es menor que 0,05: se rechaza. Los datos son incompatibles con que la media valga 120,0."
+        }
+      ]
+    }
+  ]
+}

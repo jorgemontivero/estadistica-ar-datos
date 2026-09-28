@@ -122,6 +122,7 @@ GENERADOR = {
     "eph/cobertura-ic.json": "eph/preparar-cobertura-ic.py",
     "eph/descriptivos-m02.json": "eph/preparar-descriptivos-m02.py",
     "eph/diseno-complejo-m17.json": "eph/preparar-diseno-complejo-m17.py",
+    "ejercicios/ejercicios.json": "ejercicios/generar-ejercicios.py",
     "eph/ingresos-eph.json": "eph/preparar-ingresos-eph.py",
     "eph/lognormal-m07.json": "eph/preparar-lognormal-m07.py",
     "eph/multivariado-m14.json": "eph/preparar-multivariado-m14.py",
